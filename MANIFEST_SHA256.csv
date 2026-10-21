@@ -1,4 +1,5 @@
 path,bytes,sha256
+.gitattributes,75,cf3e716f4206a0c0e9ccc8bf24e1436fa0505d72285ba6fca7a5ca17e9ebe07e
 .gitignore,116,f6c970d2a5c2e49c4aab494814f85d358092072f51f1026a44a70beaffe39f6d
 README.md,8294,657078f65c9a8a467028adde1ed3be3f4512e8f19a5befcbacf8933ad6d1bf3f
 data/core/config/dsb_dynamic.json,3607,588f77b89ae240e63c9664b5a987e271c49b9d2f6ecb86a9ac4abb818f65d263
