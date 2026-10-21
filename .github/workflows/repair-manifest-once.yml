@@ -48,7 +48,7 @@ jobs:
               rows.append((rel, path.stat().st_size, digest))
           rows.sort(key=lambda row: row[0])
           with manifest.open("w", newline="", encoding="utf-8") as stream:
-              writer = csv.writer(stream, lineterminator="\\r\\n")
+              writer = csv.writer(stream, lineterminator="\r\n")
               writer.writerow(["path", "bytes", "sha256"])
               writer.writerows(rows)
           print(f"Rebuilt SHA-256 manifest for {len(rows)} files.")
