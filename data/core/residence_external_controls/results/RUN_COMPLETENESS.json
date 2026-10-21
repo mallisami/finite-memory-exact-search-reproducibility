@@ -1,0 +1,18 @@
+{
+  "capacity_violations": 0,
+  "case_budget_cells": 135,
+  "case_budget_policy_cells": 405,
+  "duplicates": 0,
+  "fifo_rows": 135,
+  "independent_cases": 45,
+  "lru_rows": 135,
+  "not_retained_nonzero": 0,
+  "original_frozen_hashes_unchanged": true,
+  "random_repetitions_per_case_budget": 5,
+  "random_rows": 675,
+  "raw_rows": 945,
+  "regression_tests_passed": 9,
+  "regression_tests_total": 9,
+  "timing_fields_inferentially_valid": false,
+  "unique_task_ids": 945
+}

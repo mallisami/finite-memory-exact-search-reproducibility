@@ -1,0 +1,34 @@
+{
+  "affinity": [
+    2
+  ],
+  "calibration_sha256": "766365806e773b38ad55a14bc4e8508ba246dc3c474a424aeca44aa57ae406ef",
+  "concurrency_width": 3,
+  "declared_cpu_id": 2,
+  "host_label": "vm-b-phaseA-lane2-cpu2",
+  "hostname": "ip-172-31-2-250.ap-southeast-2.compute.internal",
+  "kernel": "6.18.51-120.163.amzn2023.x86_64",
+  "lane_id": "2",
+  "loadavg": [
+    0.57,
+    0.21,
+    0.11
+  ],
+  "logical_cpus": 4,
+  "mem_total_gib": 15.417,
+  "model_sha256": "ea5f1a00f8346be68ca03b58b57d7ca0af33be2fd9d425d13b707c6789044945",
+  "phase": "phaseA_7core",
+  "physical_vm": "B",
+  "python": "3.12.14 (main, Aug 24 2026, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+  "schedule": "03_SCHEDULES/phaseA_7core/vmb_lane2_cpu2.csv",
+  "schedule_sha256": "80e4a23b3211d3c71bc41d89f9c40f91e8091c5718ae2ceef876c9f5c55b6d93",
+  "scorer_implementation": "coefficient_only_logistic_platt_v1",
+  "threads": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "timestamp_utc": "2026-10-15T10:01:48Z"
+}

@@ -1,0 +1,23 @@
+captured_utc=2026-10-03T00:27:59Z
+hostname=mcb-node-3
+kernel=Linux mcb-node-3 6.8.0-1064-azure #72~22.04.1-Ubuntu SMP Wed Jul 22 23:39:45 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+python=Python 3.12.15
+cpu_model=AMD EPYC 7452 32-Core Processor
+logical_cpus=1
+physical_core_ids=0 
+OMP_NUM_THREADS=1
+OPENBLAS_NUM_THREADS=1
+MKL_NUM_THREADS=1
+NUMEXPR_NUM_THREADS=1
+---- pip freeze ----
+cloudpickle==3.1.2
+highspy==1.15.1
+joblib==1.6.0
+narwhals==2.26.0
+numpy==2.5.1
+pandas==3.0.3
+python-dateutil==2.9.0.post0
+scikit-learn==1.9.0
+scipy==1.18.0
+six==1.17.0
+threadpoolctl==3.7.0

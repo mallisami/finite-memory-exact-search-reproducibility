@@ -1,0 +1,21 @@
+{
+  "calibration_sha256": "766365806e773b38ad55a14bc4e8508ba246dc3c474a424aeca44aa57ae406ef",
+  "coefficient_runner_sha256": "fe6761ca1ecacd4a00a15ef49cf645e3afcc4bdeae63acc2f7a17fb5ec577e6c",
+  "config_sha256": "5bea872b150fafa25b5d5fc68773140425dcf3fec144dfb5c83181831e12ac7b",
+  "model_sha256": "ea5f1a00f8346be68ca03b58b57d7ca0af33be2fd9d425d13b707c6789044945",
+  "protocol_sha256": "e9464fc8a3f17f45e63e5dc12af511e3fe7bb75832b7f013e9666a8f2797bae0",
+  "schedules": {
+    "03_SCHEDULES/phaseA_7core/vma_lane0_cpu0.csv": "0fc27eb725e5e3a4a5c79305d084c8697914e8d344b486b7a4f0aba206013b47",
+    "03_SCHEDULES/phaseA_7core/vma_lane1_cpu1.csv": "2245cbb0325ad2c981fc0aa32e9410147562c768568fc48b4a58a0a56a2717a1",
+    "03_SCHEDULES/phaseA_7core/vma_lane2_cpu2.csv": "194fd96a5433c141df62198bd2a0c63f2b05b2a91a64007b9eb6be42c147b29c",
+    "03_SCHEDULES/phaseA_7core/vmb_lane0_cpu0.csv": "ef08ebccc2724cd79d5ca8e4a01a48c71f0655b2e2a4ab1bd0e045d45838b8e2",
+    "03_SCHEDULES/phaseA_7core/vmb_lane1_cpu1.csv": "52ec886679284e91bd489768490f06774242463de165f7d83c30742d49fde46c",
+    "03_SCHEDULES/phaseA_7core/vmb_lane2_cpu2.csv": "80e4a23b3211d3c71bc41d89f9c40f91e8091c5718ae2ceef876c9f5c55b6d93",
+    "03_SCHEDULES/phaseA_7core/vmc_lane0_cpu0.csv": "0688856baf234af5ae3606178fbd35d36b14d45bec1de362f6ea5ca9b985eef7",
+    "03_SCHEDULES/phaseB_isolated_full/vma_full_isolated_cpu0.csv": "3c66ef09d1043f6110ff8d50ffed16d162ea6faf6e71a75aca8f49dc3cfedeee",
+    "03_SCHEDULES/phaseB_isolated_full/vmb_full_isolated_cpu0.csv": "c7a7da1a21ee11792b54bb3721d525d44c3dbfe6f38217ee07c7cef54b224e89",
+    "03_SCHEDULES/primary_a_graph_schedule.csv": "3c66ef09d1043f6110ff8d50ffed16d162ea6faf6e71a75aca8f49dc3cfedeee",
+    "03_SCHEDULES/primary_b_graph_schedule.csv": "c7a7da1a21ee11792b54bb3721d525d44c3dbfe6f38217ee07c7cef54b224e89",
+    "03_SCHEDULES/secondary_c_graph_schedule.csv": "0688856baf234af5ae3606178fbd35d36b14d45bec1de362f6ea5ca9b985eef7"
+  }
+}

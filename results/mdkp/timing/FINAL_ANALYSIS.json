@@ -1,0 +1,84 @@
+{
+  "cases": 90,
+  "cpu_direct_vs_empirical": {
+    "ci95": [
+      0.9968354525387709,
+      1.0335133332626878
+    ],
+    "losses_a_slower": 53,
+    "n_cases": 90,
+    "ratio": 1.0128368375071004,
+    "ties": 0,
+    "wilcoxon_p_two_sided": 0.30772603868488346,
+    "wins_a_faster": 37
+  },
+  "nodes_direct_vs_empirical": {
+    "ci95": [
+      0.9824223993196713,
+      1.0242591984890619
+    ],
+    "losses_a_slower": 16,
+    "n_cases": 90,
+    "ratio": 1.000827613620072,
+    "ties": 16,
+    "wilcoxon_p_two_sided": 3.085979758840023e-05,
+    "wins_a_faster": 58
+  },
+  "per_vm_wall_direct_vs_empirical": {
+    "vm1_2vcpu_8gb": {
+      "losses_direct_slower": 15,
+      "n_cases": 30,
+      "ratio": 1.00991331439775,
+      "ties": 0,
+      "wins_direct_faster": 15
+    },
+    "vm2_4vcpu_16gb": {
+      "losses_direct_slower": 16,
+      "n_cases": 30,
+      "ratio": 1.0018823190547892,
+      "ties": 0,
+      "wins_direct_faster": 14
+    },
+    "vm3_4vcpu_16gb": {
+      "losses_direct_slower": 22,
+      "n_cases": 30,
+      "ratio": 1.0269378834694032,
+      "ties": 0,
+      "wins_direct_faster": 8
+    }
+  },
+  "primary_wall_direct_vs_empirical": {
+    "ci95": [
+      0.9968276260530604,
+      1.0335675240258124
+    ],
+    "losses_a_slower": 53,
+    "n_cases": 90,
+    "ratio": 1.0128574537122987,
+    "ties": 0,
+    "wilcoxon_p_two_sided": 0.30582167402130955,
+    "wins_a_faster": 37
+  },
+  "repetitions": 5,
+  "rows": 1350,
+  "secondary_wall_direct_vs_restart": {
+    "ci95": [
+      0.9736246174560641,
+      1.0369018680200002
+    ],
+    "losses_a_slower": 60,
+    "n_cases": 90,
+    "ratio": 1.004901796826556,
+    "ties": 0,
+    "wilcoxon_p_two_sided": 0.022404264123961556,
+    "wins_a_faster": 30
+  },
+  "solution_quality_direct_minus_empirical": {
+    "direct_better": 8,
+    "direct_worse": 4,
+    "max_abs_diff": 6.0,
+    "mean_diff": -0.1111111111111111,
+    "same": 78
+  },
+  "study_id": "PCR2_V6B_VM_TIMING_R1_90CASE_FIXED_METHOD"
+}

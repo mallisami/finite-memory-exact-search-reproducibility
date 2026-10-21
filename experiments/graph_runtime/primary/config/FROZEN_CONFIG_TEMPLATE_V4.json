@@ -1,0 +1,95 @@
+{
+  "protocol_version": "PCR_TX_3VM_V4_2026-10-09",
+  "status": "PRECONFIRMATION_FREEZE_CANDIDATE",
+  "baseline": {
+    "value": "p_UA * invested_nodes",
+    "rq1_unchanged": true,
+    "historical_negative_results_retained": true
+  },
+  "compute_value": {
+    "value": "p_UA * deterministic_compute_units",
+    "counters": [
+      "expanded_nodes",
+      "bound_evals",
+      "generated_children",
+      "feasibility_checks",
+      "incumbent_evals",
+      "frontier_inserts"
+    ],
+    "fit_machine": "PRIMARY_A",
+    "fit": "zero_intercept_NNLS",
+    "coefficient_policy": "round nonnegative weights to integer ns/op before validation/policy use",
+    "cv": "grouped_5fold_by_case",
+    "primaryA_gate": {
+      "spearman": 0.7,
+      "scaled_nmae": 0.35
+    },
+    "primaryB_gate": {
+      "spearman": 0.7,
+      "scaled_nmae": 0.35
+    },
+    "restart_resume_gate_spearman": 0.6
+  },
+  "graph": {
+    "new_cases": 60,
+    "families": {
+      "Generic": 20,
+      "Workflow": 20,
+      "Microservice": 20
+    },
+    "nodes": 24,
+    "hosts": 6,
+    "destroy_size": 12,
+    "iterations": 200,
+    "horizon": 40,
+    "candidate_slice_pops": [
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      384
+    ],
+    "L1": 8,
+    "target_unfinished": {
+      "L2": 0.75,
+      "L3": 0.5,
+      "L4": 0.25
+    },
+    "budget_rule": "max(max_checkpoint_bytes, round(0.25*keep_all_peak_bytes))"
+  },
+  "mdkp": {
+    "new_cases": 80,
+    "n_items": 168,
+    "n_dims": 3,
+    "destroy_size": 54,
+    "slice_nodes": 384,
+    "context_count": 18,
+    "iterations": 200,
+    "horizon": 40,
+    "budget_bytes": 4206
+  },
+  "policies": [
+    "restart",
+    "empirical_pW",
+    "learned_pW",
+    "empirical_pC",
+    "learned_pC"
+  ],
+  "timing": {
+    "repeats": 5,
+    "single_process_per_primary": true,
+    "primary_timer": "perf_counter_ns",
+    "secondary_timer": "process_time_ns",
+    "no_interim_aggregate": true
+  },
+  "analysis": {
+    "bootstrap_reps": 10000,
+    "runtime_scale": "paired_log_ratio",
+    "paired_test": "two_sided_Wilcoxon",
+    "holm_within_RQ": true,
+    "rq2_bootstrap_strata": "machine_x_family",
+    "rq3_bootstrap_strata": "machine"
+  }
+}

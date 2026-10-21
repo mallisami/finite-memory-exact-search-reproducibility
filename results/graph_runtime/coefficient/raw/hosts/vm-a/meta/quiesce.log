@@ -1,0 +1,9 @@
+k3s	active
+docker.socket	active
+docker	active
+containerd	active
+Stopping docker.socket
+Stopping k3s
+Stopping docker
+Stopping containerd
+Saved service state: /home/ec2-user/pcr_tx_v4_service_state.tsv

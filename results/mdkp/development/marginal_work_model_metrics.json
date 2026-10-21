@@ -1,0 +1,13 @@
+{
+  "group_oof_classifier_ap": 0.3436706136367961,
+  "group_oof_classifier_auroc": 0.8107543378995434,
+  "positive": 73,
+  "positive_conditional_mae_nodes": 171.94396865998715,
+  "positive_conditional_r2": -7.0998326200856,
+  "prevalence": 0.03747433264887064,
+  "rows": 1948,
+  "seeds": 25,
+  "top_quartile_candidate_saving_capture": 0.5735006331299644,
+  "utility_mae_nodes": 39.51130449796517,
+  "utility_spearman": 0.17529317568159578
+}

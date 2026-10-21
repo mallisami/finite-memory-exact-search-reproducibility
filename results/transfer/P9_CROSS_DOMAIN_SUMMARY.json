@@ -1,0 +1,14 @@
+{
+  "all_three_beat_history_logloss": true,
+  "all_three_beat_prevalence_logloss": true,
+  "held_out_domains": [
+    "generic",
+    "workflow",
+    "microservice"
+  ],
+  "macro_auprc": 0.7154266032677339,
+  "macro_auroc": 0.8785315895948229,
+  "macro_brier": 0.1255944288129038,
+  "macro_log_loss": 0.3734657138274035,
+  "status": "P9_cross_domain_complete"
+}

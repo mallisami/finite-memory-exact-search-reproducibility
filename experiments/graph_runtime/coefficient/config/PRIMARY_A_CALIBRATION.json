@@ -1,0 +1,61 @@
+{
+  "status": "PRIMARY_A_CALIBRATION_SUCCESS",
+  "timestamp_utc": "2026-10-09T16:19:28Z",
+  "graph": {
+    "integer_weights": {
+      "expanded_nodes": 11497,
+      "bound_evals": 152852,
+      "generated_children": 0,
+      "feasibility_checks": 0,
+      "incumbent_evals": 0,
+      "frontier_inserts": 67148
+    },
+    "raw_weights": {
+      "expanded_nodes": 11496.544753026275,
+      "bound_evals": 152852.06166404998,
+      "generated_children": 0.0,
+      "feasibility_checks": 0.0,
+      "incumbent_evals": 0.0,
+      "frontier_inserts": 67147.73536015862
+    },
+    "cv_metrics": {
+      "overall_spearman_rho": 0.9822380687337402,
+      "overall_scaled_nmae": 0.10437044206224692,
+      "mean_fold_spearman_rho": 0.9819004247175265,
+      "mean_fold_scaled_nmae": 0.10532126048552455,
+      "continuation_sanity_rho": 0.9734515184244895,
+      "spearman_pass": true,
+      "nmae_pass": true,
+      "sanity_pass": true
+    }
+  },
+  "mdkp": {
+    "integer_weights": {
+      "expanded_nodes": 0,
+      "bound_evals": 159,
+      "generated_children": 0,
+      "feasibility_checks": 0,
+      "incumbent_evals": 0,
+      "frontier_inserts": 29834
+    },
+    "raw_weights": {
+      "expanded_nodes": 0.0,
+      "bound_evals": 158.9141119535193,
+      "generated_children": 0.0,
+      "feasibility_checks": 0.0,
+      "incumbent_evals": 0.0,
+      "frontier_inserts": 29834.01254708112
+    },
+    "cv_metrics": {
+      "overall_spearman_rho": 0.9464631324559962,
+      "overall_scaled_nmae": 0.07476355893508022,
+      "mean_fold_spearman_rho": 0.9477232289348562,
+      "mean_fold_scaled_nmae": 0.07747660639015361,
+      "continuation_sanity_rho": 0.9310926036532133,
+      "spearman_pass": true,
+      "nmae_pass": true,
+      "sanity_pass": true
+    }
+  },
+  "all_gates_pass": true
+}

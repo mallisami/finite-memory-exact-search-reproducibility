@@ -1,0 +1,139 @@
+{
+  "constant_development_prevalence_baseline": {
+    "auprc": 0.2577777777777778,
+    "auroc": 0.5,
+    "brier": 0.191363511659808,
+    "calibration_intercept": -0.5148560789523301,
+    "calibration_slope": 0.5286575368377184,
+    "log_loss": 0.5708105563166279
+  },
+  "domain_descriptive": {
+    "generic": {
+      "cases": 5,
+      "metrics": {
+        "auprc": 0.6638572090387569,
+        "auroc": 0.8361204013377925,
+        "brier": 0.15682262510819578,
+        "calibration_intercept": 0.0049581458145817455,
+        "calibration_slope": 0.983141811372857,
+        "log_loss": 0.4492353990977812
+      },
+      "rows": 75,
+      "target_prevalence": 0.30666666666666664
+    },
+    "microservice": {
+      "cases": 5,
+      "metrics": {
+        "auprc": 0.32762297605775864,
+        "auroc": 0.8076923076923077,
+        "brier": 0.13744499646143496,
+        "calibration_intercept": -1.2699220529793265,
+        "calibration_slope": 0.45475709754959526,
+        "log_loss": 0.42685884613595554
+      },
+      "rows": 75,
+      "target_prevalence": 0.13333333333333333
+    },
+    "workflow": {
+      "cases": 5,
+      "metrics": {
+        "auprc": 0.8380409931115975,
+        "auroc": 0.884,
+        "brier": 0.12493519173355111,
+        "calibration_intercept": 0.453036009476666,
+        "calibration_slope": 1.2682124246442015,
+        "log_loss": 0.3722739335025255
+      },
+      "rows": 75,
+      "target_prevalence": 0.3333333333333333
+    }
+  },
+  "feature_sha256": "2bc7cb33e669875724e47941a5aa604a8fddd441e3f80b8959211ffa635eedec",
+  "history_frequency_baseline": {
+    "auprc": 0.41408701455461056,
+    "auroc": 0.6611088168490604,
+    "brier": 0.2568719771647131,
+    "calibration_intercept": -1.1506549692820507,
+    "calibration_slope": 0.2706909055177745,
+    "log_loss": 0.8321515286560965
+  },
+  "independent_cases": 15,
+  "label_sha256": "5556a2d18c928b23dbd629432223fb1eb40a117a98a848ad13c40f065625f397",
+  "release_status": "ONE_TIME_BLIND_TEST_RELEASED_NO_RETUNING_ALLOWED",
+  "rows": 225,
+  "selected_model": {
+    "calibration": "platt",
+    "config": {
+      "C": 10.0
+    },
+    "feature_family": "H+D",
+    "features": [
+      "history_count_same_context",
+      "iterations_since_last_context",
+      "recent_same_context_count_20",
+      "current_destroy_op_index",
+      "current_repair_arm_index",
+      "current_objective_before",
+      "current_best_objective",
+      "current_temperature",
+      "recent_accept_rate_10",
+      "recent_accept_rate_20",
+      "recent_moved_node_overlap_10",
+      "recent_adjacent_move_count_10",
+      "recent_moved_node_overlap_20",
+      "recent_adjacent_move_count_20",
+      "objective_improvement_last_10",
+      "objective_improvement_last_20"
+    ],
+    "model_family": "logistic"
+  },
+  "selected_model_case_bootstrap_95pct": {
+    "auprc": {
+      "lower": 0.44697992554748767,
+      "upper": 0.7868689368880689,
+      "valid_replicates": 2000
+    },
+    "auroc": {
+      "lower": 0.7843237759184134,
+      "upper": 0.9005398829772904,
+      "valid_replicates": 2000
+    },
+    "brier": {
+      "lower": 0.10929420947378143,
+      "upper": 0.17320182815396004,
+      "valid_replicates": 2000
+    },
+    "calibration_intercept": {
+      "lower": -0.7486235786712185,
+      "upper": 0.3752421193076088,
+      "valid_replicates": 2000
+    },
+    "calibration_slope": {
+      "lower": 0.5155643253576209,
+      "upper": 1.4263464031406161,
+      "valid_replicates": 2000
+    },
+    "log_loss": {
+      "lower": 0.33439695503792705,
+      "upper": 0.5071123630453361,
+      "valid_replicates": 2000
+    }
+  },
+  "selected_model_final": {
+    "auprc": 0.6105164444866519,
+    "auroc": 0.8459632459219493,
+    "brier": 0.13973427110106063,
+    "calibration_intercept": -0.24993300235955482,
+    "calibration_slope": 0.790754315549857,
+    "log_loss": 0.4161227262454208
+  },
+  "selected_model_raw": {
+    "auprc": 0.6105164444866519,
+    "auroc": 0.8459632459219493,
+    "brier": 0.14145750629501225,
+    "calibration_intercept": -0.3227462687056779,
+    "calibration_slope": 0.6718221035512122,
+    "log_loss": 0.42476445068974156
+  },
+  "target_prevalence": 0.2577777777777778
+}

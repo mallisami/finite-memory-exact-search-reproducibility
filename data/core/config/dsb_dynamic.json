@@ -1,0 +1,117 @@
+{
+  "experiment": "E-DSB measured dynamic repeated-repair confirmation",
+  "deathstarbench": {
+    "repository": "https://github.com/delimitrou/DeathStarBench.git",
+    "commit": "6ecb09706140f8730b5385c08f1386c654c3c526"
+  },
+  "applications": {
+    "socialNetwork": {
+      "directory": "socialNetwork",
+      "frontend_port": 8080,
+      "workload_source": "socialNetwork/wrk2/scripts/social-network/compose-post.lua",
+      "calibration_candidates_rps": [
+        2,
+        5,
+        10,
+        20,
+        40,
+        80
+      ]
+    },
+    "hotelReservation": {
+      "directory": "hotelReservation",
+      "frontend_port": 5000,
+      "workload_source": "hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua",
+      "calibration_candidates_rps": [
+        10,
+        25,
+        50,
+        100,
+        200,
+        400
+      ]
+    },
+    "mediaMicroservices": {
+      "directory": "mediaMicroservices",
+      "frontend_port": 8080,
+      "workload_source": "mediaMicroservices/wrk2/scripts/media-microservices/compose-review.lua",
+      "calibration_candidates_rps": [
+        2,
+        5,
+        10,
+        20,
+        40,
+        80
+      ]
+    }
+  },
+  "measurement": {
+    "repetitions_per_application_regime": 10,
+    "states_per_sequence": 10,
+    "regimes": [
+      "step",
+      "burst",
+      "ramp"
+    ],
+    "wrk_threads": 2,
+    "wrk_connections": 64,
+    "state_total_seconds": 30,
+    "warmup_seconds": 10,
+    "capture_seconds": 20,
+    "stats_period_seconds": 2,
+    "calibration_p99_limit_ms": 1000.0,
+    "calibration_achieved_fraction_min": 0.9,
+    "calibration_non2xx_fraction_max": 0.01,
+    "construct_state_achieved_fraction_min": 0.9,
+    "construct_state_non2xx_fraction_max": 0.02,
+    "construct_good_state_fraction_min": 0.95,
+    "construct_high_low_internal_byte_ratio_min": 1.2,
+    "low_fraction_of_capacity": 0.25,
+    "high_fraction_of_capacity": 0.75,
+    "keep_audit_pcaps": "state 0 and state 9 of the first repetition of every application-regime cell only",
+    "excluded_service_substrings": [
+      "jaeger",
+      "dns-media",
+      "consul"
+    ]
+  },
+  "solver": {
+    "arms": [
+      "pcr_persistent",
+      "pcr_state_reset",
+      "alns_highs"
+    ],
+    "state_budget_seconds": 10.0,
+    "repair_slice_ms": 10.0,
+    "destroy_size": 5,
+    "hosts": 10,
+    "target_capacity_load_rho": 0.7,
+    "minimum_host_headroom_over_largest_node": 1.05,
+    "pcr_numeric_mode": "safe",
+    "highs_repair_call_limit_seconds": 1.0,
+    "carry_placement_between_states": true,
+    "cross_state_compatibility": "exact equality of external_gain, pair_gain, residual_capacity",
+    "share_pcr_state0_execution": true,
+    "topology_seed_base": 612000,
+    "solver_seed_base": 613000
+  },
+  "analysis": {
+    "confirmatory_regimes": [
+      "step",
+      "burst"
+    ],
+    "boundary_regime": "ramp",
+    "primary": "pcr_persistent minus pcr_state_reset sequence_normalized_anytime_cost on step+burst",
+    "secondary": "pcr_persistent minus alns_highs sequence_normalized_anytime_cost on step+burst",
+    "bootstrap_repetitions": 10000,
+    "bootstrap_seed": 20260930,
+    "test": "two-sided paired Wilcoxon signed-rank at independent sequence level",
+    "multiple_testing": "Holm across the two confirmatory contrasts",
+    "null_interpretation": "unresolved at this sample size; never equivalence"
+  },
+  "second_environment_subset": {
+    "regime": "burst",
+    "repetitions_per_application": 5,
+    "purpose": "prespecified hardware/environment robustness subset; run on a physically distinct host, not on the primary Azure VM"
+  }
+}

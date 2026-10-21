@@ -1,0 +1,10 @@
+timestamp_utc=2026-09-30T19:53:35Z
+uname=Linux mcb-k8s-v137 7.0.0-1014-azure #14~24.04.1-Ubuntu SMP PREEMPT Fri Aug 14 17:35:51 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+arch=x86_64
+nproc=4
+mem_kib=16316256
+disk_free_kib=88042364
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.4 LTS
+Release:	24.04
+Codename:	noble

@@ -1,0 +1,45 @@
+{
+  "applications": 3,
+  "interpretation": "Measured-workload shadow replay; frozen P6-v1; no retraining/recalibration; keep-all is an upper-resource reference, not oracle.",
+  "keep_all_objective_vs_restart": {
+    "bootstrap_95_high": 0.002470691785204109,
+    "bootstrap_95_low": -0.0019369899138756666,
+    "mean": 0.0003898528447488145,
+    "negative": 25,
+    "positive": 40,
+    "ties": 25
+  },
+  "learned_minus_empirical_reuse": {
+    "bootstrap_95_high": 0.04206186073280123,
+    "bootstrap_95_low": -0.014663773411199777,
+    "mean": 0.01773522388901971,
+    "negative": 11,
+    "positive": 69,
+    "ties": 10,
+    "wilcoxon_one_sided_p": 1.5751450671224646e-08
+  },
+  "learned_objective_vs_restart": {
+    "bootstrap_95_high": 0.0025079993050581874,
+    "bootstrap_95_low": -0.0009665341129957183,
+    "mean": 0.0007451831461010757,
+    "negative": 25,
+    "positive": 38,
+    "ties": 27,
+    "wilcoxon_one_sided_p": 0.06269444919258138
+  },
+  "regimes": [
+    "step",
+    "burst",
+    "ramp"
+  ],
+  "repetitions_per_cell": 10,
+  "sequences": 90,
+  "settings": {
+    "budget_fraction": 0.25,
+    "destroy_size": 12,
+    "iterations_per_state": 20,
+    "slice_branch_pops": 8,
+    "total_iterations_per_sequence": 200
+  },
+  "status": "P8_measured_workload_external_validation"
+}

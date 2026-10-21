@@ -1,0 +1,299 @@
+[
+  {
+    "service": "cast-info-memcached",
+    "container": "pcrdsb_mediamicroservices-cast-info-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "cast-info-mongodb",
+    "container": "pcrdsb_mediamicroservices-cast-info-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "cast-info-service",
+    "container": "pcrdsb_mediamicroservices-cast-info-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "compose-review-memcached",
+    "container": "pcrdsb_mediamicroservices-compose-review-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "compose-review-service",
+    "container": "pcrdsb_mediamicroservices-compose-review-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "dns-media",
+    "container": "pcrdsb_mediamicroservices-dns-media-1",
+    "configured_image": "defreitas/dns-proxy-server",
+    "image_id": "sha256:517e6b76ba9e124068bdf4f0ed8cfa7eaa8dacda33b84bc627cc05ced4c9998a",
+    "repo_digests": [
+      "defreitas/dns-proxy-server@sha256:517e6b76ba9e124068bdf4f0ed8cfa7eaa8dacda33b84bc627cc05ced4c9998a"
+    ]
+  },
+  {
+    "service": "jaeger",
+    "container": "pcrdsb_mediamicroservices-jaeger-1",
+    "configured_image": "jaegertracing/all-in-one:latest",
+    "image_id": "sha256:ab6f1a1f0fb49ea08bcd19f6b84f6081d0d44b364b6de148e1798eb5816bacac",
+    "repo_digests": [
+      "jaegertracing/all-in-one@sha256:ab6f1a1f0fb49ea08bcd19f6b84f6081d0d44b364b6de148e1798eb5816bacac"
+    ]
+  },
+  {
+    "service": "movie-id-memcached",
+    "container": "pcrdsb_mediamicroservices-movie-id-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "movie-id-mongodb",
+    "container": "pcrdsb_mediamicroservices-movie-id-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "movie-id-service",
+    "container": "pcrdsb_mediamicroservices-movie-id-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "movie-info-memcached",
+    "container": "pcrdsb_mediamicroservices-movie-info-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "movie-info-mongodb",
+    "container": "pcrdsb_mediamicroservices-movie-info-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "movie-info-service",
+    "container": "pcrdsb_mediamicroservices-movie-info-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "movie-review-mongodb",
+    "container": "pcrdsb_mediamicroservices-movie-review-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "movie-review-redis",
+    "container": "pcrdsb_mediamicroservices-movie-review-redis-1",
+    "configured_image": "redis",
+    "image_id": "sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee",
+    "repo_digests": [
+      "redis@sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee"
+    ]
+  },
+  {
+    "service": "movie-review-service",
+    "container": "pcrdsb_mediamicroservices-movie-review-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "nginx-web-server",
+    "container": "pcrdsb_mediamicroservices-nginx-web-server-1",
+    "configured_image": "yg397/openresty-thrift:xenial",
+    "image_id": "sha256:6c295fda3c2f6b941d85ebf16421bafac0dcf72450c96f53a2d031b29d8c81ef",
+    "repo_digests": [
+      "yg397/openresty-thrift@sha256:6c295fda3c2f6b941d85ebf16421bafac0dcf72450c96f53a2d031b29d8c81ef"
+    ]
+  },
+  {
+    "service": "plot-memcached",
+    "container": "pcrdsb_mediamicroservices-plot-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "plot-mongodb",
+    "container": "pcrdsb_mediamicroservices-plot-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "plot-service",
+    "container": "pcrdsb_mediamicroservices-plot-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "rating-redis",
+    "container": "pcrdsb_mediamicroservices-rating-redis-1",
+    "configured_image": "redis",
+    "image_id": "sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee",
+    "repo_digests": [
+      "redis@sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee"
+    ]
+  },
+  {
+    "service": "rating-service",
+    "container": "pcrdsb_mediamicroservices-rating-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "review-storage-memcached",
+    "container": "pcrdsb_mediamicroservices-review-storage-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "review-storage-mongodb",
+    "container": "pcrdsb_mediamicroservices-review-storage-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "review-storage-service",
+    "container": "pcrdsb_mediamicroservices-review-storage-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "text-service",
+    "container": "pcrdsb_mediamicroservices-text-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "unique-id-service",
+    "container": "pcrdsb_mediamicroservices-unique-id-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "user-memcached",
+    "container": "pcrdsb_mediamicroservices-user-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "user-mongodb",
+    "container": "pcrdsb_mediamicroservices-user-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "user-review-mongodb",
+    "container": "pcrdsb_mediamicroservices-user-review-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "user-review-redis",
+    "container": "pcrdsb_mediamicroservices-user-review-redis-1",
+    "configured_image": "redis",
+    "image_id": "sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee",
+    "repo_digests": [
+      "redis@sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee"
+    ]
+  },
+  {
+    "service": "user-review-service",
+    "container": "pcrdsb_mediamicroservices-user-review-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  },
+  {
+    "service": "user-service",
+    "container": "pcrdsb_mediamicroservices-user-service-1",
+    "configured_image": "yg397/media-microservices",
+    "image_id": "sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd",
+    "repo_digests": [
+      "yg397/media-microservices@sha256:deab297966f0b27475cb124b8afe0c7c653990c19254d538e3cfe7696836fddd"
+    ]
+  }
+]

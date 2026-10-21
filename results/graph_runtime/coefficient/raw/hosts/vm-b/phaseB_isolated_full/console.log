@@ -1,0 +1,133 @@
+[vm-b-phaseB-full-isolated-cpu0] phase=phaseB_isolated_full lane=isolated cpu=0 schedule=3000 already_success=0 to_run=3000 scorer=coefficient_only_logistic_platt_v1
+[vm-b-phaseB-full-isolated-cpu0] 25/3000 elapsed=0.04h ETA=4.80h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 50/3000 elapsed=0.10h ETA=6.03h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 75/3000 elapsed=0.20h ETA=7.84h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 100/3000 elapsed=0.37h ETA=10.73h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 125/3000 elapsed=0.41h ETA=9.34h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 150/3000 elapsed=0.46h ETA=8.76h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 175/3000 elapsed=0.55h ETA=8.92h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 200/3000 elapsed=0.71h ETA=9.92h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 225/3000 elapsed=0.75h ETA=9.28h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 250/3000 elapsed=0.82h ETA=9.01h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 275/3000 elapsed=0.92h ETA=9.16h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 300/3000 elapsed=1.10h ETA=9.92h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 325/3000 elapsed=1.14h ETA=9.42h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 350/3000 elapsed=1.21h ETA=9.16h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 375/3000 elapsed=1.32h ETA=9.24h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 400/3000 elapsed=1.51h ETA=9.83h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 425/3000 elapsed=1.55h ETA=9.40h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 450/3000 elapsed=1.61h ETA=9.15h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 475/3000 elapsed=1.72h ETA=9.14h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 500/3000 elapsed=1.90h ETA=9.51h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 525/3000 elapsed=1.94h ETA=9.17h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 550/3000 elapsed=2.01h ETA=8.95h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 575/3000 elapsed=2.12h ETA=8.93h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 600/3000 elapsed=2.30h ETA=9.18h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 625/3000 elapsed=2.34h ETA=8.89h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 650/3000 elapsed=2.41h ETA=8.70h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 675/3000 elapsed=2.52h ETA=8.67h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 700/3000 elapsed=2.71h ETA=8.91h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 725/3000 elapsed=2.75h ETA=8.64h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 750/3000 elapsed=2.82h ETA=8.46h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 775/3000 elapsed=2.93h ETA=8.40h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 800/3000 elapsed=3.11h ETA=8.55h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 825/3000 elapsed=3.15h ETA=8.29h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 850/3000 elapsed=3.20h ETA=8.10h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 875/3000 elapsed=3.29h ETA=7.99h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 900/3000 elapsed=3.44h ETA=8.03h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 925/3000 elapsed=3.48h ETA=7.81h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 950/3000 elapsed=3.54h ETA=7.65h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 975/3000 elapsed=3.65h ETA=7.58h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1000/3000 elapsed=3.84h ETA=7.68h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1025/3000 elapsed=3.87h ETA=7.46h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1050/3000 elapsed=3.93h ETA=7.29h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1075/3000 elapsed=4.01h ETA=7.18h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1100/3000 elapsed=4.13h ETA=7.14h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1125/3000 elapsed=4.17h ETA=6.95h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1150/3000 elapsed=4.23h ETA=6.80h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1175/3000 elapsed=4.32h ETA=6.72h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1200/3000 elapsed=4.48h ETA=6.72h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1225/3000 elapsed=4.52h ETA=6.55h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1250/3000 elapsed=4.57h ETA=6.40h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1275/3000 elapsed=4.65h ETA=6.29h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1300/3000 elapsed=4.79h ETA=6.26h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1325/3000 elapsed=4.82h ETA=6.10h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1350/3000 elapsed=4.88h ETA=5.97h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1375/3000 elapsed=4.97h ETA=5.88h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1400/3000 elapsed=5.10h ETA=5.82h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1425/3000 elapsed=5.13h ETA=5.67h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1450/3000 elapsed=5.18h ETA=5.54h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1475/3000 elapsed=5.26h ETA=5.44h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1500/3000 elapsed=5.40h ETA=5.40h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1525/3000 elapsed=5.43h ETA=5.26h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1550/3000 elapsed=5.49h ETA=5.13h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1575/3000 elapsed=5.58h ETA=5.05h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1600/3000 elapsed=5.74h ETA=5.02h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1625/3000 elapsed=5.78h ETA=4.89h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1650/3000 elapsed=5.84h ETA=4.78h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1675/3000 elapsed=5.95h ETA=4.71h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1700/3000 elapsed=6.12h ETA=4.68h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1725/3000 elapsed=6.16h ETA=4.55h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1750/3000 elapsed=6.22h ETA=4.44h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1775/3000 elapsed=6.32h ETA=4.37h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1800/3000 elapsed=6.49h ETA=4.32h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1825/3000 elapsed=6.52h ETA=4.20h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1850/3000 elapsed=6.58h ETA=4.09h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1875/3000 elapsed=6.67h ETA=4.00h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1900/3000 elapsed=6.79h ETA=3.93h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1925/3000 elapsed=6.83h ETA=3.82h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1950/3000 elapsed=6.89h ETA=3.71h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 1975/3000 elapsed=6.98h ETA=3.62h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2000/3000 elapsed=7.13h ETA=3.57h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2025/3000 elapsed=7.17h ETA=3.45h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2050/3000 elapsed=7.23h ETA=3.35h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2075/3000 elapsed=7.32h ETA=3.26h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2100/3000 elapsed=7.47h ETA=3.20h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2125/3000 elapsed=7.51h ETA=3.09h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2150/3000 elapsed=7.57h ETA=2.99h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2175/3000 elapsed=7.66h ETA=2.91h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2200/3000 elapsed=7.82h ETA=2.84h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2225/3000 elapsed=7.86h ETA=2.74h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2250/3000 elapsed=7.92h ETA=2.64h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2275/3000 elapsed=8.01h ETA=2.55h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2300/3000 elapsed=8.16h ETA=2.48h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2325/3000 elapsed=8.21h ETA=2.38h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2350/3000 elapsed=8.27h ETA=2.29h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2375/3000 elapsed=8.38h ETA=2.21h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2400/3000 elapsed=8.56h ETA=2.14h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2425/3000 elapsed=8.60h ETA=2.04h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2450/3000 elapsed=8.66h ETA=1.94h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2475/3000 elapsed=8.76h ETA=1.86h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2500/3000 elapsed=8.95h ETA=1.79h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2525/3000 elapsed=8.98h ETA=1.69h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2550/3000 elapsed=9.04h ETA=1.60h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2575/3000 elapsed=9.13h ETA=1.51h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2600/3000 elapsed=9.28h ETA=1.43h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2625/3000 elapsed=9.32h ETA=1.33h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2650/3000 elapsed=9.38h ETA=1.24h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2675/3000 elapsed=9.47h ETA=1.15h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2700/3000 elapsed=9.60h ETA=1.07h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2725/3000 elapsed=9.64h ETA=0.97h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2750/3000 elapsed=9.69h ETA=0.88h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2775/3000 elapsed=9.79h ETA=0.79h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2800/3000 elapsed=9.94h ETA=0.71h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2825/3000 elapsed=9.98h ETA=0.62h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2850/3000 elapsed=10.04h ETA=0.53h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2875/3000 elapsed=10.14h ETA=0.44h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2900/3000 elapsed=10.31h ETA=0.36h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2925/3000 elapsed=10.35h ETA=0.27h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2950/3000 elapsed=10.42h ETA=0.18h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 2975/3000 elapsed=10.52h ETA=0.09h errors=0
+[vm-b-phaseB-full-isolated-cpu0] 3000/3000 elapsed=10.70h ETA=0.00h errors=0
+{
+  "phase": "phaseB_isolated_full",
+  "physical_vm": "B",
+  "lane_id": "isolated",
+  "cpu_id": 0,
+  "concurrency_width": 1,
+  "schedule_rows": 3000,
+  "unique_success": 3000,
+  "expected_rows": 3000,
+  "errors_recorded": 0,
+  "complete": true
+}

@@ -1,0 +1,62 @@
+{
+  "analysis_contract_note": "The analysis pipeline was exercised on synthetic contract files derived from retained original rows only to verify mechanics; no synthetic timing output is included in this package.",
+  "authoritative_inference": "Phase B full isolated L1-L4 only",
+  "checks": {
+    "analysis_contract_smoke": "PASS",
+    "bash_syntax": "PASS",
+    "phaseA_runner_one_run": "PASS",
+    "phaseB_full_runner_one_run": "PASS",
+    "python_compile": "PASS",
+    "smoke_scientific_counters_vs_original": "PASS"
+  },
+  "coefficient_equivalence": {
+    "development_campaign_pairs": [
+      {
+        "family": "generic",
+        "iterations": 10,
+        "level": "L1",
+        "mismatches": [],
+        "policy": "learned_pW",
+        "seed": 3301
+      },
+      {
+        "family": "generic",
+        "iterations": 10,
+        "level": "L1",
+        "mismatches": [],
+        "policy": "learned_pC",
+        "seed": 3301
+      }
+    ],
+    "heldout": {
+      "max_abs_fast_vs_pipeline": 3.3306690738754696e-16,
+      "max_abs_fast_vs_retained": 3.3306690738754696e-16,
+      "rows": 225
+    },
+    "note": "Timing fields intentionally excluded from equivalence.",
+    "status": "PASS"
+  },
+  "design": "7-core Phase A (3+3+1 pinned lanes) plus full isolated L1-L4 Phase B on VM-A/B",
+  "package": "PCR2_P0_COEFF_GRAPH_7CORE_FULLISO_RUNREADY_2026-10-13",
+  "phaseA_primary_rows": 6000,
+  "phaseA_secondary_rows": 500,
+  "phaseB_isolated_rows": 6000,
+  "results_prepopulated": false,
+  "runtime_environment_note": "Release validation used the installed matching Python package stack for mechanics; authoritative VM execution hard-enforces Python 3.12.x and the frozen dependency versions.",
+  "schedule_validation": {
+    "errors": [],
+    "phaseA_active_cores": 7,
+    "phaseA_primary_rows": 6000,
+    "phaseB_isolated_rows": 6000,
+    "phaseB_levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "primary_cases": 60,
+    "secondary_rows": 500,
+    "status": "PASS"
+  },
+  "status": "PASS"
+}

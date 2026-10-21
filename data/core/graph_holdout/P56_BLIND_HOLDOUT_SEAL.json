@@ -1,0 +1,25 @@
+{
+  "status": "SEALED_FINAL_HOLDOUT_DO_NOT_INSPECT_DURING_MODEL_SELECTION",
+  "domains": [
+    "generic",
+    "workflow",
+    "microservice"
+  ],
+  "seeds_per_domain": [
+    1616,
+    1717,
+    1818,
+    1919,
+    2020
+  ],
+  "independent_cases": 15,
+  "event_rows": 225,
+  "feature_count": 23,
+  "target_prevalence_inspected": false,
+  "model_performance_inspected": false,
+  "features_sha256": "2bc7cb33e669875724e47941a5aa604a8fddd441e3f80b8959211ffa635eedec",
+  "sealed_labels_sha256": "5556a2d18c928b23dbd629432223fb1eb40a117a98a848ad13c40f065625f397",
+  "cases_sha256": "571592fd2923256af26ee86bca7e5a328043fa1e4c6742256b1b633203d4f57a",
+  "firewall_sha256": "0ccb55be2e571e840ef2e87521ea5ff615b2da5bff465e223f2145cbdd0d996c",
+  "release_rule": "Do not open or summarize the sealed-label file until the P6 model family, hyperparameters, calibration rule, exact byte selector, and decision metrics are frozen from development data."
+}

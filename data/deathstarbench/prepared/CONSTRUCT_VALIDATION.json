@@ -1,0 +1,14 @@
+{
+  "mode": "primary",
+  "expected_states": 900,
+  "observed_states": 900,
+  "good_state_fraction": 0.9966666666666667,
+  "high_low_internal_byte_ratios": {
+    "socialNetwork": 2.665671177092141,
+    "hotelReservation": 3.043547273647488,
+    "mediaMicroservices": 2.7310416983986
+  },
+  "median_raw_to_canonical_relative_frobenius_error": 0.010871427865341367,
+  "sequence_count": 90,
+  "gate": "PASS"
+}

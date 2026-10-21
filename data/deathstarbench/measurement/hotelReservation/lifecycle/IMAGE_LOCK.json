@@ -1,0 +1,218 @@
+[
+  {
+    "service": "attractions",
+    "container": "hotel_reserv_attractions",
+    "configured_image": "hotel_reserv_attractions_single_node",
+    "image_id": "sha256:e06e22bb69c36459f1ecb01f2489032a357a356f8518152e70926f43d16265aa",
+    "repo_digests": [
+      "hotel_reserv_attractions_single_node@sha256:e06e22bb69c36459f1ecb01f2489032a357a356f8518152e70926f43d16265aa"
+    ]
+  },
+  {
+    "service": "consul",
+    "container": "pcrdsb_hotelreservation-consul-1",
+    "configured_image": "hashicorp/consul:latest",
+    "image_id": "sha256:1c59f007df8ea1c21b2558dc73ef8d99047bc895d9e52e635d1e745e35fe9a54",
+    "repo_digests": [
+      "hashicorp/consul@sha256:1c59f007df8ea1c21b2558dc73ef8d99047bc895d9e52e635d1e745e35fe9a54"
+    ]
+  },
+  {
+    "service": "frontend",
+    "container": "pcrdsb_hotelreservation-frontend-1",
+    "configured_image": "deathstarbench/hotel-reservation:latest",
+    "image_id": "sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807",
+    "repo_digests": [
+      "deathstarbench/hotel-reservation@sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807"
+    ]
+  },
+  {
+    "service": "geo",
+    "container": "pcrdsb_hotelreservation-geo-1",
+    "configured_image": "deathstarbench/hotel-reservation:latest",
+    "image_id": "sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807",
+    "repo_digests": [
+      "deathstarbench/hotel-reservation@sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807"
+    ]
+  },
+  {
+    "service": "jaeger",
+    "container": "pcrdsb_hotelreservation-jaeger-1",
+    "configured_image": "jaegertracing/all-in-one:latest",
+    "image_id": "sha256:ab6f1a1f0fb49ea08bcd19f6b84f6081d0d44b364b6de148e1798eb5816bacac",
+    "repo_digests": [
+      "jaegertracing/all-in-one@sha256:ab6f1a1f0fb49ea08bcd19f6b84f6081d0d44b364b6de148e1798eb5816bacac"
+    ]
+  },
+  {
+    "service": "memcached-profile",
+    "container": "pcrdsb_hotelreservation-memcached-profile-1",
+    "configured_image": "memcached:latest",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "memcached-rate",
+    "container": "pcrdsb_hotelreservation-memcached-rate-1",
+    "configured_image": "memcached:latest",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "memcached-reserve",
+    "container": "pcrdsb_hotelreservation-memcached-reserve-1",
+    "configured_image": "memcached:latest",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "memcached-review",
+    "container": "hotel_reserv_review_mmc",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "mongodb-attractions",
+    "container": "pcrdsb_hotelreservation-mongodb-attractions-1",
+    "configured_image": "mongo:5.0",
+    "image_id": "sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2",
+    "repo_digests": [
+      "mongo@sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2"
+    ]
+  },
+  {
+    "service": "mongodb-geo",
+    "container": "pcrdsb_hotelreservation-mongodb-geo-1",
+    "configured_image": "mongo:5.0",
+    "image_id": "sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2",
+    "repo_digests": [
+      "mongo@sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2"
+    ]
+  },
+  {
+    "service": "mongodb-profile",
+    "container": "pcrdsb_hotelreservation-mongodb-profile-1",
+    "configured_image": "mongo:5.0",
+    "image_id": "sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2",
+    "repo_digests": [
+      "mongo@sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2"
+    ]
+  },
+  {
+    "service": "mongodb-rate",
+    "container": "pcrdsb_hotelreservation-mongodb-rate-1",
+    "configured_image": "mongo:5.0",
+    "image_id": "sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2",
+    "repo_digests": [
+      "mongo@sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2"
+    ]
+  },
+  {
+    "service": "mongodb-recommendation",
+    "container": "pcrdsb_hotelreservation-mongodb-recommendation-1",
+    "configured_image": "mongo:5.0",
+    "image_id": "sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2",
+    "repo_digests": [
+      "mongo@sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2"
+    ]
+  },
+  {
+    "service": "mongodb-reservation",
+    "container": "pcrdsb_hotelreservation-mongodb-reservation-1",
+    "configured_image": "mongo:5.0",
+    "image_id": "sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2",
+    "repo_digests": [
+      "mongo@sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2"
+    ]
+  },
+  {
+    "service": "mongodb-review",
+    "container": "pcrdsb_hotelreservation-mongodb-review-1",
+    "configured_image": "mongo:5.0",
+    "image_id": "sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2",
+    "repo_digests": [
+      "mongo@sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2"
+    ]
+  },
+  {
+    "service": "mongodb-user",
+    "container": "pcrdsb_hotelreservation-mongodb-user-1",
+    "configured_image": "mongo:5.0",
+    "image_id": "sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2",
+    "repo_digests": [
+      "mongo@sha256:41108d183e972dcbf98d09ed83f6cfc89a471a3f15d06f9d64a95e45d9db8dd2"
+    ]
+  },
+  {
+    "service": "profile",
+    "container": "pcrdsb_hotelreservation-profile-1",
+    "configured_image": "deathstarbench/hotel-reservation:latest",
+    "image_id": "sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807",
+    "repo_digests": [
+      "deathstarbench/hotel-reservation@sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807"
+    ]
+  },
+  {
+    "service": "rate",
+    "container": "pcrdsb_hotelreservation-rate-1",
+    "configured_image": "deathstarbench/hotel-reservation:latest",
+    "image_id": "sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807",
+    "repo_digests": [
+      "deathstarbench/hotel-reservation@sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807"
+    ]
+  },
+  {
+    "service": "recommendation",
+    "container": "pcrdsb_hotelreservation-recommendation-1",
+    "configured_image": "deathstarbench/hotel-reservation:latest",
+    "image_id": "sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807",
+    "repo_digests": [
+      "deathstarbench/hotel-reservation@sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807"
+    ]
+  },
+  {
+    "service": "reservation",
+    "container": "pcrdsb_hotelreservation-reservation-1",
+    "configured_image": "deathstarbench/hotel-reservation:latest",
+    "image_id": "sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807",
+    "repo_digests": [
+      "deathstarbench/hotel-reservation@sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807"
+    ]
+  },
+  {
+    "service": "review",
+    "container": "hotel_reserv_review",
+    "configured_image": "hotel_reserv_review_single_node",
+    "image_id": "sha256:040d9fa9333288686096d5d71a345069679774f122d5bb343e7e24e5a9085db9",
+    "repo_digests": [
+      "hotel_reserv_review_single_node@sha256:040d9fa9333288686096d5d71a345069679774f122d5bb343e7e24e5a9085db9"
+    ]
+  },
+  {
+    "service": "search",
+    "container": "pcrdsb_hotelreservation-search-1",
+    "configured_image": "deathstarbench/hotel-reservation:latest",
+    "image_id": "sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807",
+    "repo_digests": [
+      "deathstarbench/hotel-reservation@sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807"
+    ]
+  },
+  {
+    "service": "user",
+    "container": "pcrdsb_hotelreservation-user-1",
+    "configured_image": "deathstarbench/hotel-reservation:latest",
+    "image_id": "sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807",
+    "repo_digests": [
+      "deathstarbench/hotel-reservation@sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807"
+    ]
+  }
+]

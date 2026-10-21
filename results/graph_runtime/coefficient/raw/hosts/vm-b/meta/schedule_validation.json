@@ -1,0 +1,15 @@
+{
+  "errors": [],
+  "phaseA_active_cores": 7,
+  "phaseA_primary_rows": 6000,
+  "phaseB_isolated_rows": 6000,
+  "phaseB_levels": [
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "primary_cases": 60,
+  "secondary_rows": 500,
+  "status": "PASS"
+}

@@ -1,0 +1,69 @@
+{
+  "branches": {
+    "direct_vs_empirical": {
+      "ci": [
+        0.966445165281242,
+        1.001278442514183
+      ],
+      "mean_diff": -490.0,
+      "ratio": 0.9878786736563774,
+      "sign_counts": {
+        "a_higher": 4,
+        "a_lower": 8,
+        "equal": 3
+      }
+    },
+    "direct_vs_restart": {
+      "ci": [
+        0.7940998874698438,
+        1.0610097601660928
+      ],
+      "mean_diff": -1843.7333333333333,
+      "ratio": 0.9306659825555444,
+      "sign_counts": {
+        "a_higher": 1,
+        "a_lower": 14,
+        "equal": 0
+      }
+    },
+    "empirical_vs_restart": {
+      "ci": [
+        0.8029331060985424,
+        1.0723526030035961
+      ],
+      "mean_diff": -1353.7333333333333,
+      "ratio": 0.9420853059930174,
+      "sign_counts": {
+        "a_higher": 1,
+        "a_lower": 14,
+        "equal": 0
+      }
+    }
+  },
+  "completeness": {
+    "cases": 15,
+    "rows": 45
+  },
+  "direct_summary": {
+    "mean_positive_probability": 0.3437792165965934,
+    "mean_predicted_utility": 43.43837109761362,
+    "positive_value_count": 93.26666666666667,
+    "value_count": 93.26666666666667
+  },
+  "wall_descriptive": {
+    "direct_vs_empirical": {
+      "ci": [
+        0.9617119383844613,
+        1.1067047036684101
+      ],
+      "ratio": 1.0299354691988074
+    },
+    "direct_vs_restart": {
+      "ci": [
+        0.8929919266200286,
+        1.1703096989115773
+      ],
+      "ratio": 1.0255948276094384
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "concurrency_width": 1,
+  "cpu_id": 0,
+  "errors_recorded": 0,
+  "expected_rows": 3000,
+  "lane_id": "isolated",
+  "phase": "phaseB_isolated_full",
+  "physical_vm": "B",
+  "schedule_rows": 3000,
+  "unique_success": 3000
+}

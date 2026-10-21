@@ -1,0 +1,106 @@
+[1/81] generic n=24 m=6 destroy=5 seed=2626
+[2/81] generic n=24 m=6 destroy=5 seed=2727
+[3/81] generic n=24 m=6 destroy=5 seed=2828
+[4/81] workflow n=24 m=6 destroy=5 seed=2626
+[5/81] workflow n=24 m=6 destroy=5 seed=2727
+[6/81] workflow n=24 m=6 destroy=5 seed=2828
+[7/81] microservice n=24 m=6 destroy=5 seed=2626
+[8/81] microservice n=24 m=6 destroy=5 seed=2727
+[9/81] microservice n=24 m=6 destroy=5 seed=2828
+[10/81] generic n=24 m=6 destroy=8 seed=2626
+[11/81] generic n=24 m=6 destroy=8 seed=2727
+[12/81] generic n=24 m=6 destroy=8 seed=2828
+[13/81] workflow n=24 m=6 destroy=8 seed=2626
+[14/81] workflow n=24 m=6 destroy=8 seed=2727
+[15/81] workflow n=24 m=6 destroy=8 seed=2828
+[16/81] microservice n=24 m=6 destroy=8 seed=2626
+[17/81] microservice n=24 m=6 destroy=8 seed=2727
+[18/81] microservice n=24 m=6 destroy=8 seed=2828
+[19/81] generic n=24 m=6 destroy=12 seed=2626
+[20/81] generic n=24 m=6 destroy=12 seed=2727
+[21/81] generic n=24 m=6 destroy=12 seed=2828
+[22/81] workflow n=24 m=6 destroy=12 seed=2626
+[23/81] workflow n=24 m=6 destroy=12 seed=2727
+[24/81] workflow n=24 m=6 destroy=12 seed=2828
+[25/81] microservice n=24 m=6 destroy=12 seed=2626
+[26/81] microservice n=24 m=6 destroy=12 seed=2727
+[27/81] microservice n=24 m=6 destroy=12 seed=2828
+[28/81] generic n=32 m=8 destroy=5 seed=2626
+[29/81] generic n=32 m=8 destroy=5 seed=2727
+[30/81] generic n=32 m=8 destroy=5 seed=2828
+[31/81] workflow n=32 m=8 destroy=5 seed=2626
+[32/81] workflow n=32 m=8 destroy=5 seed=2727
+[33/81] workflow n=32 m=8 destroy=5 seed=2828
+[34/81] microservice n=32 m=8 destroy=5 seed=2626
+[35/81] microservice n=32 m=8 destroy=5 seed=2727
+[36/81] microservice n=32 m=8 destroy=5 seed=2828
+[37/81] generic n=32 m=8 destroy=8 seed=2626
+[38/81] generic n=32 m=8 destroy=8 seed=2727
+[39/81] generic n=32 m=8 destroy=8 seed=2828
+[40/81] workflow n=32 m=8 destroy=8 seed=2626
+[41/81] workflow n=32 m=8 destroy=8 seed=2727
+[42/81] workflow n=32 m=8 destroy=8 seed=2828
+[43/81] microservice n=32 m=8 destroy=8 seed=2626
+[44/81] microservice n=32 m=8 destroy=8 seed=2727
+[45/81] microservice n=32 m=8 destroy=8 seed=2828
+[46/81] generic n=32 m=8 destroy=12 seed=2626
+[47/81] generic n=32 m=8 destroy=12 seed=2727
+[48/81] generic n=32 m=8 destroy=12 seed=2828
+[49/81] workflow n=32 m=8 destroy=12 seed=2626
+[50/81] workflow n=32 m=8 destroy=12 seed=2727
+[51/81] workflow n=32 m=8 destroy=12 seed=2828
+[52/81] microservice n=32 m=8 destroy=12 seed=2626
+[53/81] microservice n=32 m=8 destroy=12 seed=2727
+[54/81] microservice n=32 m=8 destroy=12 seed=2828
+[55/81] generic n=40 m=10 destroy=5 seed=2626
+[56/81] generic n=40 m=10 destroy=5 seed=2727
+[57/81] generic n=40 m=10 destroy=5 seed=2828
+[58/81] workflow n=40 m=10 destroy=5 seed=2626
+[59/81] workflow n=40 m=10 destroy=5 seed=2727
+[60/81] workflow n=40 m=10 destroy=5 seed=2828
+[61/81] microservice n=40 m=10 destroy=5 seed=2626
+[62/81] microservice n=40 m=10 destroy=5 seed=2727
+[63/81] microservice n=40 m=10 destroy=5 seed=2828
+[64/81] generic n=40 m=10 destroy=8 seed=2626
+[65/81] generic n=40 m=10 destroy=8 seed=2727
+[66/81] generic n=40 m=10 destroy=8 seed=2828
+[67/81] workflow n=40 m=10 destroy=8 seed=2626
+[68/81] workflow n=40 m=10 destroy=8 seed=2727
+[69/81] workflow n=40 m=10 destroy=8 seed=2828
+[70/81] microservice n=40 m=10 destroy=8 seed=2626
+[71/81] microservice n=40 m=10 destroy=8 seed=2727
+[72/81] microservice n=40 m=10 destroy=8 seed=2828
+[73/81] generic n=40 m=10 destroy=12 seed=2626
+[74/81] generic n=40 m=10 destroy=12 seed=2727
+[75/81] generic n=40 m=10 destroy=12 seed=2828
+[76/81] workflow n=40 m=10 destroy=12 seed=2626
+[77/81] workflow n=40 m=10 destroy=12 seed=2727
+[78/81] workflow n=40 m=10 destroy=12 seed=2828
+[79/81] microservice n=40 m=10 destroy=12 seed=2626
+[80/81] microservice n=40 m=10 destroy=12 seed=2727
+[81/81] microservice n=40 m=10 destroy=12 seed=2828
+{
+  "selected_regime": {
+    "cases": 9,
+    "cases_peak_k_ge_4": 9,
+    "destroy_size": 12,
+    "eligible": true,
+    "max_peak_active_checkpoints": 77,
+    "median_fraction_iterations_k_ge_2": 0.96,
+    "median_fraction_iterations_k_ge_3": 0.92,
+    "median_fraction_iterations_k_ge_4": 0.88,
+    "median_invalidation_evictions": 115.0,
+    "median_max_checkpoint_fraction_of_peak": 0.027009892234862443,
+    "median_max_checkpoint_size_bytes": 69645.0,
+    "median_mean_active_checkpoints": 20.285,
+    "median_peak_active_checkpoints": 51.0,
+    "median_peak_bytes": 2491477.0,
+    "median_reused_prior_branch_pops": 1024.0,
+    "median_trace_recurrence_events": 85.0,
+    "median_unfinished_return_fraction": 1.0,
+    "median_useful_resumes": 59.0,
+    "n_hosts": 6,
+    "n_nodes": 24
+  },
+  "selection_status": "eligible_regime_selected"
+}

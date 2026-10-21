@@ -1,0 +1,34 @@
+{
+  "rq2": {
+    "rack-a": {
+      "n_cases": 30,
+      "RQ2_A_mean_log_opportunity_conversion": 0.11601414242054489,
+      "RQ2_B_mean_log_pW_over_pC": -0.0013589967161309186,
+      "RQ2_B_geometric_runtime_ratio_pW_over_pC": 0.9986419263017329,
+      "RQ2_C_mean_log_restart_over_pC": 0.01895936752006138,
+      "RQ2_C_geometric_runtime_ratio_restart_over_pC": 1.019140237580839
+    },
+    "rack-b": {
+      "n_cases": 30,
+      "RQ2_A_mean_log_opportunity_conversion": 0.10991904392737846,
+      "RQ2_B_mean_log_pW_over_pC": -0.0020380535089981953,
+      "RQ2_B_geometric_runtime_ratio_pW_over_pC": 0.9979640219118755,
+      "RQ2_C_mean_log_restart_over_pC": 0.029048434620356185,
+      "RQ2_C_geometric_runtime_ratio_restart_over_pC": 1.029474455472039
+    }
+  },
+  "rq3": {
+    "rack-a": {
+      "n_cases": 40,
+      "RQ3_A_geometric_runtime_ratio_pW_over_pC": 0.9992985503472129,
+      "RQ3_B_geometric_runtime_ratio_restart_over_pC": 1.0003855220720235,
+      "RQ3_C_geometric_runtime_ratio_empirical_pC_over_learned_pC": 1.0002070962935194
+    },
+    "rack-b": {
+      "n_cases": 40,
+      "RQ3_A_geometric_runtime_ratio_pW_over_pC": 0.9994528250382017,
+      "RQ3_B_geometric_runtime_ratio_restart_over_pC": 1.0015217890723849,
+      "RQ3_C_geometric_runtime_ratio_empirical_pC_over_learned_pC": 0.9994016487606417
+    }
+  }
+}

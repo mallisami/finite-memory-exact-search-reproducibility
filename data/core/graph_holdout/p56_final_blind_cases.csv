@@ -1,0 +1,16 @@
+case_id,domain,instance_seed,controller_iterations,decision_events_emitted
+generic-s1616,generic,1616,200,15
+generic-s1717,generic,1717,200,15
+generic-s1818,generic,1818,200,15
+generic-s1919,generic,1919,200,15
+generic-s2020,generic,2020,200,15
+workflow-s1616,workflow,1616,200,15
+workflow-s1717,workflow,1717,200,15
+workflow-s1818,workflow,1818,200,15
+workflow-s1919,workflow,1919,200,15
+workflow-s2020,workflow,2020,200,15
+microservice-s1616,microservice,1616,200,15
+microservice-s1717,microservice,1717,200,15
+microservice-s1818,microservice,1818,200,15
+microservice-s1919,microservice,1919,200,15
+microservice-s2020,microservice,2020,200,15

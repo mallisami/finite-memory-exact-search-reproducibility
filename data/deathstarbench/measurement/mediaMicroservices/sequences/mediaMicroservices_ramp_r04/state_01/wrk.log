@@ -1,0 +1,102 @@
+script_want_response
+Running 30s test @ http://127.0.0.1:8080
+  2 threads and 64 connections
+
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+  Thread calibration: mean lat.: 203.922ms, rate sampling interval: 1424ms
+  Thread calibration: mean lat.: 136.516ms, rate sampling interval: 284ms
+
+-----------------------------------------------------------------------
+Test Results @ http://127.0.0.1:8080 
+  Thread Stats   Avg      Stdev     99%   +/- Stdev
+    Latency   121.36ms  555.97ms   3.38s    95.37%
+    Req/Sec    12.29      6.00    28.00     77.38%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    4.42ms
+ 75.000%    4.90ms
+ 90.000%    6.80ms
+ 99.000%    3.38s 
+ 99.900%    4.78s 
+ 99.990%    4.78s 
+ 99.999%    4.78s 
+100.000%    4.78s 
+
+  Detailed Percentile spectrum:
+       Value   Percentile   TotalCount 1/(1-Percentile)
+
+       3.321     0.000000            1         1.00
+       3.691     0.100000           50         1.11
+       3.891     0.200000          100         1.25
+       4.083     0.300000          151         1.43
+       4.243     0.400000          200         1.67
+       4.419     0.500000          249         2.00
+       4.499     0.550000          274         2.22
+       4.591     0.600000          299         2.50
+       4.695     0.650000          324         2.86
+       4.787     0.700000          348         3.33
+       4.903     0.750000          373         4.00
+       5.071     0.775000          386         4.44
+       5.283     0.800000          398         5.00
+       5.559     0.825000          411         5.71
+       5.875     0.850000          424         6.67
+       6.279     0.875000          435         8.00
+       6.387     0.887500          442         8.89
+       6.847     0.900000          448        10.00
+       7.155     0.912500          454        11.43
+       7.967     0.925000          460        13.33
+       9.839     0.937500          466        16.00
+     330.751     0.943750          470        17.78
+     556.543     0.950000          473        20.00
+     932.863     0.956250          476        22.86
+    1324.031     0.962500          479        26.67
+    1760.255     0.968750          482        32.00
+    2015.231     0.971875          484        35.56
+    2038.783     0.975000          485        40.00
+    2441.215     0.978125          487        45.71
+    2447.359     0.981250          488        53.33
+    2922.495     0.984375          490        64.00
+    2947.071     0.985938          491        71.11
+    2947.071     0.987500          491        80.00
+    3377.151     0.989062          492        91.43
+    3459.071     0.990625          493       106.67
+    3594.239     0.992188          494       128.00
+    3594.239     0.992969          494       142.22
+    3594.239     0.993750          494       160.00
+    3627.007     0.994531          495       182.86
+    3627.007     0.995313          495       213.33
+    4427.775     0.996094          496       256.00
+    4427.775     0.996484          496       284.44
+    4427.775     0.996875          496       320.00
+    4427.775     0.997266          496       365.71
+    4427.775     0.997656          496       426.67
+    4775.935     0.998047          497       512.00
+    4775.935     1.000000          497          inf
+#[Mean    =      121.355, StdDeviation   =      555.974]
+#[Max     =     4771.840, Total count    =          497]
+#[Buckets =           27, SubBuckets     =         2048]
+-----------------------------------------------------------------------
+  823 requests in 30.03s, 151.09KB read
+  Socket errors: connect 0, read 0, write 0, timeout 14
+  Non-2xx or 3xx responses: 19
+Requests/sec:     27.40  
+Transfer/sec:      5.03KB
+
+PCR_NON2XX=0

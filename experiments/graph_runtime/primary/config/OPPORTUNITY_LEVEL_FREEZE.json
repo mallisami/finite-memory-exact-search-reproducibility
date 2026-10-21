@@ -1,0 +1,73 @@
+{
+  "status": "OPPORTUNITY_LEVELS_FROZEN",
+  "timestamp_utc": "2026-10-09T16:27:22Z",
+  "rule": "Protocol V4 Section 11: L1=8, L2~75%, L3~50%, L4~25% unfinished rate on restart-only exposed development cases",
+  "dev_seeds": [
+    3301,
+    3302,
+    3303,
+    3304,
+    3305,
+    3306,
+    3307,
+    3308,
+    3309,
+    3310,
+    3311,
+    3312,
+    3313,
+    3314,
+    3315
+  ],
+  "candidates": [
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    384
+  ],
+  "frozen_levels": {
+    "L1": 8,
+    "L2": 16,
+    "L3": 32,
+    "L4": 64
+  },
+  "candidate_stats": {
+    "8": {
+      "unfinished_rate": 0.995,
+      "total_calls": 1800
+    },
+    "16": {
+      "unfinished_rate": 0.8783333333333333,
+      "total_calls": 1800
+    },
+    "32": {
+      "unfinished_rate": 0.55,
+      "total_calls": 1800
+    },
+    "64": {
+      "unfinished_rate": 0.20277777777777778,
+      "total_calls": 1800
+    },
+    "128": {
+      "unfinished_rate": 0.034444444444444444,
+      "total_calls": 1800
+    },
+    "256": {
+      "unfinished_rate": 0.0033333333333333335,
+      "total_calls": 1800
+    },
+    "384": {
+      "unfinished_rate": 0.0005555555555555556,
+      "total_calls": 1800
+    }
+  },
+  "targets": {
+    "L1": "frozen baseline (8)",
+    "L2": "nearest 75% unfinished",
+    "L3": "nearest 50% unfinished",
+    "L4": "nearest 25% unfinished"
+  }
+}

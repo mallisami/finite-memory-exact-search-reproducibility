@@ -1,0 +1,245 @@
+[
+  {
+    "service": "compose-post-service",
+    "container": "pcrdsb_socialnetwork-compose-post-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "home-timeline-redis",
+    "container": "pcrdsb_socialnetwork-home-timeline-redis-1",
+    "configured_image": "redis",
+    "image_id": "sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee",
+    "repo_digests": [
+      "redis@sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee"
+    ]
+  },
+  {
+    "service": "home-timeline-service",
+    "container": "pcrdsb_socialnetwork-home-timeline-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "jaeger-agent",
+    "container": "pcrdsb_socialnetwork-jaeger-agent-1",
+    "configured_image": "jaegertracing/all-in-one:latest",
+    "image_id": "sha256:ab6f1a1f0fb49ea08bcd19f6b84f6081d0d44b364b6de148e1798eb5816bacac",
+    "repo_digests": [
+      "jaegertracing/all-in-one@sha256:ab6f1a1f0fb49ea08bcd19f6b84f6081d0d44b364b6de148e1798eb5816bacac"
+    ]
+  },
+  {
+    "service": "media-frontend",
+    "container": "pcrdsb_socialnetwork-media-frontend-1",
+    "configured_image": "yg397/media-frontend:xenial",
+    "image_id": "sha256:272049995f2929435b91da34f20fc16216a7f974d1b8f9afa0ccbb529f1a9840",
+    "repo_digests": [
+      "yg397/media-frontend@sha256:272049995f2929435b91da34f20fc16216a7f974d1b8f9afa0ccbb529f1a9840"
+    ]
+  },
+  {
+    "service": "media-memcached",
+    "container": "pcrdsb_socialnetwork-media-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "media-mongodb",
+    "container": "pcrdsb_socialnetwork-media-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "media-service",
+    "container": "pcrdsb_socialnetwork-media-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "nginx-thrift",
+    "container": "pcrdsb_socialnetwork-nginx-thrift-1",
+    "configured_image": "yg397/openresty-thrift:xenial",
+    "image_id": "sha256:6c295fda3c2f6b941d85ebf16421bafac0dcf72450c96f53a2d031b29d8c81ef",
+    "repo_digests": [
+      "yg397/openresty-thrift@sha256:6c295fda3c2f6b941d85ebf16421bafac0dcf72450c96f53a2d031b29d8c81ef"
+    ]
+  },
+  {
+    "service": "post-storage-memcached",
+    "container": "pcrdsb_socialnetwork-post-storage-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "post-storage-mongodb",
+    "container": "pcrdsb_socialnetwork-post-storage-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "post-storage-service",
+    "container": "pcrdsb_socialnetwork-post-storage-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "social-graph-mongodb",
+    "container": "pcrdsb_socialnetwork-social-graph-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "social-graph-redis",
+    "container": "pcrdsb_socialnetwork-social-graph-redis-1",
+    "configured_image": "redis",
+    "image_id": "sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee",
+    "repo_digests": [
+      "redis@sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee"
+    ]
+  },
+  {
+    "service": "social-graph-service",
+    "container": "pcrdsb_socialnetwork-social-graph-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "text-service",
+    "container": "pcrdsb_socialnetwork-text-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "unique-id-service",
+    "container": "pcrdsb_socialnetwork-unique-id-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "url-shorten-memcached",
+    "container": "pcrdsb_socialnetwork-url-shorten-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "url-shorten-mongodb",
+    "container": "pcrdsb_socialnetwork-url-shorten-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "url-shorten-service",
+    "container": "pcrdsb_socialnetwork-url-shorten-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "user-memcached",
+    "container": "pcrdsb_socialnetwork-user-memcached-1",
+    "configured_image": "memcached",
+    "image_id": "sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad",
+    "repo_digests": [
+      "memcached@sha256:405a445c7c81bca205850426288baa5655c72859ae31d3de3fa823e6482be4ad"
+    ]
+  },
+  {
+    "service": "user-mention-service",
+    "container": "pcrdsb_socialnetwork-user-mention-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "user-mongodb",
+    "container": "pcrdsb_socialnetwork-user-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "user-service",
+    "container": "pcrdsb_socialnetwork-user-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  },
+  {
+    "service": "user-timeline-mongodb",
+    "container": "pcrdsb_socialnetwork-user-timeline-mongodb-1",
+    "configured_image": "mongo:4.4.6",
+    "image_id": "sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b",
+    "repo_digests": [
+      "mongo@sha256:6efa052039903e731e4a5550c68a13c4869ddc93742c716332883fd9c77eb79b"
+    ]
+  },
+  {
+    "service": "user-timeline-redis",
+    "container": "pcrdsb_socialnetwork-user-timeline-redis-1",
+    "configured_image": "redis",
+    "image_id": "sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee",
+    "repo_digests": [
+      "redis@sha256:6f81e8915c60b065a524e6967e0ad1c639ba6efa84d669f823683ea04d9150ee"
+    ]
+  },
+  {
+    "service": "user-timeline-service",
+    "container": "pcrdsb_socialnetwork-user-timeline-service-1",
+    "configured_image": "deathstarbench/social-network-microservices:latest",
+    "image_id": "sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6",
+    "repo_digests": [
+      "deathstarbench/social-network-microservices@sha256:a845266e98ce15d204ee7b98d41a2a95820af525013ce70f14104f5b9b5e92b6"
+    ]
+  }
+]

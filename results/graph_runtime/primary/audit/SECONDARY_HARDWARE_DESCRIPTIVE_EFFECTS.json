@@ -1,0 +1,29 @@
+{
+  "graph": {
+    "n_cases": 20,
+    "geometric_runtime_ratio_pW_over_pC": 0.9961779703278787,
+    "geometric_runtime_ratio_restart_over_pC": 1.02968459013605,
+    "by_family": {
+      "Generic": {
+        "n_cases": 7,
+        "pW_over_pC": 0.9991766167449799,
+        "restart_over_pC": 1.0081494238007191
+      },
+      "Microservice": {
+        "n_cases": 6,
+        "pW_over_pC": 0.9940183363481027,
+        "restart_over_pC": 1.0350811361613865
+      },
+      "Workflow": {
+        "n_cases": 7,
+        "pW_over_pC": 0.9950376055519291,
+        "restart_over_pC": 1.0469782298005443
+      }
+    }
+  },
+  "mdkp": {
+    "n_cases": 20,
+    "geometric_runtime_ratio_pW_over_pC": 0.9964892586555296,
+    "geometric_runtime_ratio_restart_over_pC": 0.98296480651683
+  }
+}

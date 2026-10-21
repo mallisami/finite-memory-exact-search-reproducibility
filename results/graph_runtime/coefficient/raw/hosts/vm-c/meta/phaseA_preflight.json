@@ -1,0 +1,42 @@
+{
+  "allowed_cpus": [
+    0,
+    1
+  ],
+  "azure_vm_size": null,
+  "clocksource": "tsc",
+  "cpu_model": "Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz",
+  "errors": [],
+  "expected_vcpus": 2,
+  "hostname": "ip-172-31-7-26.ap-southeast-2.compute.internal",
+  "kernel": "6.18.51-120.163.amzn2023.x86_64",
+  "load1": 0.0,
+  "max_load": 1.0,
+  "mem_total_gib": 7.637,
+  "python": "3.12.14 (main, Aug 24 2026, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+  "required_cpus": [
+    0
+  ],
+  "role": "secondary",
+  "services": {
+    "apt-daily-upgrade.timer": "inactive",
+    "apt-daily.timer": "inactive",
+    "containerd": "inactive",
+    "docker": "inactive",
+    "docker.socket": "inactive",
+    "k3s": "inactive",
+    "k3s-agent": "inactive",
+    "unattended-upgrades": "inactive",
+    "zeek": "inactive"
+  },
+  "status": "PASS",
+  "threads": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "uptime_seconds": 438688.34,
+  "vcpu": 2
+}

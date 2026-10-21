@@ -1,0 +1,11 @@
+{
+  "app": "hotelReservation",
+  "capacity_rps": 400,
+  "low_rps": 100,
+  "high_rps": 300,
+  "criteria": {
+    "p99_limit_ms": 1000.0,
+    "achieved_fraction_min": 0.9,
+    "non2xx_fraction_max": 0.01
+  }
+}

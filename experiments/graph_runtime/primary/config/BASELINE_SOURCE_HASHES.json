@@ -1,0 +1,17 @@
+{
+  "authoritative_source_root": "PCR_Paper2_Repro/04_Source_Code_and_Tests",
+  "reference_package": "PCR_Paper2_Novelty_Reviewer_Proofed_Full_Package_2026-10-09.zip",
+  "sha256": {
+    "requirements.txt": "be882a91b992e368860099eca5578f41b28ca5180dd557c5fef2b0efa8e84c1a",
+    "certified_assignment/paper2_online_pilot.py": "b102289ac21522e1622e5ded2acb3a890f68128435cf33048d6dcc256d786a91",
+    "certified_assignment/paper2_exact_selection.py": "ff052959937393580142db5f47fb343b88784151570c7e3449974bdd72c70f1f",
+    "certified_assignment/anytime_gap_certified_repair.py": "62f6ebe984f65adaaa193d095ec2c425dea857d43ebadf83eae4163f176c9f7d",
+    "certified_assignment/step_resumption.py": "6221c4fc452088ff2b448860a52d3aede40fd113a733fe950972597cbb11872b",
+    "scripts/paper2_p7_confirmatory.py": "ddfcaec9b70520d665b94e8fd311d3f154f8732c6ebdaba6ad5db723d1a950c4",
+    "independent_mdkp/controller.py": "e20ba9f0af383a873e43e692a511266f4b7c2d4cca58b15ee0143f2d93e5522d",
+    "independent_mdkp/core.py": "27176b1b56310e54160af78672d3dbb3480d699442e14ff376a17cb3542ca2e0",
+    "independent_mdkp/allocation.py": "e8aee6fc3def6071e48f91cc2231fa7d5b4ebd0b72bfad432f39e33e7e74f4ac",
+    "independent_mdkp/model.py": "58ad0c573640ec344680c6cc89ed6515d4ba124216c062e716b0d89ed523d02a",
+    "scripts/paper2_p10_independent_validation.py": "01076acb7904476a220258a55e34319ea1d00b1b7a281962fb5ca4fcf3209a35"
+  }
+}

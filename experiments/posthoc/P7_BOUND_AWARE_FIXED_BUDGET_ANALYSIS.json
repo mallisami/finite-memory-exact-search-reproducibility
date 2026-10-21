@@ -1,0 +1,95 @@
+{
+ "B_fixed_bytes": 825077,
+ "replication_gate": [
+  {
+   "policy": "keep_all",
+   "exact_match_45_cases": true
+  },
+  {
+   "policy": "empirical_compatible",
+   "exact_match_45_cases": true
+  },
+  {
+   "policy": "learned",
+   "exact_match_45_cases": true
+  }
+ ],
+ "budgets": {
+  "case_specific_25pct": {
+   "mean_nrw": {
+    "learned": 0.9121325444209556,
+    "empirical_compatible": 0.8241521486262287,
+    "bound_gap": 0.4435798672208341,
+    "bound_gap_work": 0.6409369049172938
+   },
+   "learned_minus_empirical_compatible": {
+    "mean": 0.08798039579472736,
+    "ci95": [
+     0.06312598523732572,
+     0.11308251284044393
+    ],
+    "positive_cases": 41,
+    "negative_cases": 4,
+    "ties": 0
+   },
+   "learned_minus_bound_gap": {
+    "mean": 0.4685526772001217,
+    "ci95": [
+     0.4076884745535424,
+     0.5301250901569072
+    ],
+    "positive_cases": 45,
+    "negative_cases": 0,
+    "ties": 0
+   },
+   "learned_minus_bound_gap_work": {
+    "mean": 0.27119563950366193,
+    "ci95": [
+     0.19689391562888306,
+     0.3519659965015573
+    ],
+    "positive_cases": 43,
+    "negative_cases": 2,
+    "ties": 0
+   }
+  },
+  "fixed_absolute_bytes": {
+   "mean_nrw": {
+    "learned": 0.88859115271457,
+    "empirical_compatible": 0.8163963872448565,
+    "bound_gap": 0.46331820195745493,
+    "bound_gap_work": 0.6442055623714211
+   },
+   "learned_minus_empirical_compatible": {
+    "mean": 0.07219476546971357,
+    "ci95": [
+     0.05222723434927037,
+     0.09307459670119156
+    ],
+    "positive_cases": 38,
+    "negative_cases": 4,
+    "ties": 3
+   },
+   "learned_minus_bound_gap": {
+    "mean": 0.4252729507571154,
+    "ci95": [
+     0.3621377788122722,
+     0.48989446060115793
+    ],
+    "positive_cases": 45,
+    "negative_cases": 0,
+    "ties": 0
+   },
+   "learned_minus_bound_gap_work": {
+    "mean": 0.24438559034314913,
+    "ci95": [
+     0.16701788655962593,
+     0.3283940540594749
+    ],
+    "positive_cases": 43,
+    "negative_cases": 1,
+    "ties": 1
+   }
+  }
+ }
+}

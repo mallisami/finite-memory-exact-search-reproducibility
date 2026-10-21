@@ -1,0 +1,22 @@
+# Anonymous reviewer artifact: template only.
+# Provide site-specific connection information outside the release.
+# Do not commit actual endpoints, SSH usernames, credentials or private keys.
+Host rack-a
+    HostName example.invalid
+    User REPLACE_LOCALLY
+    ServerAliveInterval 30
+    ServerAliveCountMax 4
+
+Host rack-b
+    HostName example.invalid
+    User REPLACE_LOCALLY
+    ProxyJump rack-a
+    ServerAliveInterval 30
+    ServerAliveCountMax 4
+
+Host rack-c
+    HostName example.invalid
+    User REPLACE_LOCALLY
+    ProxyJump rack-a
+    ServerAliveInterval 30
+    ServerAliveCountMax 4

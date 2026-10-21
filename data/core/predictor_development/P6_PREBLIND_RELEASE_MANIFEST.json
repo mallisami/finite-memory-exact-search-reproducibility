@@ -1,0 +1,46 @@
+{
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261005,
+  "calibration_choice": "platt",
+  "hashes": {
+    "base_protocol": "1a79380cf2bf51555aa15c4f07a11764c6918324e38a1c9dab45038473da87b6",
+    "calibration": "766365806e773b38ad55a14bc4e8508ba246dc3c474a424aeca44aa57ae406ef",
+    "dev_hashes": "1465f34695f3e7b9c837f8854a7419f6001e8a2bd678601fe196b1fcf193d256",
+    "dev_summary": "4b4df38e17e0cf9d6c17d856d4e9a1f0876f7de316d373156da1754a43cdf0ce",
+    "feature_firewall": "0ccb55be2e571e840ef2e87521ea5ff615b2da5bff465e223f2145cbdd0d996c",
+    "final_model": "ea5f1a00f8346be68ca03b58b57d7ca0af33be2fd9d425d13b707c6789044945",
+    "holdout_features": "2bc7cb33e669875724e47941a5aa604a8fddd441e3f80b8959211ffa635eedec",
+    "holdout_labels": "5556a2d18c928b23dbd629432223fb1eb40a117a98a848ad13c40f065625f397",
+    "holdout_seal": "1a8299fa2bcae9f6e5197032412b54e4f618e6699825048470ce77d30b95ae60",
+    "implementation_freeze": "609a29db48df91931436ae447126f8a5c7c2d967e0729696f210ce1199175e5a",
+    "model_spec": "98d4209903cb18c656cf098c7a7b7e25d2a87d2881aea1bdc73d4dfaa4904dca"
+  },
+  "rule": "No model, feature, hyperparameter, calibration, selector, or metric change is permitted after the sealed label file is opened.",
+  "selected_model": {
+    "calibration": "platt",
+    "config": {
+      "C": 10.0
+    },
+    "feature_family": "H+D",
+    "features": [
+      "history_count_same_context",
+      "iterations_since_last_context",
+      "recent_same_context_count_20",
+      "current_destroy_op_index",
+      "current_repair_arm_index",
+      "current_objective_before",
+      "current_best_objective",
+      "current_temperature",
+      "recent_accept_rate_10",
+      "recent_accept_rate_20",
+      "recent_moved_node_overlap_10",
+      "recent_adjacent_move_count_10",
+      "recent_moved_node_overlap_20",
+      "recent_adjacent_move_count_20",
+      "objective_improvement_last_10",
+      "objective_improvement_last_20"
+    ],
+    "model_family": "logistic"
+  },
+  "status": "PREBLIND_FROZEN_READY_FOR_ONE_TIME_RELEASE"
+}

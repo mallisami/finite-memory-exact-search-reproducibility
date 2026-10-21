@@ -1,0 +1,305 @@
+{
+  "project": "pcrdsb_mediamicroservices",
+  "network_name": "pcrdsb_mediamicroservices_default",
+  "network_id": "59bd7ce02f56a28393d2dd3ef7828432d40e1cb0278365caebceb4d336b39225",
+  "bridge_interface": "br-59bd7ce02f56",
+  "services": {
+    "review-storage-memcached": {
+      "container_id": "3157b05765da1e1483b1c01a44c4c43d1fcbfbfe8c8e368b14f4f5327e557f03",
+      "container_name": "pcrdsb_mediamicroservices-review-storage-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.17"
+      }
+    },
+    "cast-info-memcached": {
+      "container_id": "6b1fa0f0eee56563c36217104ee1a4e3b01e55b9eb016131220090a2d3134f76",
+      "container_name": "pcrdsb_mediamicroservices-cast-info-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.2"
+      }
+    },
+    "movie-review-redis": {
+      "container_id": "38efa710e35b7ff9eedc2dba9ed5b562177bfd6fd86178ceb3ff81c93758a66f",
+      "container_name": "pcrdsb_mediamicroservices-movie-review-redis-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.18"
+      }
+    },
+    "user-review-redis": {
+      "container_id": "80aac8203e823b154398dd9b8513b131d5cd4acab47c4838d0ecce7c011f90e1",
+      "container_name": "pcrdsb_mediamicroservices-user-review-redis-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.22"
+      }
+    },
+    "rating-redis": {
+      "container_id": "85f82295b01e03785734d541130ebe452dba2a1ea2e6697e6a88e9a33c129e45",
+      "container_name": "pcrdsb_mediamicroservices-rating-redis-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.25"
+      }
+    },
+    "movie-id-memcached": {
+      "container_id": "f7117a9023e3cfe4c99da22ead831235aa2596dc00c4e72f0955718442ef0cee",
+      "container_name": "pcrdsb_mediamicroservices-movie-id-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.14"
+      }
+    },
+    "plot-memcached": {
+      "container_id": "8eaba5c930547475367e5919c58ac2a888ad74f1abfc5f0c3dc93f48b8854a51",
+      "container_name": "pcrdsb_mediamicroservices-plot-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.8"
+      }
+    },
+    "user-memcached": {
+      "container_id": "284a59f69bf63c818adce9da71877053ebeddff1f30d0ff8533ccb790ca75570",
+      "container_name": "pcrdsb_mediamicroservices-user-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.7"
+      }
+    },
+    "compose-review-memcached": {
+      "container_id": "dd744a673a937d80f33449af768392b1e0061e1d63e62d7986965810173fe874",
+      "container_name": "pcrdsb_mediamicroservices-compose-review-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.15"
+      }
+    },
+    "movie-info-memcached": {
+      "container_id": "2015e3679d84148e6c0225039a56d48fda3106a79fac3a03e44df773c1a77877",
+      "container_name": "pcrdsb_mediamicroservices-movie-info-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.10"
+      }
+    },
+    "user-mongodb": {
+      "container_id": "1f112d4988a3470a62581a0f736e3fc528a2dcdde25b68b7d490ca44ff649af2",
+      "container_name": "pcrdsb_mediamicroservices-user-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.13"
+      }
+    },
+    "movie-info-mongodb": {
+      "container_id": "6146cf4dc728ce57c3df12cafe13b2f07f045754d6a4891119b879eeef3f7d57",
+      "container_name": "pcrdsb_mediamicroservices-movie-info-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.20"
+      }
+    },
+    "jaeger": {
+      "container_id": "b02d207c6980ff441371358984d5ce36f1638dac16b90a277a6db1e1ab5c9270",
+      "container_name": "pcrdsb_mediamicroservices-jaeger-1",
+      "include": false,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.9"
+      }
+    },
+    "movie-review-mongodb": {
+      "container_id": "6e568536149bebb1651bf6e025ecebf8ca40cc42756dee8007170fb5b9bd4bbc",
+      "container_name": "pcrdsb_mediamicroservices-movie-review-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.4"
+      }
+    },
+    "plot-mongodb": {
+      "container_id": "fe919d292bdcabc9b45a91e097240093fd3a06bb393de8e8b40c7cd30a977b2a",
+      "container_name": "pcrdsb_mediamicroservices-plot-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.16"
+      }
+    },
+    "review-storage-mongodb": {
+      "container_id": "336eae6c4a80f9ad5c92edcb33e5b52e25709f57a7bb54b20651a600329ba8d0",
+      "container_name": "pcrdsb_mediamicroservices-review-storage-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.12"
+      }
+    },
+    "cast-info-mongodb": {
+      "container_id": "bc5bc5e3107f8b281ca228271edf5a9d29fe4e4ea0760da94277e3aebe93face",
+      "container_name": "pcrdsb_mediamicroservices-cast-info-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.6"
+      }
+    },
+    "movie-id-mongodb": {
+      "container_id": "a696bf768062137310f4571922bd50fade99d6b0feebdb6c589168291aacd07c",
+      "container_name": "pcrdsb_mediamicroservices-movie-id-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.3"
+      }
+    },
+    "user-review-mongodb": {
+      "container_id": "f702c629d92da062676426c01718917ac956abbd9e1dd892510fbbb464e0689d",
+      "container_name": "pcrdsb_mediamicroservices-user-review-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.11"
+      }
+    },
+    "unique-id-service": {
+      "container_id": "d32592a0137eb15a703d9852592e6a763b4a8dc4d363db6e297b798b9239923a",
+      "container_name": "pcrdsb_mediamicroservices-unique-id-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.24"
+      }
+    },
+    "rating-service": {
+      "container_id": "7020c752384302daa36919a34d3566f8dc23783654da3178f706e70d1d3d4709",
+      "container_name": "pcrdsb_mediamicroservices-rating-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.23"
+      }
+    },
+    "user-review-service": {
+      "container_id": "fbc039fbff7ffac4f1331d70c66d8d84357fa254771c8b00b0728f33b3b89a4e",
+      "container_name": "pcrdsb_mediamicroservices-user-review-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.31"
+      }
+    },
+    "nginx-web-server": {
+      "container_id": "e87d1aecea8187ae5f3739bbca8b71ce9bbbe898220b9d8eb65fea7c85b5e305",
+      "container_name": "pcrdsb_mediamicroservices-nginx-web-server-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.30"
+      }
+    },
+    "movie-review-service": {
+      "container_id": "41c12c939715f85ca67623fa54fe7db8d9aa8f9fcc95239e8721f90fbcfd19ec",
+      "container_name": "pcrdsb_mediamicroservices-movie-review-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.19"
+      }
+    },
+    "text-service": {
+      "container_id": "f8b05c853cd7259fba2a386868384b9d01bfb15e35fc36475905eef5d585cda2",
+      "container_name": "pcrdsb_mediamicroservices-text-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.32"
+      }
+    },
+    "user-service": {
+      "container_id": "ea3015b19255af82eefa3a3c523b8a74df2f0fbf4f53fe1f51823801a823bc1d",
+      "container_name": "pcrdsb_mediamicroservices-user-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.27"
+      }
+    },
+    "review-storage-service": {
+      "container_id": "faf615d328cfaba517df76224797568b2b4ded0465bd31b0c46d05726ff8d916",
+      "container_name": "pcrdsb_mediamicroservices-review-storage-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.26"
+      }
+    },
+    "plot-service": {
+      "container_id": "0bc21db9a07e21281a47694bc1ee18acc81ff6dc6c3501dcf29d2d13051f299e",
+      "container_name": "pcrdsb_mediamicroservices-plot-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.28"
+      }
+    },
+    "compose-review-service": {
+      "container_id": "00de11cc4ef12a050295fac1c147fd6fb68cd591b721ecbbbf4760aeb0cff595",
+      "container_name": "pcrdsb_mediamicroservices-compose-review-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.21"
+      }
+    },
+    "movie-info-service": {
+      "container_id": "9a225a8ac06109b6437533ffe68327681b84a06cfb5c43feb49ca50492ff4348",
+      "container_name": "pcrdsb_mediamicroservices-movie-info-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.34"
+      }
+    },
+    "cast-info-service": {
+      "container_id": "d72a809d91f2dee97f2a1185ed2af777a8252fd3042c6a03918b90177120b1f7",
+      "container_name": "pcrdsb_mediamicroservices-cast-info-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.33"
+      }
+    },
+    "dns-media": {
+      "container_id": "1f00e1d011f0eabb69e4ef78960a0d570362bc0f15626b3fb98381d3a8452a7e",
+      "container_name": "pcrdsb_mediamicroservices-dns-media-1",
+      "include": false,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.5"
+      }
+    },
+    "movie-id-service": {
+      "container_id": "5043bf87c1d313a7862460667b70b4d876ae13d1caafdc9ba402f12cdc150d2a",
+      "container_name": "pcrdsb_mediamicroservices-movie-id-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_mediamicroservices_default": "172.19.0.29"
+      }
+    }
+  },
+  "ip_to_service": {
+    "172.19.0.17": "review-storage-memcached",
+    "172.19.0.2": "cast-info-memcached",
+    "172.19.0.18": "movie-review-redis",
+    "172.19.0.22": "user-review-redis",
+    "172.19.0.25": "rating-redis",
+    "172.19.0.14": "movie-id-memcached",
+    "172.19.0.8": "plot-memcached",
+    "172.19.0.7": "user-memcached",
+    "172.19.0.15": "compose-review-memcached",
+    "172.19.0.10": "movie-info-memcached",
+    "172.19.0.13": "user-mongodb",
+    "172.19.0.20": "movie-info-mongodb",
+    "172.19.0.4": "movie-review-mongodb",
+    "172.19.0.16": "plot-mongodb",
+    "172.19.0.12": "review-storage-mongodb",
+    "172.19.0.6": "cast-info-mongodb",
+    "172.19.0.3": "movie-id-mongodb",
+    "172.19.0.11": "user-review-mongodb",
+    "172.19.0.24": "unique-id-service",
+    "172.19.0.23": "rating-service",
+    "172.19.0.31": "user-review-service",
+    "172.19.0.30": "nginx-web-server",
+    "172.19.0.19": "movie-review-service",
+    "172.19.0.32": "text-service",
+    "172.19.0.27": "user-service",
+    "172.19.0.26": "review-storage-service",
+    "172.19.0.28": "plot-service",
+    "172.19.0.21": "compose-review-service",
+    "172.19.0.34": "movie-info-service",
+    "172.19.0.33": "cast-info-service",
+    "172.19.0.29": "movie-id-service"
+  }
+}

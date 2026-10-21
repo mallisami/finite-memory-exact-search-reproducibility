@@ -1,0 +1,28 @@
+{
+ "scale": {
+  "nodes": 32,
+  "hosts": 8,
+  "destroy_size": 12,
+  "slice_pops": 8,
+  "budget": "25% of case keep-all peak"
+ },
+ "mean_nrw": {
+  "learned": 0.853049863267748,
+  "empirical_compatible": 0.7827998369872996
+ },
+ "learned_minus_empirical": {
+  "mean": 0.07025002628044824,
+  "ci95": [
+   0.037572637016389875,
+   0.1012433700029307
+  ],
+  "positive_cases": 35,
+  "negative_cases": 9,
+  "ties": 1
+ },
+ "keepall_structure": {
+  "mean_keepall_reused_pops": 684.8,
+  "mean_peak_bytes": 4723651.066666666,
+  "mean_peak_active_checkpoints": 57.37777777777778
+ }
+}

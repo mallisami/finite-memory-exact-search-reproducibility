@@ -1,0 +1,24 @@
+{
+  "primary_A": {
+    "graph_timed": 3000,
+    "mdkp_timed": 1000,
+    "graph_capacity": 120,
+    "graph_profiling": 100,
+    "mdkp_profiling": 50,
+    "total_excluding_development": 4270
+  },
+  "primary_B": {
+    "graph_timed": 3000,
+    "mdkp_timed": 1000,
+    "graph_capacity": 120,
+    "graph_profiling": 100,
+    "mdkp_profiling": 50,
+    "total_excluding_development": 4270
+  },
+  "primary_total_excluding_development": 8540,
+  "secondary_robustness": {
+    "graph": 300,
+    "mdkp": 300,
+    "total": 600
+  }
+}

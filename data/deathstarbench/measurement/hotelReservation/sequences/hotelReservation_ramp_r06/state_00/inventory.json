@@ -1,0 +1,224 @@
+{
+  "project": "pcrdsb_hotelreservation",
+  "network_name": "pcrdsb_hotelreservation_default",
+  "network_id": "3c39beb042209dd16ce0c96a2a7a69efa3e93818977170346ad9644757a735e2",
+  "bridge_interface": "br-3c39beb04220",
+  "services": {
+    "reservation": {
+      "container_id": "139fe922555122fd77108a36fdd2637ac23f819483a24829a04749bf83da3c06",
+      "container_name": "pcrdsb_hotelreservation-reservation-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.25"
+      }
+    },
+    "rate": {
+      "container_id": "f00777f87a831160ae42946165596814947ee373f4d4efc399b50c9854b4435c",
+      "container_name": "pcrdsb_hotelreservation-rate-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.23"
+      }
+    },
+    "recommendation": {
+      "container_id": "8139cca166ef405c5e7a9054dc976bf51527c39db71c7b9069e9c576da7740db",
+      "container_name": "pcrdsb_hotelreservation-recommendation-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.18"
+      }
+    },
+    "profile": {
+      "container_id": "fb5f7e4d118d2d86956e245c2e9e93fbadcff30a2af384567f0990eda4eac369",
+      "container_name": "pcrdsb_hotelreservation-profile-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.24"
+      }
+    },
+    "user": {
+      "container_id": "e2a0e64f3d14fb3bcaa6d3adf3e6088fa35b64e9cbb4070d5b2e52163168d0ce",
+      "container_name": "pcrdsb_hotelreservation-user-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.20"
+      }
+    },
+    "attractions": {
+      "container_id": "caf8dd1c3b217f9880e12f4c280c957a43ce531ba1925e6fa0d4ccfb50d7898b",
+      "container_name": "hotel_reserv_attractions",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.22"
+      }
+    },
+    "geo": {
+      "container_id": "c4883b03a34acd2b30dcc329c46f0da1c54fe208d125b90dd69062633e3877da",
+      "container_name": "pcrdsb_hotelreservation-geo-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.16"
+      }
+    },
+    "search": {
+      "container_id": "627ba6a0f7b916ed6352b82eb9463989da0efaf67ce11c9c080741d6194492d3",
+      "container_name": "pcrdsb_hotelreservation-search-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.19"
+      }
+    },
+    "frontend": {
+      "container_id": "3882578e7b49aa4cb78e30673aafd3f16bafb3e4c3dafaadd3e1e262ab5b0e08",
+      "container_name": "pcrdsb_hotelreservation-frontend-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.17"
+      }
+    },
+    "review": {
+      "container_id": "8267090176e1fd1325a5522489311b3881cdf771ed7c7a561f9cfc495b418d37",
+      "container_name": "hotel_reserv_review",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.21"
+      }
+    },
+    "memcached-rate": {
+      "container_id": "748649e080b53d0bc1091e60369b998ecb717f35cfb00e82c75db075b07ccfec",
+      "container_name": "pcrdsb_hotelreservation-memcached-rate-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.4"
+      }
+    },
+    "memcached-reserve": {
+      "container_id": "9f89c5fbf36c2c60ab47d53bda521698f743a4b5e126039fb0c130506f90d092",
+      "container_name": "pcrdsb_hotelreservation-memcached-reserve-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.13"
+      }
+    },
+    "memcached-profile": {
+      "container_id": "5ee6d696f0d211e98b23a6575c243404872e1aae1e72ac60753a76ae8f6135bd",
+      "container_name": "pcrdsb_hotelreservation-memcached-profile-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.10"
+      }
+    },
+    "memcached-review": {
+      "container_id": "bc102316981ad6ed23042a5502e94447ce840b86eb5e7fc09d717d2dbc3857fa",
+      "container_name": "hotel_reserv_review_mmc",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.2"
+      }
+    },
+    "mongodb-recommendation": {
+      "container_id": "83b60e79e8750e3f7d201d25b1e968f2bc33ce18327983a8da286042aa85f2ed",
+      "container_name": "pcrdsb_hotelreservation-mongodb-recommendation-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.5"
+      }
+    },
+    "mongodb-reservation": {
+      "container_id": "e4a6597d73da2714e7cbccef2c0d1884d29ffe238b4a6802f78b595b22a8cfca",
+      "container_name": "pcrdsb_hotelreservation-mongodb-reservation-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.15"
+      }
+    },
+    "mongodb-user": {
+      "container_id": "dbf0daaeb04d306fb9bae7171a61f6c9b818c099c83c65a8c97c4c4260cc5886",
+      "container_name": "pcrdsb_hotelreservation-mongodb-user-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.9"
+      }
+    },
+    "mongodb-attractions": {
+      "container_id": "af02ff9824c78e33e2637b1e8c21e253690640a6aed5dc155a855f5c50ec5f90",
+      "container_name": "pcrdsb_hotelreservation-mongodb-attractions-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.12"
+      }
+    },
+    "mongodb-review": {
+      "container_id": "ca7b92a3a482dfa82951c8336816e7d217220afc0ee95a3029a046b97f810704",
+      "container_name": "pcrdsb_hotelreservation-mongodb-review-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.8"
+      }
+    },
+    "mongodb-profile": {
+      "container_id": "bd52eca5129c44d8722b05bb11a73ae81535ef821ee0b2f0f8cece53edbbf26e",
+      "container_name": "pcrdsb_hotelreservation-mongodb-profile-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.14"
+      }
+    },
+    "jaeger": {
+      "container_id": "874552f931b385c6fb2c8cc364dd8ba181992b073a8f29b318cfb4b3ba9eaf27",
+      "container_name": "pcrdsb_hotelreservation-jaeger-1",
+      "include": false,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.6"
+      }
+    },
+    "mongodb-rate": {
+      "container_id": "fc5a2356f5eb104248d626e48f77c016fc4684281c9cfa6692c0b487c2c1668f",
+      "container_name": "pcrdsb_hotelreservation-mongodb-rate-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.11"
+      }
+    },
+    "mongodb-geo": {
+      "container_id": "687f72371f310ae2a6865570b28a4148cc7ea4d10c69cfed270c4d05a36d2b5d",
+      "container_name": "pcrdsb_hotelreservation-mongodb-geo-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.3"
+      }
+    },
+    "consul": {
+      "container_id": "fc628c7b2deb1b23f2f75382cdb172e3cfb0b397496f46efa117ccdbe3217f14",
+      "container_name": "pcrdsb_hotelreservation-consul-1",
+      "include": false,
+      "networks": {
+        "pcrdsb_hotelreservation_default": "172.19.0.7"
+      }
+    }
+  },
+  "ip_to_service": {
+    "172.19.0.25": "reservation",
+    "172.19.0.23": "rate",
+    "172.19.0.18": "recommendation",
+    "172.19.0.24": "profile",
+    "172.19.0.20": "user",
+    "172.19.0.22": "attractions",
+    "172.19.0.16": "geo",
+    "172.19.0.19": "search",
+    "172.19.0.17": "frontend",
+    "172.19.0.21": "review",
+    "172.19.0.4": "memcached-rate",
+    "172.19.0.13": "memcached-reserve",
+    "172.19.0.10": "memcached-profile",
+    "172.19.0.2": "memcached-review",
+    "172.19.0.5": "mongodb-recommendation",
+    "172.19.0.15": "mongodb-reservation",
+    "172.19.0.9": "mongodb-user",
+    "172.19.0.12": "mongodb-attractions",
+    "172.19.0.8": "mongodb-review",
+    "172.19.0.14": "mongodb-profile",
+    "172.19.0.11": "mongodb-rate",
+    "172.19.0.3": "mongodb-geo"
+  }
+}

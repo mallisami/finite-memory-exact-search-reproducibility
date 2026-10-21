@@ -1,0 +1,130 @@
+script_want_response
+Running 30s test @ http://127.0.0.1:8080
+  2 threads and 64 connections
+
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+reconnect_socket
+  Thread calibration: mean lat.: 289.218ms, rate sampling interval: 2025ms
+  Thread calibration: mean lat.: 118.630ms, rate sampling interval: 292ms
+
+-----------------------------------------------------------------------
+Test Results @ http://127.0.0.1:8080 
+  Thread Stats   Avg      Stdev     99%   +/- Stdev
+    Latency   127.33ms  775.60ms   5.37s    97.00%
+    Req/Sec     9.94      5.26    23.00     74.03%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    4.41ms
+ 75.000%    4.85ms
+ 90.000%    6.19ms
+ 99.000%    5.37s 
+ 99.900%    6.99s 
+ 99.990%    6.99s 
+ 99.999%    6.99s 
+100.000%    6.99s 
+
+  Detailed Percentile spectrum:
+       Value   Percentile   TotalCount 1/(1-Percentile)
+
+       3.437     0.000000            1         1.00
+       3.829     0.100000           46         1.11
+       3.975     0.200000           88         1.25
+       4.135     0.300000          133         1.43
+       4.279     0.400000          174         1.67
+       4.407     0.500000          217         2.00
+       4.475     0.550000          241         2.22
+       4.547     0.600000          261         2.50
+       4.619     0.650000          283         2.86
+       4.723     0.700000          304         3.33
+       4.847     0.750000          326         4.00
+       4.979     0.775000          338         4.44
+       5.095     0.800000          348         5.00
+       5.375     0.825000          360         5.71
+       5.599     0.850000          369         6.67
+       5.931     0.875000          380         8.00
+       6.095     0.887500          386         8.89
+       6.187     0.900000          391        10.00
+       6.467     0.912500          397        11.43
+       6.667     0.925000          402        13.33
+       7.135     0.937500          407        16.00
+       7.267     0.943750          410        17.78
+       7.471     0.950000          413        20.00
+       7.999     0.956250          416        22.86
+       8.735     0.962500          418        26.67
+     468.223     0.968750          421        32.00
+    1022.975     0.971875          422        35.56
+    1590.271     0.975000          424        40.00
+    1675.263     0.978125          425        45.71
+    2928.639     0.981250          426        53.33
+    4857.855     0.984375          428        64.00
+    4857.855     0.985938          428        71.11
+    5345.279     0.987500          429        80.00
+    5365.759     0.989062          430        91.43
+    5365.759     0.990625          430       106.67
+    5435.391     0.992188          431       128.00
+    5435.391     0.992969          431       142.22
+    6189.055     0.993750          432       160.00
+    6189.055     0.994531          432       182.86
+    6189.055     0.995313          432       213.33
+    6459.391     0.996094          433       256.00
+    6459.391     0.996484          433       284.44
+    6459.391     0.996875          433       320.00
+    6459.391     0.997266          433       365.71
+    6459.391     0.997656          433       426.67
+    6991.871     0.998047          434       512.00
+    6991.871     1.000000          434          inf
+#[Mean    =      127.327, StdDeviation   =      775.598]
+#[Max     =     6987.776, Total count    =          434]
+#[Buckets =           27, SubBuckets     =         2048]
+-----------------------------------------------------------------------
+  707 requests in 30.03s, 134.98KB read
+  Socket errors: connect 0, read 0, write 0, timeout 19
+  Non-2xx or 3xx responses: 47
+Requests/sec:     23.54  
+Transfer/sec:      4.49KB
+
+PCR_NON2XX=0

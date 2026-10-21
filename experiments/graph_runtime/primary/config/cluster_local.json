@@ -1,0 +1,50 @@
+{
+  "local_only": true,
+  "redact_before_public_release": false,
+  "ssh_user": "REPLACE_LOCALLY",
+  "private_cidr": "REPLACE_LOCALLY",
+  "nodes": [
+    {
+      "alias": "rack-b",
+      "vm_id": "VM1",
+      "private_ip": "REPLACE_LOCALLY",
+      "public_ip": "REPLACE_LOCALLY",
+      "reported_os": "Ubuntu 22.04.5 LTS",
+      "reported_kernel": "6.8.0-1068-azure",
+      "k3s_role": "worker"
+    },
+    {
+      "alias": "rack-a",
+      "vm_id": "VM2",
+      "private_ip": "REPLACE_LOCALLY",
+      "public_ip": "REPLACE_LOCALLY",
+      "reported_os": "Ubuntu 24.04.4 LTS",
+      "reported_kernel": "7.0.0-1014-azure",
+      "k3s_role": "server/coordinator"
+    },
+    {
+      "alias": "rack-c",
+      "vm_id": "VM3",
+      "private_ip": "REPLACE_LOCALLY",
+      "public_ip": "REPLACE_LOCALLY",
+      "reported_os": "Ubuntu 24.04.5 LTS",
+      "reported_kernel": "6.8.0-1068-azure",
+      "k3s_role": "worker"
+    }
+  ],
+  "expected_hardware_classes": {
+    "primary": {
+      "count": 2,
+      "vcpu": 4,
+      "ram_gib_nominal": 16
+    },
+    "control_secondary": {
+      "count": 1,
+      "vcpu": 2,
+      "ram_gib_nominal": 8
+    }
+  },
+  "role_rule": "auto-detect; two 4-vCPU/~16-GiB nodes primary; one 2-vCPU/~8-GiB node control/secondary",
+  "primary_timing_burstable_vm_policy": "NO-GO if Azure VM size is B-series/burstable; resize or use non-burstable primary resources before confirmatory timing.",
+  "template_only": true
+}

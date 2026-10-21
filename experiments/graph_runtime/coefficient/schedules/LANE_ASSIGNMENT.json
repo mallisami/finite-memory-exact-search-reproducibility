@@ -1,0 +1,211 @@
+{
+  "A": {
+    "host": "A",
+    "lanes": {
+      "0": {
+        "cases": [
+          "graph_generic_09_1255361310",
+          "graph_generic_12_330853896",
+          "graph_generic_13_176157369",
+          "graph_generic_15_169542182",
+          "graph_microservice_08_1547743",
+          "graph_microservice_11_1153809104",
+          "graph_microservice_13_494173965",
+          "graph_workflow_00_719763992",
+          "graph_workflow_04_434587373",
+          "graph_workflow_14_539592625"
+        ],
+        "cpu": 0,
+        "family_counts": {
+          "Generic": 4,
+          "Microservice": 3,
+          "Workflow": 3
+        },
+        "historical_total_wall_ms": 9189651.575755,
+        "rows": 1000,
+        "schedule": "03_SCHEDULES/phaseA_7core/vma_lane0_cpu0.csv"
+      },
+      "1": {
+        "cases": [
+          "graph_generic_08_226666571",
+          "graph_generic_18_1422640656",
+          "graph_generic_19_1529483117",
+          "graph_microservice_03_43204723",
+          "graph_microservice_06_1380015163",
+          "graph_microservice_12_1098023913",
+          "graph_workflow_01_586978729",
+          "graph_workflow_05_1841797631",
+          "graph_workflow_10_846533553",
+          "graph_workflow_15_138003417"
+        ],
+        "cpu": 1,
+        "family_counts": {
+          "Generic": 3,
+          "Microservice": 3,
+          "Workflow": 4
+        },
+        "historical_total_wall_ms": 9189432.543525001,
+        "rows": 1000,
+        "schedule": "03_SCHEDULES/phaseA_7core/vma_lane1_cpu1.csv"
+      },
+      "2": {
+        "cases": [
+          "graph_generic_07_1871974869",
+          "graph_generic_16_363739265",
+          "graph_generic_17_394430932",
+          "graph_microservice_02_1883614865",
+          "graph_microservice_04_7279227",
+          "graph_microservice_14_546226908",
+          "graph_microservice_19_1847677971",
+          "graph_workflow_08_1713693711",
+          "graph_workflow_11_434160706",
+          "graph_workflow_19_1304524859"
+        ],
+        "cpu": 2,
+        "family_counts": {
+          "Generic": 3,
+          "Microservice": 4,
+          "Workflow": 3
+        },
+        "historical_total_wall_ms": 9291205.857096998,
+        "rows": 1000,
+        "schedule": "03_SCHEDULES/phaseA_7core/vma_lane2_cpu2.csv"
+      }
+    },
+    "phaseB": {
+      "cases": 30,
+      "cpu": 0,
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "rows": 3000,
+      "schedule": "03_SCHEDULES/phaseB_isolated_full/vma_full_isolated_cpu0.csv"
+    }
+  },
+  "B": {
+    "host": "B",
+    "lanes": {
+      "0": {
+        "cases": [
+          "graph_generic_03_520743467",
+          "graph_generic_05_1427231973",
+          "graph_generic_10_233740779",
+          "graph_generic_11_1989132726",
+          "graph_microservice_05_233789654",
+          "graph_microservice_09_1967514711",
+          "graph_microservice_18_388090566",
+          "graph_workflow_06_201668144",
+          "graph_workflow_09_944106496",
+          "graph_workflow_12_1400718246"
+        ],
+        "cpu": 0,
+        "family_counts": {
+          "Generic": 4,
+          "Microservice": 3,
+          "Workflow": 3
+        },
+        "historical_total_wall_ms": 10769589.261193,
+        "rows": 1000,
+        "schedule": "03_SCHEDULES/phaseA_7core/vmb_lane0_cpu0.csv"
+      },
+      "1": {
+        "cases": [
+          "graph_generic_02_748805212",
+          "graph_generic_04_965720096",
+          "graph_generic_14_1878975188",
+          "graph_microservice_07_1424670660",
+          "graph_microservice_15_828228658",
+          "graph_microservice_16_28822737",
+          "graph_workflow_07_1723634248",
+          "graph_workflow_13_140353595",
+          "graph_workflow_17_1726278998",
+          "graph_workflow_18_1663521668"
+        ],
+        "cpu": 1,
+        "family_counts": {
+          "Generic": 3,
+          "Microservice": 3,
+          "Workflow": 4
+        },
+        "historical_total_wall_ms": 10777228.958005998,
+        "rows": 1000,
+        "schedule": "03_SCHEDULES/phaseA_7core/vmb_lane1_cpu1.csv"
+      },
+      "2": {
+        "cases": [
+          "graph_generic_00_944761089",
+          "graph_generic_01_525681799",
+          "graph_generic_06_1053032042",
+          "graph_microservice_00_870381235",
+          "graph_microservice_01_1127909213",
+          "graph_microservice_10_1716409365",
+          "graph_microservice_17_181578612",
+          "graph_workflow_02_1416852081",
+          "graph_workflow_03_1188547648",
+          "graph_workflow_16_66168644"
+        ],
+        "cpu": 2,
+        "family_counts": {
+          "Generic": 3,
+          "Microservice": 4,
+          "Workflow": 3
+        },
+        "historical_total_wall_ms": 10979174.991143,
+        "rows": 1000,
+        "schedule": "03_SCHEDULES/phaseA_7core/vmb_lane2_cpu2.csv"
+      }
+    },
+    "phaseB": {
+      "cases": 30,
+      "cpu": 0,
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "rows": 3000,
+      "schedule": "03_SCHEDULES/phaseB_isolated_full/vmb_full_isolated_cpu0.csv"
+    }
+  },
+  "C": {
+    "host": "C",
+    "lanes": {
+      "0": {
+        "cases": [
+          "graph_generic_03_520743467",
+          "graph_generic_04_965720096",
+          "graph_generic_06_1053032042",
+          "graph_generic_09_1255361310",
+          "graph_generic_12_330853896",
+          "graph_generic_13_176157369",
+          "graph_generic_18_1422640656",
+          "graph_microservice_03_43204723",
+          "graph_microservice_05_233789654",
+          "graph_microservice_12_1098023913",
+          "graph_microservice_14_546226908",
+          "graph_microservice_16_28822737",
+          "graph_microservice_18_388090566",
+          "graph_workflow_00_719763992",
+          "graph_workflow_01_586978729",
+          "graph_workflow_06_201668144",
+          "graph_workflow_08_1713693711",
+          "graph_workflow_09_944106496",
+          "graph_workflow_12_1400718246",
+          "graph_workflow_18_1663521668"
+        ],
+        "cpu": 0,
+        "family_counts": {
+          "Generic": 7,
+          "Microservice": 6,
+          "Workflow": 7
+        },
+        "rows": 500,
+        "schedule": "03_SCHEDULES/phaseA_7core/vmc_lane0_cpu0.csv"
+      }
+    }
+  }
+}

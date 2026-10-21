@@ -1,0 +1,10 @@
+n_nodes,n_hosts,destroy_size,cases,median_peak_active_checkpoints,max_peak_active_checkpoints,cases_peak_k_ge_4,median_mean_active_checkpoints,median_fraction_iterations_k_ge_2,median_fraction_iterations_k_ge_3,median_fraction_iterations_k_ge_4,median_trace_recurrence_events,median_useful_resumes,median_reused_prior_branch_pops,median_unfinished_return_fraction,median_invalidation_evictions,median_peak_bytes,median_max_checkpoint_size_bytes,median_max_checkpoint_fraction_of_peak,eligible
+24,6,5,9,3.0,11,4,0.23,0.045,0.015,0.0,87.0,2.0,16.0,0.05,7.0,29174.0,10698.0,0.3414684307945431,False
+24,6,8,9,43.0,67,9,16.955,0.93,0.875,0.83,86.0,43.0,472.0,0.84,99.0,1019667.0,25227.0,0.026750355994374357,True
+24,6,12,9,51.0,77,9,20.285,0.96,0.92,0.88,85.0,59.0,1024.0,1.0,115.0,2491477.0,69645.0,0.027009892234862443,True
+32,8,5,9,3.0,10,3,0.88,0.23,0.01,0.0,81.0,1.0,8.0,0.065,10.0,45139.0,16722.0,0.4137885199051818,False
+32,8,8,9,39.0,67,9,12.3,0.9,0.825,0.77,73.0,25.0,224.0,0.84,108.0,1409533.0,40476.0,0.028577550153135827,True
+32,8,12,9,52.0,109,9,20.145,0.945,0.895,0.85,71.0,47.0,728.0,1.0,132.0,4345070.0,101921.0,0.02495814621772448,True
+40,10,5,9,2.0,5,4,0.51,0.075,0.0,0.0,61.0,0.0,0.0,0.055,10.0,47873.0,24304.0,0.2683137374885266,False
+40,10,8,9,30.0,54,9,8.81,0.885,0.79,0.71,53.0,18.0,152.0,0.815,128.0,1662448.0,60948.0,0.038285081270311126,True
+40,10,12,9,64.0,111,9,22.5,0.93,0.87,0.815,46.0,28.0,272.0,1.0,140.0,8048845.0,140674.0,0.019372096244864946,True

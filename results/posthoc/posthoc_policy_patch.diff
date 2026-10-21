@@ -1,0 +1,23 @@
+--- /mnt/data/PCR_PAPER2_COR_REVIEWER_PRIORITIES_VERIFIED_2026-10-06/reviewer_analysis/paper2_online_pilot_original.py	2026-10-06 19:38:10.577398093 +0000
++++ /mnt/data/PCR_PAPER2_COR_REVIEWER_PRIORITIES_VERIFIED_2026-10-06/reviewer_analysis/paper2_online_pilot_posthoc.py	2026-10-06 19:38:10.578474806 +0000
+@@ -46,7 +46,7 @@
+ from .step_resumption import advance_anytime_repair_steps
+ 
+ 
+-P7PilotPolicyName = Literal["restart", "empirical_compatible", "learned", "keep_all"]
++P7PilotPolicyName = Literal["restart", "empirical_compatible", "learned", "keep_all", "work_only", "history_only"]
+ 
+ 
+ @dataclass(frozen=True)
+@@ -319,6 +319,11 @@
+                            objective_before: float, best_objective: float, temperature: float) -> float:
+         if self.name == "keep_all":
+             return 1.0
++        if self.name == "work_only":
++            return 1.0
++        if self.name == "history_only":
++            p_rec = _history_recurrence_probability(self.history, iteration, nodes, self.future_horizon)
++            return float(np.clip(p_rec, 1e-6, 1 - 1e-6))
+         if self.name == "empirical_compatible":
+             p_rec = _history_recurrence_probability(self.history, iteration, nodes, self.future_horizon)
+             stats = self.compat_stats.setdefault(nodes, CompatibilityStats())

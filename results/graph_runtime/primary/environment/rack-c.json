@@ -1,0 +1,18 @@
+﻿{
+  "implementation": "CPython",
+  "packages": {
+    "aiohttp": "3.13.3",
+    "joblib": "1.5.3",
+    "jsonschema": "4.26.0",
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "psutil": "7.2.2",
+    "pytest": "9.0.2",
+    "pyyaml": "6.0.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "python": "3.12.15"
+}

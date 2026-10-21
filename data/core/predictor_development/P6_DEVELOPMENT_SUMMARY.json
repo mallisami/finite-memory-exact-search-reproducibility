@@ -1,0 +1,37 @@
+{
+  "calibration_choice": "platt",
+  "development_cases": 45,
+  "development_rows": 675,
+  "final_oof_metrics": {
+    "auprc": 0.707708281337009,
+    "auroc": 0.8633938462234079,
+    "brier": 0.1263524758005458,
+    "log_loss": 0.37344848416161414
+  },
+  "oof_platt": {
+    "auprc": 0.707708281337009,
+    "auroc": 0.8633938462234079,
+    "brier": 0.1263524758005458,
+    "log_loss": 0.37344848416161414
+  },
+  "oof_uncalibrated": {
+    "auprc": 0.707708281337009,
+    "auroc": 0.8633938462234079,
+    "brier": 0.12733194684212643,
+    "log_loss": 0.37539992847055
+  },
+  "platt_coef": 0.8495279674819874,
+  "platt_intercept": -0.09202465333052184,
+  "selected_config": {
+    "C": 10.0
+  },
+  "selected_feature_family": "H+D",
+  "selected_mean_cv_metrics": {
+    "auprc": 0.7206315151434992,
+    "auroc": 0.8659055065176468,
+    "brier": 0.12733194684212645,
+    "log_loss": 0.37539992847055
+  },
+  "selected_model_family": "logistic",
+  "target_prevalence": 0.2637037037037037
+}

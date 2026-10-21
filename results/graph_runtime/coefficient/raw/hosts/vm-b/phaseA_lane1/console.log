@@ -1,0 +1,53 @@
+[vm-b-phaseA-lane1-cpu1] phase=phaseA_7core lane=1 cpu=1 schedule=1000 already_success=0 to_run=1000 scorer=coefficient_only_logistic_platt_v1
+[vm-b-phaseA-lane1-cpu1] 25/1000 elapsed=0.04h ETA=1.74h errors=0
+[vm-b-phaseA-lane1-cpu1] 50/1000 elapsed=0.12h ETA=2.22h errors=0
+[vm-b-phaseA-lane1-cpu1] 75/1000 elapsed=0.23h ETA=2.86h errors=0
+[vm-b-phaseA-lane1-cpu1] 100/1000 elapsed=0.42h ETA=3.82h errors=0
+[vm-b-phaseA-lane1-cpu1] 125/1000 elapsed=0.47h ETA=3.27h errors=0
+[vm-b-phaseA-lane1-cpu1] 150/1000 elapsed=0.54h ETA=3.05h errors=0
+[vm-b-phaseA-lane1-cpu1] 175/1000 elapsed=0.66h ETA=3.10h errors=0
+[vm-b-phaseA-lane1-cpu1] 200/1000 elapsed=0.87h ETA=3.47h errors=0
+[vm-b-phaseA-lane1-cpu1] 225/1000 elapsed=0.91h ETA=3.15h errors=0
+[vm-b-phaseA-lane1-cpu1] 250/1000 elapsed=0.99h ETA=2.96h errors=0
+[vm-b-phaseA-lane1-cpu1] 275/1000 elapsed=1.11h ETA=2.93h errors=0
+[vm-b-phaseA-lane1-cpu1] 300/1000 elapsed=1.33h ETA=3.10h errors=0
+[vm-b-phaseA-lane1-cpu1] 325/1000 elapsed=1.37h ETA=2.84h errors=0
+[vm-b-phaseA-lane1-cpu1] 350/1000 elapsed=1.43h ETA=2.65h errors=0
+[vm-b-phaseA-lane1-cpu1] 375/1000 elapsed=1.52h ETA=2.53h errors=0
+[vm-b-phaseA-lane1-cpu1] 400/1000 elapsed=1.66h ETA=2.48h errors=0
+[vm-b-phaseA-lane1-cpu1] 425/1000 elapsed=1.70h ETA=2.30h errors=0
+[vm-b-phaseA-lane1-cpu1] 450/1000 elapsed=1.77h ETA=2.16h errors=0
+[vm-b-phaseA-lane1-cpu1] 475/1000 elapsed=1.88h ETA=2.07h errors=0
+[vm-b-phaseA-lane1-cpu1] 500/1000 elapsed=2.05h ETA=2.05h errors=0
+[vm-b-phaseA-lane1-cpu1] 525/1000 elapsed=2.09h ETA=1.89h errors=0
+[vm-b-phaseA-lane1-cpu1] 550/1000 elapsed=2.16h ETA=1.76h errors=0
+[vm-b-phaseA-lane1-cpu1] 575/1000 elapsed=2.26h ETA=1.67h errors=0
+[vm-b-phaseA-lane1-cpu1] 600/1000 elapsed=2.39h ETA=1.59h errors=0
+[vm-b-phaseA-lane1-cpu1] 625/1000 elapsed=2.43h ETA=1.46h errors=0
+[vm-b-phaseA-lane1-cpu1] 650/1000 elapsed=2.50h ETA=1.34h errors=0
+[vm-b-phaseA-lane1-cpu1] 675/1000 elapsed=2.60h ETA=1.25h errors=0
+[vm-b-phaseA-lane1-cpu1] 700/1000 elapsed=2.76h ETA=1.18h errors=0
+[vm-b-phaseA-lane1-cpu1] 725/1000 elapsed=2.80h ETA=1.06h errors=0
+[vm-b-phaseA-lane1-cpu1] 750/1000 elapsed=2.87h ETA=0.96h errors=0
+[vm-b-phaseA-lane1-cpu1] 775/1000 elapsed=2.97h ETA=0.86h errors=0
+[vm-b-phaseA-lane1-cpu1] 800/1000 elapsed=3.14h ETA=0.79h errors=0
+[vm-b-phaseA-lane1-cpu1] 825/1000 elapsed=3.18h ETA=0.67h errors=0
+[vm-b-phaseA-lane1-cpu1] 850/1000 elapsed=3.24h ETA=0.57h errors=0
+[vm-b-phaseA-lane1-cpu1] 875/1000 elapsed=3.35h ETA=0.48h errors=0
+[vm-b-phaseA-lane1-cpu1] 900/1000 elapsed=3.51h ETA=0.39h errors=0
+[vm-b-phaseA-lane1-cpu1] 925/1000 elapsed=3.56h ETA=0.29h errors=0
+[vm-b-phaseA-lane1-cpu1] 950/1000 elapsed=3.63h ETA=0.19h errors=0
+[vm-b-phaseA-lane1-cpu1] 975/1000 elapsed=3.75h ETA=0.10h errors=0
+[vm-b-phaseA-lane1-cpu1] 1000/1000 elapsed=3.95h ETA=0.00h errors=0
+{
+  "phase": "phaseA_7core",
+  "physical_vm": "B",
+  "lane_id": "1",
+  "cpu_id": 1,
+  "concurrency_width": 3,
+  "schedule_rows": 1000,
+  "unique_success": 1000,
+  "expected_rows": 1000,
+  "errors_recorded": 0,
+  "complete": true
+}

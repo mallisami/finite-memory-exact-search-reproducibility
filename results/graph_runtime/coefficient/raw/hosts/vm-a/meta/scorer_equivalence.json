@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "heldout": {
+    "rows": 225,
+    "max_abs_fast_vs_pipeline": 3.3306690738754696e-16,
+    "max_abs_fast_vs_retained": 3.3306690738754696e-16
+  },
+  "development_campaign_pairs": [
+    {
+      "family": "generic",
+      "seed": 3301,
+      "level": "L1",
+      "iterations": 10,
+      "policy": "learned_pW",
+      "mismatches": []
+    },
+    {
+      "family": "generic",
+      "seed": 3301,
+      "level": "L1",
+      "iterations": 10,
+      "policy": "learned_pC",
+      "mismatches": []
+    }
+  ],
+  "note": "Timing fields intentionally excluded from equivalence."
+}

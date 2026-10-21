@@ -1,0 +1,155 @@
+{
+  "instrumented_cost_structure": {
+    "depth_bins": [
+      "0-9",
+      "10-19",
+      "20-29",
+      "30-39",
+      "40-49",
+      "50-59"
+    ],
+    "estimated_oracle_wall_saving_pct_approx": 2.5,
+    "ms_per_node": [
+      0.057,
+      0.043,
+      0.034,
+      0.023,
+      0.014,
+      0.006
+    ],
+    "provenance": "instrumented local re-execution and diagnostic analysis supplied with the final study record; not a new confirmatory timing campaign",
+    "representative_cap_hitting_resumes": 48,
+    "representative_direct_resumes": 59,
+    "representative_early_retiring_resumes": 11,
+    "representative_seed": 2122060784
+  },
+  "nodes_direct_vs_empirical": {
+    "ci95": [
+      0.9824223993196713,
+      1.0242591984890619
+    ],
+    "losses_a_higher": 16,
+    "n_cases": 90,
+    "ratio": 1.000827613620072,
+    "ties": 16,
+    "wilcoxon_p_two_sided": 3.085979758840023e-05,
+    "wins_a_lower": 58
+  },
+  "nodes_direct_vs_restart": {
+    "ci95": [
+      0.9109780570893731,
+      0.9877891510728796
+    ],
+    "losses_a_higher": 16,
+    "n_cases": 90,
+    "ratio": 0.9487581486725994,
+    "ties": 7,
+    "wilcoxon_p_two_sided": 6.460743275984265e-05,
+    "wins_a_lower": 67
+  },
+  "nodes_empirical_vs_restart": {
+    "ci95": [
+      0.9068235064304828,
+      0.989502083628106
+    ],
+    "losses_a_higher": 13,
+    "n_cases": 90,
+    "ratio": 0.9479735928157165,
+    "ties": 7,
+    "wilcoxon_p_two_sided": 1.3648025348602519e-05,
+    "wins_a_lower": 70
+  },
+  "per_vm_wall_direct_vs_empirical": {
+    "vm1_2vcpu_8gb": {
+      "losses_direct_slower": 15,
+      "n_cases": 30,
+      "ratio": 1.00991331439775,
+      "ties": 0,
+      "wins_direct_faster": 15
+    },
+    "vm2_4vcpu_16gb": {
+      "losses_direct_slower": 16,
+      "n_cases": 30,
+      "ratio": 1.0018823190547892,
+      "ties": 0,
+      "wins_direct_faster": 14
+    },
+    "vm3_4vcpu_16gb": {
+      "losses_direct_slower": 22,
+      "n_cases": 30,
+      "ratio": 1.0269378834694032,
+      "ties": 0,
+      "wins_direct_faster": 8
+    }
+  },
+  "pooled_150_node_sensitivity": {
+    "block_ratios": {
+      "heldout15": 0.9878786736563774,
+      "heldout45": 0.981546156903006,
+      "vm90": 1.000827613620072
+    },
+    "ci95": [
+      0.9806818050137044,
+      1.008770287435613
+    ],
+    "losses_direct_higher": 28,
+    "n_cases": 150,
+    "ratio": 0.993708824923829,
+    "ties": 31,
+    "wins_direct_lower": 91
+  },
+  "primary_wall_direct_vs_empirical": {
+    "ci95": [
+      0.9968276260530604,
+      1.0335675240258124
+    ],
+    "losses_a_higher": 53,
+    "n_cases": 90,
+    "ratio": 1.0128574537122987,
+    "ties": 0,
+    "wilcoxon_p_two_sided": 0.30582167402130955,
+    "wins_a_lower": 37
+  },
+  "r2_45_tail_sensitivity": {
+    "best_case_index": 12,
+    "best_case_nodes_saved": 15106,
+    "best_case_ratio": 0.660264483627204,
+    "best_case_share_total_net_saving": 0.4588699878493317,
+    "median_case_ratio": 0.9956438878301116,
+    "ratio_all": 0.981546156903006,
+    "ratio_drop_best_1": 0.9904309416049212,
+    "ratio_drop_best_3": 0.9933365899603193
+  },
+  "same_trajectory_diagnostic": {
+    "intercept_ms": -1.881925629278152,
+    "mean_direct_nodes": 38270.92,
+    "mean_direct_repair_ms": 1599.4696516197341,
+    "mean_direct_resumes": 25.98,
+    "mean_node_reduction_pct": 2.9101396213510378,
+    "mean_repair_reduction_pct": 0.11985851017506377,
+    "mean_restart_nodes": 39418.04,
+    "mean_restart_repair_ms": 1601.3890526803834,
+    "ms_per_resume": -1.7658202133320642,
+    "ms_per_saved_node": 0.04330613696238832,
+    "n_cases": 50
+  },
+  "secondary_wall_direct_vs_restart": {
+    "ci95": [
+      0.9736246174560641,
+      1.0369018680200002
+    ],
+    "losses_a_higher": 60,
+    "n_cases": 90,
+    "ratio": 1.004901796826556,
+    "ties": 0,
+    "wilcoxon_p_two_sided": 0.022404264123961556,
+    "wins_a_lower": 30
+  },
+  "solution_quality": {
+    "direct_better": 8,
+    "direct_worse": 4,
+    "max_abs_diff": 6.0,
+    "mean_direct_minus_empirical": -0.1111111111111111,
+    "same": 78
+  }
+}

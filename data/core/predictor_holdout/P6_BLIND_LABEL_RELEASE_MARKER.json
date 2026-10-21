@@ -1,0 +1,6 @@
+{
+  "label_sha256": "5556a2d18c928b23dbd629432223fb1eb40a117a98a848ad13c40f065625f397",
+  "preblind_manifest_sha256": "3c1a11d02ba48755c00d0868ecf1ec63929eae56876074491adfb985bc79eff3",
+  "released": true,
+  "rule": "No model/feature/hyperparameter/calibration changes may be made in response to these results."
+}

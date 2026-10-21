@@ -1,0 +1,267 @@
+{
+ "design": "fixed-trace, byte-capacitated (3068 B) retention replay over the retained 1,948 development candidates; post hoc diagnostic, not prespecified",
+ "total_realizable_saving_nodes": 8687.0,
+ "capture_fraction": {
+  "u_oracle": 1.0,
+  "u_deployed": 0.9530332681017613,
+  "u_empirical": 0.6561528721077472,
+  "u_invested": 0.6402670657304017,
+  "u_random": 0.7441118913318753
+ },
+ "deployed_over_oracle_capture_ratio": 0.9530332681017613,
+ "oracle_capture_fraction_is_budget_headroom": 1.0,
+ "random_reps": 10,
+ "random_seed": 20261017,
+ "per_case": [
+  {
+   "seed": 324685441,
+   "candidates": 100,
+   "realizable": 320.0,
+   "u_oracle": 320.0,
+   "u_deployed": 320.0,
+   "u_empirical": 320.0,
+   "u_invested": 320.0,
+   "u_random": 320.0
+  },
+  {
+   "seed": 336977325,
+   "candidates": 35,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 371050186,
+   "candidates": 126,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 533073186,
+   "candidates": 152,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 607718637,
+   "candidates": 72,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 892221501,
+   "candidates": 94,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 955164556,
+   "candidates": 94,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 1010319245,
+   "candidates": 56,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 1013064199,
+   "candidates": 96,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 1025243820,
+   "candidates": 15,
+   "realizable": 288.0,
+   "u_oracle": 288.0,
+   "u_deployed": 288.0,
+   "u_empirical": 288.0,
+   "u_invested": 288.0,
+   "u_random": 288.0
+  },
+  {
+   "seed": 1030129899,
+   "candidates": 9,
+   "realizable": 256.0,
+   "u_oracle": 256.0,
+   "u_deployed": 256.0,
+   "u_empirical": 256.0,
+   "u_invested": 256.0,
+   "u_random": 256.0
+  },
+  {
+   "seed": 1092812604,
+   "candidates": 94,
+   "realizable": 1976.0,
+   "u_oracle": 1976.0,
+   "u_deployed": 1976.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 839.8
+  },
+  {
+   "seed": 1139296587,
+   "candidates": 101,
+   "realizable": 663.0,
+   "u_oracle": 663.0,
+   "u_deployed": 255.0,
+   "u_empirical": 408.0,
+   "u_invested": 510.0,
+   "u_random": 311.1
+  },
+  {
+   "seed": 1152214406,
+   "candidates": 106,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 1206674847,
+   "candidates": 67,
+   "realizable": 1004.0,
+   "u_oracle": 1004.0,
+   "u_deployed": 1004.0,
+   "u_empirical": 1004.0,
+   "u_invested": 764.0,
+   "u_random": 860.0
+  },
+  {
+   "seed": 1292309488,
+   "candidates": 14,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 1326351268,
+   "candidates": 143,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 1395849506,
+   "candidates": 1,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 1531100211,
+   "candidates": 87,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 1745709811,
+   "candidates": 172,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 2000028921,
+   "candidates": 115,
+   "realizable": 240.0,
+   "u_oracle": 240.0,
+   "u_deployed": 240.0,
+   "u_empirical": 240.0,
+   "u_invested": 240.0,
+   "u_random": 240.0
+  },
+  {
+   "seed": 2026099840,
+   "candidates": 96,
+   "realizable": 1764.0,
+   "u_oracle": 1764.0,
+   "u_deployed": 1764.0,
+   "u_empirical": 1008.0,
+   "u_invested": 1008.0,
+   "u_random": 1419.6
+  },
+  {
+   "seed": 2080160717,
+   "candidates": 26,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 2082825684,
+   "candidates": 43,
+   "realizable": 0.0,
+   "u_oracle": 0.0,
+   "u_deployed": 0.0,
+   "u_empirical": 0.0,
+   "u_invested": 0.0,
+   "u_random": 0.0
+  },
+  {
+   "seed": 2084500735,
+   "candidates": 34,
+   "realizable": 2176.0,
+   "u_oracle": 2176.0,
+   "u_deployed": 2176.0,
+   "u_empirical": 2176.0,
+   "u_invested": 2176.0,
+   "u_random": 1929.6
+  }
+ ]
+}

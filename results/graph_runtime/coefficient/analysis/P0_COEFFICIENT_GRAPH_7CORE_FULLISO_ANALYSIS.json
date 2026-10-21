@@ -1,0 +1,417 @@
+{
+  "authoritative_endpoint": "Phase B full isolated L1-L4 coefficient-only learned-versus-empirical timing",
+  "caution": "Historical original-scorer ratios are descriptive context only; campaign-to-campaign changes are not treated as a causal scorer-effect estimate.",
+  "historical_original_sklearn_by_level_descriptive_reference": {
+    "L1": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.1711178861607878,
+          1.1787523709278938
+        ],
+        "learned_over_empirical_ratio": 1.1749145341503702,
+        "median_paired_ms": 693.2914125000004,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 17.491453415037018
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.1694776790805386,
+          1.1776194515443883
+        ],
+        "learned_over_empirical_ratio": 1.1734540531550903,
+        "median_paired_ms": 691.0926519999998,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 17.345405315509034
+      }
+    },
+    "L2": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.108856276188735,
+          1.1145742047603824
+        ],
+        "learned_over_empirical_ratio": 1.1117353656433135,
+        "median_paired_ms": 708.2723159999996,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 11.173536564331354
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.1083891123077834,
+          1.1144501378682679
+        ],
+        "learned_over_empirical_ratio": 1.111434056784998,
+        "median_paired_ms": 694.5475910000005,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 11.143405678499807
+      }
+    },
+    "L3": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.0646703781762326,
+          1.0702281953989967
+        ],
+        "learned_over_empirical_ratio": 1.0674548000367325,
+        "median_paired_ms": 713.1705970000003,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 6.745480003673254
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.0650878131536157,
+          1.0707865101617537
+        ],
+        "learned_over_empirical_ratio": 1.067870049496961,
+        "median_paired_ms": 702.7777490000008,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 6.787004949696107
+      }
+    },
+    "L4": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.037530164218002,
+          1.0422003427892317
+        ],
+        "learned_over_empirical_ratio": 1.0397916185017653,
+        "median_paired_ms": 702.3205590000007,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 3.979161850176527
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.035793305165538,
+          1.0398871678088029
+        ],
+        "learned_over_empirical_ratio": 1.0378004074729787,
+        "median_paired_ms": 672.9740564999993,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 3.7800407472978748
+      }
+    }
+  },
+  "historical_original_sklearn_overall_descriptive_reference": {
+    "learned_pC_vs_empirical_pC": {
+      "aggregation": "mean of four within-case level-specific log ratios",
+      "ci95_ratio": [
+        1.0948966542224627,
+        1.0997656777416467
+      ],
+      "learned_over_empirical_ratio": 1.0973012554652701,
+      "n_cases": 60,
+      "percent_learned_minus_empirical": 9.730125546527013,
+      "wilcoxon_p_raw": 1.6295557943119345e-11
+    },
+    "learned_pW_vs_empirical_pW": {
+      "aggregation": "mean of four within-case level-specific log ratios",
+      "ci95_ratio": [
+        1.0941148254689927,
+        1.0989904283596188
+      ],
+      "learned_over_empirical_ratio": 1.096466855528615,
+      "n_cases": 60,
+      "percent_learned_minus_empirical": 9.6466855528615,
+      "wilcoxon_p_raw": 1.6295557943119345e-11
+    }
+  },
+  "interpretation_rule": "Primary P0 inference comes only from full isolated Phase B. Ratio < 1 favors learned; > 1 favors empirical. CI spanning 1 is unresolved because no equivalence margin was prespecified. Per-level Phase-B effects are secondary; Phase A and VM-C are supporting/descriptive and are not pooled with Phase B.",
+  "phaseA_full_regime_7core_supporting": {
+    "L1": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.023423252960037,
+          1.0315093115403913
+        ],
+        "learned_over_empirical_ratio": 1.0276061429678567,
+        "median_paired_ms": 253.0994644999996,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 2.7606142967856684
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.0255945813239107,
+          1.0313133811136161
+        ],
+        "learned_over_empirical_ratio": 1.0283871761550436,
+        "median_paired_ms": 268.92660799999976,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 2.8387176155043603
+      }
+    },
+    "L2": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.0146955028434206,
+          1.0197925617406989
+        ],
+        "learned_over_empirical_ratio": 1.0172854755119294,
+        "median_paired_ms": 260.8180570000013,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 1.7285475511929382
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.0130090491563237,
+          1.017433498437881
+        ],
+        "learned_over_empirical_ratio": 1.0151917162003967,
+        "median_paired_ms": 232.9016804999983,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 1.519171620039672
+      }
+    },
+    "L3": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.006760370173598,
+          1.0123508753140973
+        ],
+        "learned_over_empirical_ratio": 1.0095455610698496,
+        "median_paired_ms": 237.1569729999992,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 0.9545561069849606
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.0054166018053907,
+          1.009563913861426
+        ],
+        "learned_over_empirical_ratio": 1.0074523683014063,
+        "median_paired_ms": 178.9057039999998,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 0.7452368301406276
+      }
+    },
+    "L4": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.0037177202495793,
+          1.0398443623415745
+        ],
+        "learned_over_empirical_ratio": 1.0169175128684522,
+        "median_paired_ms": 160.03395649999948,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 1.6917512868452222
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.0013167511757448,
+          1.0056819213156734
+        ],
+        "learned_over_empirical_ratio": 1.003492319350554,
+        "median_paired_ms": 128.7845010000001,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 0.3492319350554052
+      }
+    }
+  },
+  "phaseB_coefficient_scoring_diagnostics": [
+    {
+      "level": "L1",
+      "mean_model_scoring_ms": 9.19717633999729,
+      "mean_wall_ms": 5680.10815604,
+      "median_model_scoring_ms": 9.035388386109844,
+      "policy": "learned_pC"
+    },
+    {
+      "level": "L1",
+      "mean_model_scoring_ms": 9.118966894069066,
+      "mean_wall_ms": 5638.558304483333,
+      "median_model_scoring_ms": 9.005312895169482,
+      "policy": "learned_pW"
+    },
+    {
+      "level": "L2",
+      "mean_model_scoring_ms": 9.134491648098143,
+      "mean_wall_ms": 8701.932372570001,
+      "median_model_scoring_ms": 9.060371434316039,
+      "policy": "learned_pC"
+    },
+    {
+      "level": "L2",
+      "mean_model_scoring_ms": 9.108333096955903,
+      "mean_wall_ms": 8673.547233686666,
+      "median_model_scoring_ms": 9.060896467417479,
+      "policy": "learned_pW"
+    },
+    {
+      "level": "L3",
+      "mean_model_scoring_ms": 8.999033518290767,
+      "mean_wall_ms": 14008.715049620001,
+      "median_model_scoring_ms": 9.044600476045161,
+      "policy": "learned_pC"
+    },
+    {
+      "level": "L3",
+      "mean_model_scoring_ms": 8.966145075391978,
+      "mean_wall_ms": 13975.076350586667,
+      "median_model_scoring_ms": 9.0379407920409,
+      "policy": "learned_pW"
+    },
+    {
+      "level": "L4",
+      "mean_model_scoring_ms": 8.26981060905382,
+      "mean_wall_ms": 23124.083794483333,
+      "median_model_scoring_ms": 8.873643324477598,
+      "policy": "learned_pC"
+    },
+    {
+      "level": "L4",
+      "mean_model_scoring_ms": 8.26392364843438,
+      "mean_wall_ms": 23079.361767583334,
+      "median_model_scoring_ms": 8.847441553371027,
+      "policy": "learned_pW"
+    }
+  ],
+  "phaseB_primary_overall_L1_L4": {
+    "P0_A_overall_L1_L4_learned_pW_vs_empirical_pW": {
+      "aggregation": "mean of four within-case level-specific log ratios",
+      "ci95_ratio": [
+        1.0126759337374185,
+        1.0169290123493209
+      ],
+      "holm_adjusted_p": 6.588314111064e-11,
+      "learned_over_empirical_ratio": 1.0148015717129129,
+      "n_cases": 60,
+      "percent_learned_minus_empirical": 1.4801571712912853,
+      "wilcoxon_p_raw": 6.588314111064e-11
+    },
+    "P0_B_overall_L1_L4_learned_pC_vs_empirical_pC": {
+      "aggregation": "mean of four within-case level-specific log ratios",
+      "ci95_ratio": [
+        1.0160515026727925,
+        1.0210829134353983
+      ],
+      "holm_adjusted_p": 5.393309528999981e-11,
+      "learned_over_empirical_ratio": 1.0185397506061484,
+      "n_cases": 60,
+      "percent_learned_minus_empirical": 1.853975060614843,
+      "wilcoxon_p_raw": 2.6966547644999904e-11
+    }
+  },
+  "phaseB_repeat_cv_summary": {
+    "50%": 0.015343668596795004,
+    "90%": 0.03921506850642288,
+    "95%": 0.049496247637275975,
+    "count": 1200.0,
+    "max": 0.09797920896135591,
+    "mean": 0.019738072378626348,
+    "min": 0.0007639472401110285,
+    "std": 0.01477167803816964
+  },
+  "phaseB_secondary_by_level": {
+    "L1": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.0317802696151792,
+          1.039607533611297
+        ],
+        "learned_over_empirical_ratio": 1.0356622733550513,
+        "median_paired_ms": 180.32176949999985,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 3.5662273355051344
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.0238168282757742,
+          1.0316522620222977
+        ],
+        "learned_over_empirical_ratio": 1.0277828918449157,
+        "median_paired_ms": 146.62862700000005,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 2.778289184491567
+      }
+    },
+    "L2": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.016265100999335,
+          1.0255252351713455
+        ],
+        "learned_over_empirical_ratio": 1.0208375257376978,
+        "median_paired_ms": 165.7869644999996,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 2.0837525737697815
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.016286186256618,
+          1.0238836266883546
+        ],
+        "learned_over_empirical_ratio": 1.0201087807052167,
+        "median_paired_ms": 161.3502665000001,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 2.010878070521671
+      }
+    },
+    "L3": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.0066181757588157,
+          1.015609174612061
+        ],
+        "learned_over_empirical_ratio": 1.0110020689630481,
+        "median_paired_ms": 146.4180824999994,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 1.1002068963048117
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          1.0047599181013525,
+          1.0117662531830098
+        ],
+        "learned_over_empirical_ratio": 1.0082065768896127,
+        "median_paired_ms": 118.41641799999888,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 0.8206576889612682
+      }
+    },
+    "L4": {
+      "learned_pC_vs_empirical_pC": {
+        "ci95_ratio": [
+          1.0036784502986174,
+          1.01029552202361
+        ],
+        "learned_over_empirical_ratio": 1.006897134179975,
+        "median_paired_ms": 174.12631799999963,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 0.6897134179975062
+      },
+      "learned_pW_vs_empirical_pW": {
+        "ci95_ratio": [
+          0.9997680600084076,
+          1.0068902633776042
+        ],
+        "learned_over_empirical_ratio": 1.0032914897980116,
+        "median_paired_ms": 87.51166799999919,
+        "n_cases": 60,
+        "percent_learned_minus_empirical": 0.32914897980116375
+      }
+    }
+  },
+  "scientific_equivalence_to_original_campaign": true,
+  "status": "PASS",
+  "vmC_descriptive_L4": {
+    "learned_pC_vs_empirical_pC": {
+      "ci95_ratio": [
+        1.0015958503525342,
+        1.0163704870748416
+      ],
+      "learned_over_empirical_ratio": 1.00867223875497,
+      "median_paired_ms": 87.89659000000029,
+      "n_cases": 20,
+      "percent_learned_minus_empirical": 0.867223875497003
+    },
+    "learned_pW_vs_empirical_pW": {
+      "ci95_ratio": [
+        0.9973055110398299,
+        1.0106046421457793
+      ],
+      "learned_over_empirical_ratio": 1.0038097884965176,
+      "median_paired_ms": 33.73924950000037,
+      "n_cases": 20,
+      "percent_learned_minus_empirical": 0.38097884965175854
+    }
+  }
+}

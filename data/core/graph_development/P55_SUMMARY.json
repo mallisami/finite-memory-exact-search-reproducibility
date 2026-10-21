@@ -1,0 +1,83 @@
+{
+  "design_status": "P5.5_hardened_preML_corpus",
+  "domains": [
+    "generic",
+    "workflow",
+    "microservice"
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606,
+    707,
+    808,
+    909,
+    1010,
+    1111,
+    1212,
+    1313,
+    1414,
+    1515
+  ],
+  "independent_base_cases": 45,
+  "decision_iterations": [
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160
+  ],
+  "natural_event_rows": 675,
+  "events_by_domain": {
+    "generic": 225,
+    "workflow": 225,
+    "microservice": 225
+  },
+  "events_by_split": {
+    "train": 405,
+    "validation": 135,
+    "test": 135
+  },
+  "target_prevalence_by_split": {
+    "train": {
+      "rows": 405,
+      "future_recurrence_fraction": 0.36790123456790125,
+      "future_compatible_recurrence_fraction": 0.26666666666666666,
+      "incompatible_only_fraction": 0.10123456790123457
+    },
+    "validation": {
+      "rows": 135,
+      "future_recurrence_fraction": 0.362962962962963,
+      "future_compatible_recurrence_fraction": 0.22962962962962963,
+      "incompatible_only_fraction": 0.13333333333333333
+    },
+    "test": {
+      "rows": 135,
+      "future_recurrence_fraction": 0.4148148148148148,
+      "future_compatible_recurrence_fraction": 0.28888888888888886,
+      "incompatible_only_fraction": 0.1259259259259259
+    }
+  },
+  "overall_future_recurrence_fraction": 0.3762962962962963,
+  "overall_future_compatible_recurrence_fraction": 0.2637037037037037,
+  "conditional_compatibility_given_recurrence": 0.7007874015748031,
+  "mean_natural_recurrence_events_per_case": 85.46666666666667,
+  "median_natural_recurrence_events_per_case": 87,
+  "allowed_feature_count": 28,
+  "forbidden_future_field_count": 14,
+  "split_rule": "grouped by (domain, instance_seed); 9/3/3 seeds per domain train/validation/test",
+  "interpretation_boundary": "P5.5 is a natural-controller dataset/protocol hardening gate. It is not an ML superiority result and not an end-to-end budgeted persistence performance result."
+}

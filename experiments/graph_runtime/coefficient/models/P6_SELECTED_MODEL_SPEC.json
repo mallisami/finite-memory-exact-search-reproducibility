@@ -1,0 +1,26 @@
+{
+  "calibration": "platt",
+  "config": {
+    "C": 10.0
+  },
+  "feature_family": "H+D",
+  "features": [
+    "history_count_same_context",
+    "iterations_since_last_context",
+    "recent_same_context_count_20",
+    "current_destroy_op_index",
+    "current_repair_arm_index",
+    "current_objective_before",
+    "current_best_objective",
+    "current_temperature",
+    "recent_accept_rate_10",
+    "recent_accept_rate_20",
+    "recent_moved_node_overlap_10",
+    "recent_adjacent_move_count_10",
+    "recent_moved_node_overlap_20",
+    "recent_adjacent_move_count_20",
+    "objective_improvement_last_10",
+    "objective_improvement_last_20"
+  ],
+  "model_family": "logistic"
+}

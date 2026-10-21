@@ -1,0 +1,982 @@
+time="2026-09-30T23:23:45Z" level=warning msg="/home/azureuser/mcb/EXPERIMENTS/PCR_DSB_DYNAMIC_AZURE_2026-09-30_RUN/PCR_DSB_DYNAMIC_AZURE_2026-09-30/PCR_DSB_DYNAMIC_AZURE_2026-09-30/external/DeathStarBench/hotelReservation/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ mongodb-review Pulling 
+ mongodb-rate Pulling 
+ 375e79fd6899 Pulling fs layer 
+ fdf863a75173 Pulling fs layer 
+ 52f2f0e9fc97 Pulling fs layer 
+ 29b78d0bebe1 Pulling fs layer 
+ 167faf9ecefb Pulling fs layer 
+ ab0b7abd7e7e Pulling fs layer 
+ 98c09603133e Pulling fs layer 
+ 29b78d0bebe1 Downloading [===>                                               ]  16.78MB/264.1MB
+ 375e79fd6899 Downloading [==================================================>]  5.003kB/5.003kB
+ 29b78d0bebe1 Downloading [=======>                                           ]   38.8MB/264.1MB
+ 375e79fd6899 Download complete 
+ 167faf9ecefb Download complete 
+ 29b78d0bebe1 Downloading [============>                                      ]  67.11MB/264.1MB
+ ab0b7abd7e7e Download complete 
+ 29b78d0bebe1 Downloading [==================>                                ]  96.47MB/264.1MB
+ ab0b7abd7e7e Extracting 1 s
+ 52f2f0e9fc97 Downloading [==================================================>]  3.095MB/3.095MB
+ 29b78d0bebe1 Downloading [=======================>                           ]  123.7MB/264.1MB
+ fdf863a75173 Download complete 
+ 98c09603133e Download complete 
+ ab0b7abd7e7e Extracting 1 s
+ 52f2f0e9fc97 Download complete 
+ 29b78d0bebe1 Downloading [============================>                      ]  149.9MB/264.1MB
+ ab0b7abd7e7e Pull complete 
+ 29b78d0bebe1 Downloading [=================================>                 ]  175.1MB/264.1MB
+ 375e79fd6899 Pulling fs layer 
+ 52f2f0e9fc97 Pulling fs layer 
+ 167faf9ecefb Pulling fs layer 
+ 98c09603133e Pulling fs layer 
+ 29b78d0bebe1 Pulling fs layer 
+ fdf863a75173 Pulling fs layer 
+ 375e79fd6899 Download complete 
+ 52f2f0e9fc97 Download complete 
+ 167faf9ecefb Download complete 
+ 98c09603133e Download complete 
+ 29b78d0bebe1 Downloading [=====================================>             ]  199.2MB/264.1MB
+ 29b78d0bebe1 Downloading [=====================================>             ]  200.3MB/264.1MB
+ fdf863a75173 Download complete 
+ 52f2f0e9fc97 Extracting 1 s
+ 52f2f0e9fc97 Extracting 1 s
+ 29b78d0bebe1 Downloading [=========================================>         ]  217.1MB/264.1MB
+ 37b9cd523f37 Downloading [==================================================>]  26.77kB/26.77kB
+ 37b9cd523f37 Downloading [==================================================>]  26.77kB/26.77kB
+ 29b78d0bebe1 Downloading [=========================================>         ]  217.1MB/264.1MB
+ 52f2f0e9fc97 Extracting 1 s
+ 52f2f0e9fc97 Extracting 1 s
+ 37b9cd523f37 Download complete 
+ 29b78d0bebe1 Downloading [============================================>      ]    237MB/264.1MB
+ 37b9cd523f37 Download complete 
+ 29b78d0bebe1 Downloading [============================================>      ]    237MB/264.1MB
+ 52f2f0e9fc97 Pull complete 
+ 52f2f0e9fc97 Pull complete 
+ 29b78d0bebe1 Downloading [================================================>  ]  257.9MB/264.1MB
+ 29b78d0bebe1 Downloading [=================================================> ]    259MB/264.1MB
+ 167faf9ecefb Extracting 1 s
+ 167faf9ecefb Extracting 1 s
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ b8159bc13252 Download complete 
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ b8159bc13252 Download complete 
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 167faf9ecefb Pull complete 
+ 29b78d0bebe1 Downloading [==================================================>]  264.1MB/264.1MB
+ 167faf9ecefb Pull complete 
+ 29b78d0bebe1 Download complete 
+ 29b78d0bebe1 Download complete 
+ fdf863a75173 Pull complete 
+ fdf863a75173 Pull complete 
+ 98c09603133e Pull complete 
+ 98c09603133e Pull complete 
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 1 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 2 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 3 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Extracting 4 s
+ 29b78d0bebe1 Pull complete 
+ 29b78d0bebe1 Pull complete 
+ 375e79fd6899 Pull complete 
+ 375e79fd6899 Pull complete 
+ mongodb-review Pulled 
+ mongodb-rate Pulled 
+ mongodb-user Pulling 
+ mongodb-geo Pulling 
+ mongodb-user Pulled 
+ mongodb-geo Pulled 
+ consul Pulling 
+ mongodb-profile Pulling 
+ mongodb-profile Pulled 
+ mongodb-attractions Pulling 
+ bd9ddc54bea9 Pulling fs layer 
+ 50f7e8ea019a Pulling fs layer 
+ 8c0932e9cda4 Pulling fs layer 
+ f98470dd7d77 Pulling fs layer 
+ 95b2fa551f98 Pulling fs layer 
+ b18a4233bf86 Pulling fs layer 
+ 2ef71e95b9b3 Pulling fs layer 
+ ce1823a6e16d Pulling fs layer 
+ 8c0932e9cda4 Download complete 
+ 2ef71e95b9b3 Download complete 
+ bd9ddc54bea9 Download complete 
+ 50f7e8ea019a Download complete 
+ 95b2fa551f98 Downloading [====>                                              ]  6.291MB/73.91MB
+ b18a4233bf86 Downloading [==================>                                ]  5.243MB/13.87MB
+ ce1823a6e16d Download complete 
+ f98470dd7d77 Download complete 
+ f98470dd7d77 Extracting 1 s
+ 95b2fa551f98 Downloading [==================>                                ]  27.26MB/73.91MB
+ f98470dd7d77 Extracting 1 s
+ 95b2fa551f98 Downloading [====================================>              ]  54.53MB/73.91MB
+ b18a4233bf86 Download complete 
+ 50f7e8ea019a Pull complete 
+ f98470dd7d77 Pull complete 
+ 95b2fa551f98 Downloading [==================================================>]  73.91MB/73.91MB
+ b18a4233bf86 Extracting 1 s
+ 95b2fa551f98 Downloading [==================================================>]  73.91MB/73.91MB
+ b18a4233bf86 Extracting 1 s
+ 95b2fa551f98 Downloading [==================================================>]  73.91MB/73.91MB
+ b18a4233bf86 Extracting 1 s
+ 95b2fa551f98 Downloading [==================================================>]  73.91MB/73.91MB
+ b18a4233bf86 Extracting 1 s
+ 95b2fa551f98 Downloading [==================================================>]  73.91MB/73.91MB
+ b18a4233bf86 Extracting 1 s
+ 95b2fa551f98 Downloading [==================================================>]  73.91MB/73.91MB
+ b18a4233bf86 Extracting 1 s
+ 95b2fa551f98 Downloading [==================================================>]  73.91MB/73.91MB
+ b18a4233bf86 Extracting 1 s
+ 95b2fa551f98 Download complete 
+ b18a4233bf86 Pull complete 
+ 2ef71e95b9b3 Pull complete 
+ 95b2fa551f98 Extracting 1 s
+ 95b2fa551f98 Extracting 1 s
+ 95b2fa551f98 Extracting 1 s
+ 95b2fa551f98 Extracting 1 s
+ 95b2fa551f98 Extracting 1 s
+ 95b2fa551f98 Extracting 1 s
+ 95b2fa551f98 Pull complete 
+ ce1823a6e16d Extracting 1 s
+ ce1823a6e16d Pull complete 
+ mongodb-attractions Pulled 
+ mongodb-recommendation Pulling 
+ 8c0932e9cda4 Pull complete 
+ bd9ddc54bea9 Pull complete 
+ consul Pulled 
+ mongodb-reservation Pulling 
+ mongodb-recommendation Pulled 
+ mongodb-reservation Pulled 
+time="2026-09-30T23:24:07Z" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+#0 building with "default" instance using docker driver
+
+#1 [review internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 415B done
+#1 WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 1)
+#1 DONE 0.1s
+
+#2 [rate internal] load build definition from Dockerfile
+#2 transferring dockerfile: 415B done
+#2 WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 1)
+#2 DONE 0.2s
+
+#3 [rate internal] load metadata for docker.io/library/golang:1.21
+#3 DONE 2.0s
+
+#4 [review internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.1s
+
+#5 [review internal] load build context
+#5 DONE 0.0s
+
+#6 [rate internal] load .dockerignore
+#6 transferring context: 2B done
+#6 DONE 0.2s
+
+#7 [rate internal] load build context
+#7 DONE 0.0s
+
+#8 [rate  1/14] FROM docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb
+#8 resolve docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb 0.0s done
+#8 resolve docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb 0.0s done
+#8 ...
+
+#5 [review internal] load build context
+#5 transferring context: 21.67MB 0.4s done
+#5 DONE 0.6s
+
+#8 [rate  1/14] FROM docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb
+#8 ...
+
+#7 [rate internal] load build context
+#7 transferring context: 21.67MB 0.4s done
+#7 DONE 0.7s
+
+#8 [rate  1/14] FROM docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb
+#8 sha256:532d43a0bc41875119c835fd75616e87d5df2a3714ddea3a0b5a68c7c5982649 0B / 126B 0.2s
+#8 sha256:532d43a0bc41875119c835fd75616e87d5df2a3714ddea3a0b5a68c7c5982649 126B / 126B 0.3s done
+#8 sha256:54bf7053e2d96c2c7f4637ad7580bd64345b3c9fabb163e1fdb8894aea8a9af0 0B / 67.01MB 0.2s
+#8 sha256:1f46bd02dde39f0741d70614fc607bf03c1a0cd60d52e7dd06c44f8fb9358709 0B / 92.23MB 0.2s
+#8 sha256:532d43a0bc41875119c835fd75616e87d5df2a3714ddea3a0b5a68c7c5982649 126B / 126B 0.3s done
+#8 sha256:6ed93aa58a52c9abc1ee472f1ac74b73d3adcccc2c30744498fd5f14f3f5d22c 0B / 64.14MB 0.2s
+#8 sha256:3cbbe86a28c2f6b3c3e0e8c6dcfba369e1ea656cf8daf69be789e0fe2105982b 0B / 24.05MB 0.2s
+#8 sha256:54bf7053e2d96c2c7f4637ad7580bd64345b3c9fabb163e1fdb8894aea8a9af0 11.53MB / 67.01MB 0.5s
+#8 sha256:54bf7053e2d96c2c7f4637ad7580bd64345b3c9fabb163e1fdb8894aea8a9af0 58.72MB / 67.01MB 0.6s
+#8 sha256:3cbbe86a28c2f6b3c3e0e8c6dcfba369e1ea656cf8daf69be789e0fe2105982b 4.19MB / 24.05MB 0.5s
+#8 sha256:54bf7053e2d96c2c7f4637ad7580bd64345b3c9fabb163e1fdb8894aea8a9af0 67.01MB / 67.01MB 0.8s
+#8 sha256:1f46bd02dde39f0741d70614fc607bf03c1a0cd60d52e7dd06c44f8fb9358709 26.21MB / 92.23MB 0.8s
+#8 sha256:6ed93aa58a52c9abc1ee472f1ac74b73d3adcccc2c30744498fd5f14f3f5d22c 5.24MB / 64.14MB 0.6s
+#8 sha256:3cbbe86a28c2f6b3c3e0e8c6dcfba369e1ea656cf8daf69be789e0fe2105982b 24.05MB / 24.05MB 0.6s
+#8 sha256:1f46bd02dde39f0741d70614fc607bf03c1a0cd60d52e7dd06c44f8fb9358709 57.67MB / 92.23MB 0.9s
+#8 sha256:6ed93aa58a52c9abc1ee472f1ac74b73d3adcccc2c30744498fd5f14f3f5d22c 31.46MB / 64.14MB 0.8s
+#8 sha256:1f46bd02dde39f0741d70614fc607bf03c1a0cd60d52e7dd06c44f8fb9358709 82.84MB / 92.23MB 1.1s
+#8 sha256:6ed93aa58a52c9abc1ee472f1ac74b73d3adcccc2c30744498fd5f14f3f5d22c 64.14MB / 64.14MB 0.9s
+#8 sha256:1f46bd02dde39f0741d70614fc607bf03c1a0cd60d52e7dd06c44f8fb9358709 92.23MB / 92.23MB 1.4s
+#8 sha256:3cbbe86a28c2f6b3c3e0e8c6dcfba369e1ea656cf8daf69be789e0fe2105982b 24.05MB / 24.05MB 2.2s done
+#8 sha256:54bf7053e2d96c2c7f4637ad7580bd64345b3c9fabb163e1fdb8894aea8a9af0 67.01MB / 67.01MB 2.5s done
+#8 sha256:1f46bd02dde39f0741d70614fc607bf03c1a0cd60d52e7dd06c44f8fb9358709 92.23MB / 92.23MB 2.5s done
+#8 sha256:6ed93aa58a52c9abc1ee472f1ac74b73d3adcccc2c30744498fd5f14f3f5d22c 64.14MB / 64.14MB 2.4s done
+#8 sha256:3cbbe86a28c2f6b3c3e0e8c6dcfba369e1ea656cf8daf69be789e0fe2105982b 24.05MB / 24.05MB 2.2s done
+#8 sha256:903681d87777d28dc56866a07a2774c3fd5bf65fd734b24c9d0ecd9a13c9f636 0B / 49.55MB 0.2s
+#8 sha256:903681d87777d28dc56866a07a2774c3fd5bf65fd734b24c9d0ecd9a13c9f636 24.12MB / 49.55MB 0.3s
+#8 sha256:903681d87777d28dc56866a07a2774c3fd5bf65fd734b24c9d0ecd9a13c9f636 49.55MB / 49.55MB 0.5s
+#8 sha256:903681d87777d28dc56866a07a2774c3fd5bf65fd734b24c9d0ecd9a13c9f636 49.55MB / 49.55MB 0.8s done
+#8 extracting sha256:903681d87777d28dc56866a07a2774c3fd5bf65fd734b24c9d0ecd9a13c9f636
+#8 extracting sha256:903681d87777d28dc56866a07a2774c3fd5bf65fd734b24c9d0ecd9a13c9f636 1.1s done
+#8 extracting sha256:903681d87777d28dc56866a07a2774c3fd5bf65fd734b24c9d0ecd9a13c9f636 1.1s done
+#8 extracting sha256:3cbbe86a28c2f6b3c3e0e8c6dcfba369e1ea656cf8daf69be789e0fe2105982b
+#8 extracting sha256:3cbbe86a28c2f6b3c3e0e8c6dcfba369e1ea656cf8daf69be789e0fe2105982b 0.4s done
+#8 extracting sha256:3cbbe86a28c2f6b3c3e0e8c6dcfba369e1ea656cf8daf69be789e0fe2105982b 0.4s done
+#8 extracting sha256:6ed93aa58a52c9abc1ee472f1ac74b73d3adcccc2c30744498fd5f14f3f5d22c
+#8 extracting sha256:6ed93aa58a52c9abc1ee472f1ac74b73d3adcccc2c30744498fd5f14f3f5d22c 1.4s done
+#8 extracting sha256:6ed93aa58a52c9abc1ee472f1ac74b73d3adcccc2c30744498fd5f14f3f5d22c 1.4s done
+#8 extracting sha256:1f46bd02dde39f0741d70614fc607bf03c1a0cd60d52e7dd06c44f8fb9358709
+#8 extracting sha256:1f46bd02dde39f0741d70614fc607bf03c1a0cd60d52e7dd06c44f8fb9358709 2.0s done
+#8 extracting sha256:1f46bd02dde39f0741d70614fc607bf03c1a0cd60d52e7dd06c44f8fb9358709 2.0s done
+#8 extracting sha256:54bf7053e2d96c2c7f4637ad7580bd64345b3c9fabb163e1fdb8894aea8a9af0
+#8 extracting sha256:54bf7053e2d96c2c7f4637ad7580bd64345b3c9fabb163e1fdb8894aea8a9af0 3.3s done
+#8 extracting sha256:54bf7053e2d96c2c7f4637ad7580bd64345b3c9fabb163e1fdb8894aea8a9af0 3.3s done
+#8 extracting sha256:532d43a0bc41875119c835fd75616e87d5df2a3714ddea3a0b5a68c7c5982649
+#8 extracting sha256:532d43a0bc41875119c835fd75616e87d5df2a3714ddea3a0b5a68c7c5982649 0.7s done
+#8 extracting sha256:532d43a0bc41875119c835fd75616e87d5df2a3714ddea3a0b5a68c7c5982649 0.7s done
+#8 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+#8 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 1.2s done
+#8 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 1.2s done
+#8 DONE 14.2s
+
+#9 [review  2/14] WORKDIR /workspace
+#9 DONE 12.0s
+
+#10 [review  3/14] COPY go.sum go.sum
+#10 DONE 0.2s
+
+#11 [review  4/14] COPY go.mod go.mod
+#11 DONE 0.2s
+
+#12 [review  5/14] COPY vendor/ vendor/
+#12 DONE 0.8s
+
+#13 [rate  6/14] COPY cmd/ cmd/
+#13 DONE 0.3s
+
+#14 [review  7/14] COPY dialer/ dialer/
+#14 DONE 0.2s
+
+#15 [rate  8/14] COPY registry/ registry/
+#15 DONE 0.2s
+
+#16 [review  9/14] COPY services/ services/
+#16 DONE 0.2s
+
+#17 [rate 10/14] COPY tls/ tls/
+#17 DONE 0.2s
+
+#18 [review 11/14] COPY tracing/ tracing/
+#18 DONE 0.3s
+
+#19 [review 12/14] COPY tune/ tune/
+#19 DONE 0.2s
+
+#20 [review 13/14] COPY config.json config.json
+#20 DONE 0.2s
+
+#21 [review 14/14] RUN CGO_ENABLED=0 GOOS=linux GO111MODULE=on go install -ldflags="-s -w" -mod=vendor ./cmd/...
+#21 DONE 26.3s
+
+#22 [rate] exporting to image
+#22 exporting layers
+#22 ...
+
+#23 [review] exporting to image
+#23 exporting layers 13.9s done
+#23 exporting manifest sha256:6046c57ca85aa751bbae8e8dfb1155eb63d5a5ddd97985775de5440d6851ee88 0.1s done
+#23 exporting config sha256:4b22e433915e8add42ac1f0ab73f23f22c59a84177d3e21e45f849c30e3061e5
+#23 ...
+
+#22 [rate] exporting to image
+#22 exporting layers 13.9s done
+#22 exporting manifest sha256:0870843225fc8a9f7fde722228d8e97db2c81e98ba379a353d81c8270405ea19 0.1s done
+#22 exporting config sha256:7c76be1553e6f093245ad628da98ac6eeea97488752a61998368cb1bc9ba4f59
+#22 exporting config sha256:7c76be1553e6f093245ad628da98ac6eeea97488752a61998368cb1bc9ba4f59 0.1s done
+#22 exporting attestation manifest sha256:c9ab685271308a0d9e89ae0b3a75d46cc30a74c0fcb253955b50ba5d018969a6
+#22 exporting attestation manifest sha256:c9ab685271308a0d9e89ae0b3a75d46cc30a74c0fcb253955b50ba5d018969a6 0.2s done
+#22 exporting manifest list sha256:674e95a19e42315e4b329ca2b4b6daae7d36201e62355c91c88af64f3c2587d2 0.1s done
+#22 naming to docker.io/deathstarbench/hotel-reservation:latest 0.0s done
+#22 unpacking to docker.io/deathstarbench/hotel-reservation:latest
+#22 unpacking to docker.io/deathstarbench/hotel-reservation:latest 3.4s done
+#22 DONE 17.9s
+
+#23 [review] exporting to image
+#23 exporting config sha256:4b22e433915e8add42ac1f0ab73f23f22c59a84177d3e21e45f849c30e3061e5 0.1s done
+#23 exporting attestation manifest sha256:250a4877b1c71cd323ced6822141cca0ebb14fefaf0f046cde1bb8d3e8ac7ace 0.2s done
+#23 exporting manifest list sha256:040d9fa9333288686096d5d71a345069679774f122d5bb343e7e24e5a9085db9 0.1s done
+#23 naming to docker.io/library/hotel_reserv_review_single_node:latest 0.0s done
+#23 unpacking to docker.io/library/hotel_reserv_review_single_node:latest 3.5s done
+#23 DONE 18.0s
+
+#24 [rate] resolving provenance for metadata file
+#24 DONE 0.0s
+
+#25 [review] resolving provenance for metadata file
+#25 DONE 0.0s
+
+#26 [recommendation internal] load build definition from Dockerfile
+#26 transferring dockerfile: 415B done
+#26 DONE 0.1s
+
+#27 [attractions internal] load build definition from Dockerfile
+#27 transferring dockerfile: 415B done
+#27 WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 1)
+#27 DONE 0.1s
+
+#3 [attractions internal] load metadata for docker.io/library/golang:1.21
+#3 DONE 2.8s
+
+#28 [attractions internal] load .dockerignore
+#28 transferring context: 2B done
+#28 DONE 0.0s
+
+#29 [recommendation internal] load .dockerignore
+#29 transferring context: 2B done
+#29 DONE 0.0s
+
+#30 [attractions internal] load build context
+#30 DONE 0.0s
+
+#31 [recommendation internal] load build context
+#31 DONE 0.0s
+
+#8 [recommendation  1/14] FROM docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb
+#8 resolve docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb 0.1s done
+#8 resolve docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb 0.1s done
+#8 DONE 14.3s
+
+#31 [recommendation internal] load build context
+#31 transferring context: 141.12kB 0.1s done
+#31 DONE 0.1s
+
+#30 [attractions internal] load build context
+#30 transferring context: 141.12kB 0.1s done
+#30 DONE 0.1s
+
+#32 [recommendation  7/14] COPY dialer/ dialer/
+#32 CACHED
+
+#9 [recommendation  2/14] WORKDIR /workspace
+#9 CACHED
+
+#33 [recommendation 13/14] COPY config.json config.json
+#33 CACHED
+
+#34 [recommendation  3/14] COPY go.sum go.sum
+#34 CACHED
+
+#35 [recommendation 10/14] COPY tls/ tls/
+#35 CACHED
+
+#36 [recommendation 11/14] COPY tracing/ tracing/
+#36 CACHED
+
+#37 [recommendation 12/14] COPY tune/ tune/
+#37 CACHED
+
+#38 [recommendation  5/14] COPY vendor/ vendor/
+#38 CACHED
+
+#39 [recommendation  6/14] COPY cmd/ cmd/
+#39 CACHED
+
+#40 [recommendation  4/14] COPY go.mod go.mod
+#40 CACHED
+
+#41 [recommendation  9/14] COPY services/ services/
+#41 CACHED
+
+#42 [recommendation  8/14] COPY registry/ registry/
+#42 CACHED
+
+#43 [attractions 14/14] RUN CGO_ENABLED=0 GOOS=linux GO111MODULE=on go install -ldflags="-s -w" -mod=vendor ./cmd/...
+#43 CACHED
+
+#44 [recommendation] exporting to image
+#44 exporting layers done
+#44 exporting manifest sha256:a470d3df3ec04254e594d99903bb128964407c9dbc58f25388b261ea5f469fa3 0.1s done
+#44 exporting config sha256:1947f6677680284c5ea3ed30de844815d55699c2d3de4fac1938a2da4257fc4b
+#44 exporting config sha256:1947f6677680284c5ea3ed30de844815d55699c2d3de4fac1938a2da4257fc4b 0.1s done
+#44 exporting attestation manifest sha256:31297ff091ec5096cf37eda92eba073732e72132984551432dda91a58998ff63
+#44 exporting attestation manifest sha256:31297ff091ec5096cf37eda92eba073732e72132984551432dda91a58998ff63 0.2s done
+#44 exporting manifest list sha256:a9777a73e2e56ccc5c6bdb989918a9e75206adcc27bc642846bdcd962da1ca97
+#44 ...
+
+#45 [attractions] exporting to image
+#45 exporting layers done
+#45 exporting manifest sha256:df40d1fcafd79bc38facdd64e15acb88fd656d3ca740228e1035d6636ed5ef48 0.1s done
+#45 exporting config sha256:8fd03fa4481c9ae82cf7836d0db26ebf54b8c3fecf53d3412276f0294a756fa1 0.1s done
+#45 exporting attestation manifest sha256:b1107f0087c2120acb749416b388b9c9206bb8c246d25141d440aa2535ac803a 0.2s done
+#45 exporting manifest list sha256:e06e22bb69c36459f1ecb01f2489032a357a356f8518152e70926f43d16265aa 0.1s done
+#45 naming to docker.io/library/hotel_reserv_attractions_single_node:latest 0.1s done
+#45 unpacking to docker.io/library/hotel_reserv_attractions_single_node:latest 0.0s done
+#45 DONE 0.7s
+
+#44 [recommendation] exporting to image
+#44 exporting manifest list sha256:a9777a73e2e56ccc5c6bdb989918a9e75206adcc27bc642846bdcd962da1ca97 0.2s done
+#44 naming to docker.io/deathstarbench/hotel-reservation:latest done
+#44 unpacking to docker.io/deathstarbench/hotel-reservation:latest 0.0s done
+#44 DONE 0.7s
+
+#46 [attractions] resolving provenance for metadata file
+#46 DONE 0.2s
+
+#47 [recommendation] resolving provenance for metadata file
+#47 DONE 0.0s
+
+#48 [geo internal] load build definition from Dockerfile
+#48 transferring dockerfile: 415B done
+#48 WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 1)
+#48 DONE 0.0s
+
+#49 [frontend internal] load build definition from Dockerfile
+#49 transferring dockerfile: 415B done
+#49 DONE 0.1s
+
+#3 [geo internal] load metadata for docker.io/library/golang:1.21
+#3 DONE 3.1s
+
+#50 [geo internal] load .dockerignore
+#50 transferring context: 2B done
+#50 DONE 0.0s
+
+#51 [frontend internal] load .dockerignore
+#51 transferring context: 2B done
+#51 DONE 0.0s
+
+#52 [geo internal] load build context
+#52 DONE 0.0s
+
+#53 [frontend internal] load build context
+#53 DONE 0.0s
+
+#8 [frontend  1/14] FROM docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb
+#8 resolve docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb 0.1s done
+#8 resolve docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb 0.1s done
+#8 DONE 14.4s
+
+#53 [frontend internal] load build context
+#53 transferring context: 141.12kB 0.1s done
+#53 DONE 0.1s
+
+#52 [geo internal] load build context
+#52 transferring context: 141.12kB 0.1s done
+#52 DONE 0.1s
+
+#54 [frontend  8/14] COPY registry/ registry/
+#54 CACHED
+
+#55 [frontend  3/14] COPY go.sum go.sum
+#55 CACHED
+
+#56 [frontend 10/14] COPY tls/ tls/
+#56 CACHED
+
+#57 [frontend 11/14] COPY tracing/ tracing/
+#57 CACHED
+
+#58 [frontend  9/14] COPY services/ services/
+#58 CACHED
+
+#59 [frontend 13/14] COPY config.json config.json
+#59 CACHED
+
+#60 [frontend  4/14] COPY go.mod go.mod
+#60 CACHED
+
+#61 [frontend  6/14] COPY cmd/ cmd/
+#61 CACHED
+
+#62 [frontend 12/14] COPY tune/ tune/
+#62 CACHED
+
+#63 [frontend  7/14] COPY dialer/ dialer/
+#63 CACHED
+
+#9 [frontend  2/14] WORKDIR /workspace
+#9 CACHED
+
+#64 [frontend  5/14] COPY vendor/ vendor/
+#64 CACHED
+
+#65 [geo 14/14] RUN CGO_ENABLED=0 GOOS=linux GO111MODULE=on go install -ldflags="-s -w" -mod=vendor ./cmd/...
+#65 CACHED
+
+#66 [frontend] exporting to image
+#66 exporting layers done
+#66 exporting manifest sha256:dfaee6a9f7c58a58087dd4d61468f1d89d3ed19fd3500c937f5903f5b273006e 0.1s done
+#66 exporting config sha256:02650ecbb6c9c423f90b2978da93b3d955f54b562b3c860ad00b2050cdffad14
+#66 exporting config sha256:02650ecbb6c9c423f90b2978da93b3d955f54b562b3c860ad00b2050cdffad14 0.1s done
+#66 exporting attestation manifest sha256:c41f38f4c9ced0345b3bd1afc2784824be24cf9996bd873869e57a94c3895a46
+#66 exporting attestation manifest sha256:c41f38f4c9ced0345b3bd1afc2784824be24cf9996bd873869e57a94c3895a46 0.2s done
+#66 exporting manifest list sha256:33fca5df8e4c9bea431bd80e92c93ab16c8f653787193aa53ccc888cbfacfee0 0.1s done
+#66 naming to docker.io/deathstarbench/hotel-reservation:latest done
+#66 unpacking to docker.io/deathstarbench/hotel-reservation:latest 0.1s done
+#66 DONE 0.6s
+
+#67 [geo] exporting to image
+#67 exporting layers done
+#67 exporting manifest sha256:fd7f34812b0d349454fc4b111e84f8a30ea962e9ae031cb2f6ff84b207677038 0.0s done
+#67 exporting config sha256:7287f869e2efc618c6d0680bb58ae786790ef573bc2e498b427f30565d33112d 0.1s done
+#67 exporting attestation manifest sha256:07c34ec20c7fc2e5e84afb33f0897cbf2019e8d9de3edb1550c63f654400422b 0.2s done
+#67 exporting manifest list sha256:9d66e6226cdf406a0f142b64401b7c9915af25bb0ddfc0d7845494f95b981bda 0.1s done
+#67 naming to docker.io/deathstarbench/hotel-reservation:latest done
+#67 unpacking to docker.io/deathstarbench/hotel-reservation:latest 0.0s done
+#67 DONE 0.5s
+
+#68 [geo] resolving provenance for metadata file
+#68 DONE 0.2s
+
+#69 [frontend] resolving provenance for metadata file
+#69 DONE 0.0s
+
+#70 [user internal] load build definition from Dockerfile
+#70 transferring dockerfile: 415B done
+#70 WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 1)
+#70 DONE 0.1s
+
+#71 [reservation internal] load build definition from Dockerfile
+#71 transferring dockerfile: 415B done
+#71 WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 1)
+#71 DONE 0.0s
+
+#3 [reservation internal] load metadata for docker.io/library/golang:1.21
+#3 DONE 3.5s
+
+#72 [reservation internal] load .dockerignore
+#72 transferring context: 2B done
+#72 DONE 0.0s
+
+#73 [user internal] load .dockerignore
+#73 transferring context: 2B done
+#73 DONE 0.0s
+
+#74 [reservation internal] load build context
+#74 DONE 0.0s
+
+#75 [user internal] load build context
+#75 DONE 0.0s
+
+#8 [user  1/14] FROM docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb
+#8 resolve docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb 0.1s done
+#8 resolve docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb 0.1s done
+#8 DONE 14.4s
+
+#74 [reservation internal] load build context
+#74 transferring context: 141.12kB 0.1s done
+#74 DONE 0.1s
+
+#75 [user internal] load build context
+#75 transferring context: 141.12kB 0.1s done
+#75 DONE 0.1s
+
+#76 [reservation  7/14] COPY dialer/ dialer/
+#76 CACHED
+
+#77 [reservation  5/14] COPY vendor/ vendor/
+#77 CACHED
+
+#78 [reservation 11/14] COPY tracing/ tracing/
+#78 CACHED
+
+#79 [reservation  8/14] COPY registry/ registry/
+#79 CACHED
+
+#80 [reservation 13/14] COPY config.json config.json
+#80 CACHED
+
+#81 [reservation 10/14] COPY tls/ tls/
+#81 CACHED
+
+#82 [reservation  4/14] COPY go.mod go.mod
+#82 CACHED
+
+#83 [reservation  9/14] COPY services/ services/
+#83 CACHED
+
+#84 [reservation  6/14] COPY cmd/ cmd/
+#84 CACHED
+
+#9 [reservation  2/14] WORKDIR /workspace
+#9 CACHED
+
+#85 [reservation  3/14] COPY go.sum go.sum
+#85 CACHED
+
+#86 [reservation 12/14] COPY tune/ tune/
+#86 CACHED
+
+#87 [user 14/14] RUN CGO_ENABLED=0 GOOS=linux GO111MODULE=on go install -ldflags="-s -w" -mod=vendor ./cmd/...
+#87 CACHED
+
+#88 [reservation] exporting to image
+#88 exporting layers done
+#88 exporting manifest sha256:142582f1eda296244497ddbf0264a114cf25b4091b85a9400bba460b073faea0 0.1s done
+#88 exporting config sha256:d9d941f8180b737487c158c50c99d8b04f07110d6eb227fbdc9efcd005b2f7d6 0.1s done
+#88 exporting attestation manifest sha256:0ecf2bb06ea5386de815765e25cd22f3bef238b939390c4f8e5faa9b48f967b5
+#88 exporting attestation manifest sha256:0ecf2bb06ea5386de815765e25cd22f3bef238b939390c4f8e5faa9b48f967b5 0.3s done
+#88 exporting manifest list sha256:343937847f6aae2c1e0b2e562a1890cdfaa413b17d1add33cd5694c48fe5fae1
+#88 exporting manifest list sha256:343937847f6aae2c1e0b2e562a1890cdfaa413b17d1add33cd5694c48fe5fae1 0.1s done
+#88 naming to docker.io/deathstarbench/hotel-reservation:latest 0.0s done
+#88 unpacking to docker.io/deathstarbench/hotel-reservation:latest 0.0s done
+#88 DONE 0.7s
+
+#89 [user] exporting to image
+#89 exporting layers done
+#89 exporting manifest sha256:e38f9cbabdda7bc30a52b91c0bd95146aa8f50bb13a8e784b04dba31e6ada56f 0.1s done
+#89 exporting config sha256:f52edb698b7d107655ada835f1c92e527d486ce1aac85713b5660ff72d02ccd3 0.1s done
+#89 exporting attestation manifest sha256:d2fbf734322dc47990878155dc5a1e99791c4fafe854554565ee5e4b6ca9d186 0.3s done
+#89 exporting manifest list sha256:538a28ef0750eb9f3b6313e488add1796214f21c5758278b46a8b076f36d8cba 0.1s done
+#89 naming to docker.io/deathstarbench/hotel-reservation:latest 0.0s done
+#89 unpacking to docker.io/deathstarbench/hotel-reservation:latest 0.0s done
+#89 DONE 0.8s
+
+#90 [reservation] resolving provenance for metadata file
+#90 DONE 0.2s
+
+#91 [user] resolving provenance for metadata file
+#91 DONE 0.0s
+
+#92 [search internal] load build definition from Dockerfile
+#92 transferring dockerfile: 415B done
+#92 WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 1)
+#92 DONE 0.1s
+
+#93 [profile internal] load build definition from Dockerfile
+#93 transferring dockerfile: 415B done
+#93 WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 1)
+#93 DONE 0.1s
+
+#3 [profile internal] load metadata for docker.io/library/golang:1.21
+#3 DONE 3.8s
+
+#94 [search internal] load .dockerignore
+#94 transferring context: 2B done
+#94 DONE 0.0s
+
+#95 [profile internal] load .dockerignore
+#95 transferring context: 2B done
+#95 DONE 0.0s
+
+#8 [search  1/14] FROM docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb
+#8 resolve docker.io/library/golang:1.21@sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb 0.1s done
+#8 DONE 14.5s
+
+#96 [search internal] load build context
+#96 transferring context: 141.12kB 0.1s done
+#96 DONE 0.2s
+
+#97 [profile internal] load build context
+#97 transferring context: 141.12kB 0.1s done
+#97 DONE 0.2s
+
+#98 [profile 11/14] COPY tracing/ tracing/
+#98 CACHED
+
+#99 [profile  8/14] COPY registry/ registry/
+#99 CACHED
+
+#100 [profile  4/14] COPY go.mod go.mod
+#100 CACHED
+
+#101 [profile  7/14] COPY dialer/ dialer/
+#101 CACHED
+
+#102 [profile  6/14] COPY cmd/ cmd/
+#102 CACHED
+
+#103 [profile 12/14] COPY tune/ tune/
+#103 CACHED
+
+#104 [profile 13/14] COPY config.json config.json
+#104 CACHED
+
+#9 [profile  2/14] WORKDIR /workspace
+#9 CACHED
+
+#105 [profile  3/14] COPY go.sum go.sum
+#105 CACHED
+
+#106 [profile  9/14] COPY services/ services/
+#106 CACHED
+
+#107 [profile  5/14] COPY vendor/ vendor/
+#107 CACHED
+
+#108 [profile 10/14] COPY tls/ tls/
+#108 CACHED
+
+#109 [profile 14/14] RUN CGO_ENABLED=0 GOOS=linux GO111MODULE=on go install -ldflags="-s -w" -mod=vendor ./cmd/...
+#109 CACHED
+
+#110 [profile] exporting to image
+#110 exporting layers done
+#110 exporting manifest sha256:a61ce647a27cfbd2848ce90251662b10f7fa9b5d84831a2f017607922b677e34 0.1s done
+#110 exporting config sha256:bc71a5e54db23513759c22a35e30c2d67138c4040c94a8d1ee81796f5fe9e4e1
+#110 exporting config sha256:bc71a5e54db23513759c22a35e30c2d67138c4040c94a8d1ee81796f5fe9e4e1 0.1s done
+#110 exporting attestation manifest sha256:1a721da19fca61ed12981def558d9f04d61accdda673f78666801dc84525f375
+#110 exporting attestation manifest sha256:1a721da19fca61ed12981def558d9f04d61accdda673f78666801dc84525f375 0.2s done
+#110 exporting manifest list sha256:a7824709eee4b9b52c55810e26b3e6dd96604b04b0eea547c1501ae1eab7b548
+#110 exporting manifest list sha256:a7824709eee4b9b52c55810e26b3e6dd96604b04b0eea547c1501ae1eab7b548 0.1s done
+#110 naming to docker.io/deathstarbench/hotel-reservation:latest 0.0s done
+#110 unpacking to docker.io/deathstarbench/hotel-reservation:latest 0.0s done
+#110 DONE 0.7s
+
+#111 [search] exporting to image
+#111 exporting layers done
+#111 exporting manifest sha256:0e5297298b69b61959adf059b640f3584c64d726e136bfc871b8a81127220606 0.1s done
+#111 exporting config sha256:a6495d8de661077b914f1feecd1a636b4402bdb8bb7661d4484041826aa9b19c 0.1s done
+#111 exporting attestation manifest sha256:a71eadf223b813bb63a5a69e5f551046f687ef4600d727828230e9d33388dd0e 0.2s done
+#111 exporting manifest list sha256:bfcb8952046ea7311f0b2c7588bd7824da589401ee531c6fae3ba20694c28807 0.1s done
+#111 naming to docker.io/deathstarbench/hotel-reservation:latest done
+#111 unpacking to docker.io/deathstarbench/hotel-reservation:latest 0.1s done
+#111 DONE 0.8s
+
+#112 [profile] resolving provenance for metadata file
+#112 DONE 0.2s
+
+#113 [search] resolving provenance for metadata file
+#113 DONE 0.0s
+ attractions  Built
+ frontend  Built
+ geo  Built
+ profile  Built
+ rate  Built
+ recommendation  Built
+ reservation  Built
+ review  Built
+ search  Built
+ user  Built
+ Network pcrdsb_hotelreservation_default  Creating
+ Network pcrdsb_hotelreservation_default  Created
+ Volume pcrdsb_hotelreservation_profile  Creating
+ Volume pcrdsb_hotelreservation_profile  Created
+ Volume pcrdsb_hotelreservation_attractions  Creating
+ Volume pcrdsb_hotelreservation_attractions  Created
+ Volume pcrdsb_hotelreservation_user  Creating
+ Volume pcrdsb_hotelreservation_user  Created
+ Volume pcrdsb_hotelreservation_reservation  Creating
+ Volume pcrdsb_hotelreservation_reservation  Created
+ Volume pcrdsb_hotelreservation_geo  Creating
+ Volume pcrdsb_hotelreservation_geo  Created
+ Volume pcrdsb_hotelreservation_recommendation  Creating
+ Volume pcrdsb_hotelreservation_recommendation  Created
+ Volume pcrdsb_hotelreservation_rate  Creating
+ Volume pcrdsb_hotelreservation_rate  Created
+ Volume pcrdsb_hotelreservation_review  Creating
+ Volume pcrdsb_hotelreservation_review  Created
+ Container pcrdsb_hotelreservation-memcached-reserve-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-geo-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-reservation-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-review-1  Creating
+ Container pcrdsb_hotelreservation-memcached-rate-1  Creating
+ Container pcrdsb_hotelreservation-consul-1  Creating
+ Container hotel_reserv_review_mmc  Creating
+ Container pcrdsb_hotelreservation-mongodb-profile-1  Creating
+ Container pcrdsb_hotelreservation-jaeger-1  Creating
+ Container pcrdsb_hotelreservation-memcached-profile-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-user-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-rate-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-attractions-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-recommendation-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-review-1  Created
+ Container hotel_reserv_review_mmc  Created
+ Container pcrdsb_hotelreservation-consul-1  Created
+ Container pcrdsb_hotelreservation-search-1  Creating
+ Container hotel_reserv_review  Creating
+ Container pcrdsb_hotelreservation-frontend-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-profile-1  Created
+ Container pcrdsb_hotelreservation-mongodb-geo-1  Created
+ Container pcrdsb_hotelreservation-geo-1  Creating
+ Container pcrdsb_hotelreservation-jaeger-1  Created
+ Container pcrdsb_hotelreservation-mongodb-attractions-1  Created
+ Container hotel_reserv_attractions  Creating
+ Container pcrdsb_hotelreservation-mongodb-rate-1  Created
+ Container pcrdsb_hotelreservation-mongodb-user-1  Created
+ Container pcrdsb_hotelreservation-user-1  Creating
+ Container pcrdsb_hotelreservation-mongodb-reservation-1  Created
+ Container pcrdsb_hotelreservation-memcached-profile-1  Created
+ Container pcrdsb_hotelreservation-mongodb-recommendation-1  Created
+ Container pcrdsb_hotelreservation-profile-1  Creating
+ Container pcrdsb_hotelreservation-recommendation-1  Creating
+ Container pcrdsb_hotelreservation-memcached-rate-1  Created
+ Container pcrdsb_hotelreservation-rate-1  Creating
+ Container pcrdsb_hotelreservation-memcached-reserve-1  Created
+ Container pcrdsb_hotelreservation-reservation-1  Creating
+ Container pcrdsb_hotelreservation-search-1  Created
+ Container hotel_reserv_review  Created
+ Container pcrdsb_hotelreservation-frontend-1  Created
+ Container pcrdsb_hotelreservation-geo-1  Created
+ Container hotel_reserv_attractions  Created
+ Container pcrdsb_hotelreservation-user-1  Created
+ Container pcrdsb_hotelreservation-recommendation-1  Created
+ Container pcrdsb_hotelreservation-profile-1  Created
+ Container pcrdsb_hotelreservation-rate-1  Created
+ Container pcrdsb_hotelreservation-reservation-1  Created
+ Container pcrdsb_hotelreservation-mongodb-rate-1  Starting
+ Container pcrdsb_hotelreservation-memcached-profile-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-attractions-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-recommendation-1  Starting
+ Container hotel_reserv_review_mmc  Starting
+ Container pcrdsb_hotelreservation-memcached-rate-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-geo-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-profile-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-review-1  Starting
+ Container pcrdsb_hotelreservation-jaeger-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-user-1  Starting
+ Container pcrdsb_hotelreservation-memcached-reserve-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-reservation-1  Starting
+ Container pcrdsb_hotelreservation-consul-1  Starting
+ Container hotel_reserv_review_mmc  Started
+ Container pcrdsb_hotelreservation-mongodb-geo-1  Started
+ Container pcrdsb_hotelreservation-memcached-rate-1  Started
+ Container pcrdsb_hotelreservation-mongodb-recommendation-1  Started
+ Container pcrdsb_hotelreservation-jaeger-1  Started
+ Container pcrdsb_hotelreservation-consul-1  Started
+ Container pcrdsb_hotelreservation-geo-1  Starting
+ Container pcrdsb_hotelreservation-search-1  Starting
+ Container pcrdsb_hotelreservation-frontend-1  Starting
+ Container pcrdsb_hotelreservation-recommendation-1  Starting
+ Container pcrdsb_hotelreservation-memcached-profile-1  Started
+ Container pcrdsb_hotelreservation-mongodb-user-1  Started
+ Container pcrdsb_hotelreservation-user-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-rate-1  Started
+ Container pcrdsb_hotelreservation-rate-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-review-1  Started
+ Container hotel_reserv_review  Starting
+ Container pcrdsb_hotelreservation-mongodb-attractions-1  Started
+ Container hotel_reserv_attractions  Starting
+ Container pcrdsb_hotelreservation-memcached-reserve-1  Started
+ Container pcrdsb_hotelreservation-mongodb-profile-1  Started
+ Container pcrdsb_hotelreservation-profile-1  Starting
+ Container pcrdsb_hotelreservation-mongodb-reservation-1  Started
+ Container pcrdsb_hotelreservation-reservation-1  Starting
+ Container pcrdsb_hotelreservation-geo-1  Started
+ Container pcrdsb_hotelreservation-frontend-1  Started
+ Container pcrdsb_hotelreservation-recommendation-1  Started
+ Container pcrdsb_hotelreservation-search-1  Started
+ Container pcrdsb_hotelreservation-user-1  Started
+ Container hotel_reserv_review  Started
+ Container hotel_reserv_attractions  Started
+ Container pcrdsb_hotelreservation-rate-1  Started
+ Container pcrdsb_hotelreservation-profile-1  Started
+ Container pcrdsb_hotelreservation-reservation-1  Started

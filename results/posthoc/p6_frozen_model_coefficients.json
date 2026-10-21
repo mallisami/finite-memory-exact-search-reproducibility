@@ -1,0 +1,158 @@
+{
+ "meta": {
+  "model_family": "logistic",
+  "feature_family": "H+D",
+  "config": "{'C': 10.0}",
+  "calibration": "platt",
+  "features": [
+   "history_count_same_context",
+   "iterations_since_last_context",
+   "recent_same_context_count_20",
+   "current_destroy_op_index",
+   "current_repair_arm_index",
+   "current_objective_before",
+   "current_best_objective",
+   "current_temperature",
+   "recent_accept_rate_10",
+   "recent_accept_rate_20",
+   "recent_moved_node_overlap_10",
+   "recent_adjacent_move_count_10",
+   "recent_moved_node_overlap_20",
+   "recent_adjacent_move_count_20",
+   "objective_improvement_last_10",
+   "objective_improvement_last_20"
+  ]
+ },
+ "platt": {
+  "coef": 0.8495279674819874,
+  "intercept": -0.09202465333052184
+ },
+ "preprocessing": [
+  {
+   "name": "num",
+   "columns": [
+    "history_count_same_context",
+    "iterations_since_last_context",
+    "recent_same_context_count_20",
+    "current_objective_before",
+    "current_best_objective",
+    "current_temperature",
+    "recent_accept_rate_10",
+    "recent_accept_rate_20",
+    "recent_moved_node_overlap_10",
+    "recent_adjacent_move_count_10",
+    "recent_moved_node_overlap_20",
+    "recent_adjacent_move_count_20",
+    "objective_improvement_last_10",
+    "objective_improvement_last_20"
+   ],
+   "type": "StandardScaler",
+   "mean": [
+    1.4044444444444444,
+    57.431111111111115,
+    0.554074074074074,
+    7876.758869804276,
+    7845.2258085892145,
+    83.02622859137021,
+    0.7573333333333334,
+    0.7593138401559455,
+    24.37185185185185,
+    7.573333333333333,
+    48.742222222222225,
+    15.133333333333333,
+    188.3852024166439,
+    543.4535506559749
+   ],
+   "scale": [
+    2.810189572270662,
+    47.27707997918256,
+    1.2512371929540578,
+    6096.381875832746,
+    6069.463587697249,
+    61.01626710346649,
+    0.1802516759052927,
+    0.15417515210872448,
+    9.853569775030035,
+    1.8025167590529265,
+    17.11049695867538,
+    3.0681155997343605,
+    612.5373282363279,
+    1277.6252009472234
+   ]
+  },
+  {
+   "name": "cat",
+   "columns": [
+    "current_destroy_op_index",
+    "current_repair_arm_index"
+   ],
+   "type": "OneHotEncoder",
+   "categories": [
+    [
+     "0",
+     "1",
+     "2"
+    ],
+    [
+     "0",
+     "1"
+    ]
+   ],
+   "handle_unknown": "ignore"
+  }
+ ],
+ "logistic": {
+  "intercept": -1.8777259128825758,
+  "coef": [
+   0.6929113083691039,
+   0.18626132607096157,
+   0.10548715087360172,
+   -1.8040188455793773,
+   1.7382496195786983,
+   -0.03695979327964415,
+   0.10435794280527463,
+   -1.1646294009505158,
+   -0.40245590941950155,
+   0.10435794280525196,
+   0.9018869475198298,
+   0.8685484418014463,
+   -0.19566885104534673,
+   0.021058823460115318,
+   -3.8290649071780445,
+   1.9664804426315816,
+   1.133102738733048,
+   -0.5430644549874026,
+   -0.18641727082600362
+  ],
+  "classes": [
+   0,
+   1
+  ]
+ },
+ "clf_input_feature_names": [
+  "num__history_count_same_context",
+  "num__iterations_since_last_context",
+  "num__recent_same_context_count_20",
+  "num__current_objective_before",
+  "num__current_best_objective",
+  "num__current_temperature",
+  "num__recent_accept_rate_10",
+  "num__recent_accept_rate_20",
+  "num__recent_moved_node_overlap_10",
+  "num__recent_adjacent_move_count_10",
+  "num__recent_moved_node_overlap_20",
+  "num__recent_adjacent_move_count_20",
+  "num__objective_improvement_last_10",
+  "num__objective_improvement_last_20",
+  "cat__current_destroy_op_index_0",
+  "cat__current_destroy_op_index_1",
+  "cat__current_destroy_op_index_2",
+  "cat__current_repair_arm_index_0",
+  "cat__current_repair_arm_index_1"
+ ],
+ "validation": {
+  "rows": "225 sealed holdout feature rows (p56_final_blind_features.csv)",
+  "max_abs_probability_error_vs_pipeline": 0.0,
+  "note": "Manual standardize+one-hot+logistic+Platt reconstruction from this file matches the frozen sklearn pipeline."
+ }
+}

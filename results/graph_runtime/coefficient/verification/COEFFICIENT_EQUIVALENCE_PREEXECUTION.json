@@ -1,0 +1,27 @@
+{
+  "development_campaign_pairs": [
+    {
+      "family": "generic",
+      "iterations": 10,
+      "level": "L1",
+      "mismatches": [],
+      "policy": "learned_pW",
+      "seed": 3301
+    },
+    {
+      "family": "generic",
+      "iterations": 10,
+      "level": "L1",
+      "mismatches": [],
+      "policy": "learned_pC",
+      "seed": 3301
+    }
+  ],
+  "heldout": {
+    "max_abs_fast_vs_pipeline": 3.3306690738754696e-16,
+    "max_abs_fast_vs_retained": 3.3306690738754696e-16,
+    "rows": 225
+  },
+  "note": "Timing fields intentionally excluded from equivalence.",
+  "status": "PASS"
+}

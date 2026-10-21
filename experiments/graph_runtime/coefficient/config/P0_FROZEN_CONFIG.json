@@ -1,0 +1,98 @@
+{
+  "date_frozen": "2026-10-13",
+  "protocol_name": "PCR2 P0 coefficient-only graph timing rerun \u2014 7-core full campaign plus full isolated L1-L4 confirmation",
+  "scorer": "coefficient_only_logistic_platt_v1",
+  "levels": {
+    "L1": 8,
+    "L2": 16,
+    "L3": 32,
+    "L4": 64
+  },
+  "repeats": 5,
+  "primary_cases": 60,
+  "phaseA": {
+    "role": "full-regime supporting campaign under fixed multi-lane load",
+    "primary_rows_total": 6000,
+    "vm_a": {
+      "vcpus": 4,
+      "ram_gb": 16,
+      "lanes": [
+        {
+          "cpu": 0,
+          "rows": 1000
+        },
+        {
+          "cpu": 1,
+          "rows": 1000
+        },
+        {
+          "cpu": 2,
+          "rows": 1000
+        }
+      ],
+      "reserved_cpu": 3
+    },
+    "vm_b": {
+      "vcpus": 4,
+      "ram_gb": 16,
+      "lanes": [
+        {
+          "cpu": 0,
+          "rows": 1000
+        },
+        {
+          "cpu": 1,
+          "rows": 1000
+        },
+        {
+          "cpu": 2,
+          "rows": 1000
+        }
+      ],
+      "reserved_cpu": 3
+    },
+    "vm_c": {
+      "vcpus": 2,
+      "ram_gb": 8,
+      "lanes": [
+        {
+          "cpu": 0,
+          "rows": 500
+        }
+      ],
+      "reserved_cpu": 1,
+      "descriptive_only": true
+    },
+    "active_timed_cores_total": 7
+  },
+  "phaseB": {
+    "role": "authoritative full isolated P0 rerun",
+    "levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "primary_rows_total": 6000,
+    "vm_a": {
+      "cpu": 0,
+      "rows": 3000
+    },
+    "vm_b": {
+      "cpu": 0,
+      "rows": 3000
+    },
+    "primary_inference": [
+      "overall L1-L4 learned_pW vs empirical_pW",
+      "overall L1-L4 learned_pC vs empirical_pC"
+    ],
+    "secondary_reporting": "per-level L1-L4 learned-versus-empirical ratios"
+  },
+  "threads": {
+    "OMP_NUM_THREADS": 1,
+    "MKL_NUM_THREADS": 1,
+    "OPENBLAS_NUM_THREADS": 1,
+    "NUMEXPR_NUM_THREADS": 1,
+    "PYTHONHASHSEED": 0
+  }
+}

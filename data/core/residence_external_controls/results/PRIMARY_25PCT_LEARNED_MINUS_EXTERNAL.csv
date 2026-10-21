@@ -1,0 +1,4 @@
+budget_fraction,comparator,metric,cases,mean_learned_minus_comparator,bootstrap_95_low,bootstrap_95_high,positive_cases,negative_cases,ties
+0.25,fifo,reuse_fraction_of_keep_all,45,0.3969690314254264,0.34245590361621403,0.4498405325169429,44,1,0
+0.25,lru,reuse_fraction_of_keep_all,45,0.1547030671045413,0.11198216124510976,0.20021488912761554,42,3,0
+0.25,random,reuse_fraction_of_keep_all,45,0.3538148356778857,0.3106592295605919,0.3963134207880577,44,1,0

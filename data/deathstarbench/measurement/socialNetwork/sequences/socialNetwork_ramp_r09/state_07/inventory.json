@@ -1,0 +1,252 @@
+{
+  "project": "pcrdsb_socialnetwork",
+  "network_name": "pcrdsb_socialnetwork_default",
+  "network_id": "71f465410f15f35a7ef6dd59d96322376a4a7c603703d2e198c19e8ce0c615b3",
+  "bridge_interface": "br-71f465410f15",
+  "services": {
+    "social-graph-service": {
+      "container_id": "b7387be8210ad5fab6b2602c879b1538ad61e91f4bcfbd6a12644bd1219a738f",
+      "container_name": "pcrdsb_socialnetwork-social-graph-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.19"
+      }
+    },
+    "nginx-thrift": {
+      "container_id": "8e8a03865dcd3ea573e2371c0d10d0d5b5752949b8a93a93d528dddb77ef8689",
+      "container_name": "pcrdsb_socialnetwork-nginx-thrift-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.26"
+      }
+    },
+    "user-timeline-service": {
+      "container_id": "6436b7a78766b66760fbb3c967bad4eb6baa85c504905fcc3b5eea0b5763fc84",
+      "container_name": "pcrdsb_socialnetwork-user-timeline-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.22"
+      }
+    },
+    "user-mention-service": {
+      "container_id": "1e27c65ad38da15ccbc2c8f71c323c96d8a0dbd5251f8a38139a72b3af53c676",
+      "container_name": "pcrdsb_socialnetwork-user-mention-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.28"
+      }
+    },
+    "compose-post-service": {
+      "container_id": "160be816223c22ac2287aa00177e76f0402b6b36cf01b6c5b50e80f289c5027f",
+      "container_name": "pcrdsb_socialnetwork-compose-post-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.27"
+      }
+    },
+    "media-frontend": {
+      "container_id": "45e9c46ab419dca26b9883fbc73f4476634c5c26c76cacfa4fc0c5541ca20b68",
+      "container_name": "pcrdsb_socialnetwork-media-frontend-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.20"
+      }
+    },
+    "url-shorten-service": {
+      "container_id": "624bd0ae562e8b8ee964a8c0f9628ccdae52723f072d284a79622fca19e8a0a8",
+      "container_name": "pcrdsb_socialnetwork-url-shorten-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.24"
+      }
+    },
+    "user-service": {
+      "container_id": "ade6c3fa1af08caf4d18adeb5d6f86f2cab59ec714f4917c9d87fc6ab579f52e",
+      "container_name": "pcrdsb_socialnetwork-user-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.18"
+      }
+    },
+    "post-storage-service": {
+      "container_id": "40720970401e0f6b174bb3e2a26d17d0c33aeb38bfa168dc54cb347e4dd19ba7",
+      "container_name": "pcrdsb_socialnetwork-post-storage-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.17"
+      }
+    },
+    "home-timeline-service": {
+      "container_id": "5ea6c1ded1ef43b328ee2107e7403f920fafe2bd0fe499a726b40821942921cf",
+      "container_name": "pcrdsb_socialnetwork-home-timeline-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.16"
+      }
+    },
+    "unique-id-service": {
+      "container_id": "7e85404350250b5666cb5ff556f770d5b6494586c43a625e5dec59de337b6060",
+      "container_name": "pcrdsb_socialnetwork-unique-id-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.23"
+      }
+    },
+    "text-service": {
+      "container_id": "1c2e5e12a38ca766198610da4166a8c873d2024c91eda76361b71f217e44ee5c",
+      "container_name": "pcrdsb_socialnetwork-text-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.21"
+      }
+    },
+    "media-service": {
+      "container_id": "516d6e25b34a7209327ded15ee9206b0fa732174039618228043294db905115a",
+      "container_name": "pcrdsb_socialnetwork-media-service-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.25"
+      }
+    },
+    "user-memcached": {
+      "container_id": "3ae2a15d679e140d900f515a6091b221f56db5c5431429e19da2632395860329",
+      "container_name": "pcrdsb_socialnetwork-user-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.9"
+      }
+    },
+    "post-storage-memcached": {
+      "container_id": "08ba86ddcb92af3f0608033269af8c91f27361e53b9b19b853817e5c5cd1782a",
+      "container_name": "pcrdsb_socialnetwork-post-storage-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.6"
+      }
+    },
+    "media-memcached": {
+      "container_id": "91ac76ac81b4f762b0aa75c539eef1e566e95836fb2136fa68f2e03eedcbcd26",
+      "container_name": "pcrdsb_socialnetwork-media-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.7"
+      }
+    },
+    "social-graph-redis": {
+      "container_id": "d0d15b17ae05758900936e3759d291dcdbbe7abfa1dd94ba46b0c00abfd48be6",
+      "container_name": "pcrdsb_socialnetwork-social-graph-redis-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.13"
+      }
+    },
+    "user-timeline-redis": {
+      "container_id": "14e6668d1541fe613dac3580ff33b581d0c4e9e597ab5d290fbc6eaa33ec9301",
+      "container_name": "pcrdsb_socialnetwork-user-timeline-redis-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.15"
+      }
+    },
+    "home-timeline-redis": {
+      "container_id": "1397ce8422ffc844d09b6d05ef5e0b8d0a108266cb63180d2f3f0887b6535390",
+      "container_name": "pcrdsb_socialnetwork-home-timeline-redis-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.12"
+      }
+    },
+    "url-shorten-memcached": {
+      "container_id": "df04c00723c680cf789cc3dc0101aee665fbe6f90743b975a417c15541e0061b",
+      "container_name": "pcrdsb_socialnetwork-url-shorten-memcached-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.2"
+      }
+    },
+    "jaeger-agent": {
+      "container_id": "48fcddda9469fae355095218258c3677cfe8383b30c5c4434a2e537487f8495d",
+      "container_name": "pcrdsb_socialnetwork-jaeger-agent-1",
+      "include": false,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.11"
+      }
+    },
+    "user-timeline-mongodb": {
+      "container_id": "0e28b360ab5b0954458cf7cacb0cbfe4365cc9b44919acb4781442b59d816240",
+      "container_name": "pcrdsb_socialnetwork-user-timeline-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.5"
+      }
+    },
+    "media-mongodb": {
+      "container_id": "57f5721cf74dcf718dffb6d2f0c2024ff138656f3d113875a2bed83453f6f101",
+      "container_name": "pcrdsb_socialnetwork-media-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.8"
+      }
+    },
+    "social-graph-mongodb": {
+      "container_id": "a2b07b4ba385aec5a4142c63c4bc659cab60c4927e731706808bf6d5bd905e8f",
+      "container_name": "pcrdsb_socialnetwork-social-graph-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.3"
+      }
+    },
+    "post-storage-mongodb": {
+      "container_id": "b3ec808e003774bd5c52652de244d7c2d8d9773b7ac02f508290b1dfa951f949",
+      "container_name": "pcrdsb_socialnetwork-post-storage-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.10"
+      }
+    },
+    "user-mongodb": {
+      "container_id": "0623c193c8b3dd8100dae692b76be5899cd10b78c7c823f1f6df9935b5eb8e2f",
+      "container_name": "pcrdsb_socialnetwork-user-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.4"
+      }
+    },
+    "url-shorten-mongodb": {
+      "container_id": "67bc53087a6cb4d817e0c2e046d9aad1bdf19cacb557e8dc2d800e0e0055c882",
+      "container_name": "pcrdsb_socialnetwork-url-shorten-mongodb-1",
+      "include": true,
+      "networks": {
+        "pcrdsb_socialnetwork_default": "172.19.0.14"
+      }
+    }
+  },
+  "ip_to_service": {
+    "172.19.0.19": "social-graph-service",
+    "172.19.0.26": "nginx-thrift",
+    "172.19.0.22": "user-timeline-service",
+    "172.19.0.28": "user-mention-service",
+    "172.19.0.27": "compose-post-service",
+    "172.19.0.20": "media-frontend",
+    "172.19.0.24": "url-shorten-service",
+    "172.19.0.18": "user-service",
+    "172.19.0.17": "post-storage-service",
+    "172.19.0.16": "home-timeline-service",
+    "172.19.0.23": "unique-id-service",
+    "172.19.0.21": "text-service",
+    "172.19.0.25": "media-service",
+    "172.19.0.9": "user-memcached",
+    "172.19.0.6": "post-storage-memcached",
+    "172.19.0.7": "media-memcached",
+    "172.19.0.13": "social-graph-redis",
+    "172.19.0.15": "user-timeline-redis",
+    "172.19.0.12": "home-timeline-redis",
+    "172.19.0.2": "url-shorten-memcached",
+    "172.19.0.5": "user-timeline-mongodb",
+    "172.19.0.8": "media-mongodb",
+    "172.19.0.3": "social-graph-mongodb",
+    "172.19.0.10": "post-storage-mongodb",
+    "172.19.0.4": "user-mongodb",
+    "172.19.0.14": "url-shorten-mongodb"
+  }
+}

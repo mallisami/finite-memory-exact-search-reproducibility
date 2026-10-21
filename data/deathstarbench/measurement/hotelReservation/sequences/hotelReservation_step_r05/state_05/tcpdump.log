@@ -1,0 +1,4 @@
+tcpdump: listening on br-3c39beb04220, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+171216 packets captured
+171294 packets received by filter
+0 packets dropped by kernel

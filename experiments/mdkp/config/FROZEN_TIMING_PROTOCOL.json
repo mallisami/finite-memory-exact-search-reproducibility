@@ -1,0 +1,174 @@
+{
+  "analysis": "aggregate 5 repetitions by case-policy median; primary paired log ratio; 10000 stratified bootstrap resampling cases within VM; paired two-sided Wilcoxon on case log-ratios",
+  "machine_plan": {
+    "vm1_2vcpu_8gb": {
+      "cases": 30,
+      "expected_ram_gb": 8,
+      "expected_vcpu": 2,
+      "timed_processes_concurrent": 1
+    },
+    "vm2_4vcpu_16gb": {
+      "cases": 30,
+      "expected_ram_gb": 16,
+      "expected_vcpu": 4,
+      "timed_processes_concurrent": 1
+    },
+    "vm3_4vcpu_16gb": {
+      "cases": 30,
+      "expected_ram_gb": 16,
+      "expected_vcpu": 4,
+      "timed_processes_concurrent": 1
+    }
+  },
+  "method": "direct marginal future-work utility, frozen fast algebraically-equivalent scorer",
+  "n_cases": 90,
+  "n_policy_runs": 1350,
+  "policies": [
+    "restart",
+    "empirical_pW",
+    "direct_utility"
+  ],
+  "policy_order": "cyclic rotation by global_case_index + repetition; all policies paired on same VM/case",
+  "pooling_rule": "machine effects handled by same-machine paired ratios and VM-stratified bootstrap; do not compare raw absolute times across VMs as if hardware were identical",
+  "primary_endpoint": "case-level median wall-time ratio direct_utility / empirical_pW across 5 repetitions; geometric mean across cases; lower than 1 favorable",
+  "purpose": "Controlled wall-clock validation of the already confirmed V6B direct marginal-work allocator.",
+  "repetitions_per_case_policy": 5,
+  "scientific_settings": {
+    "budget_bytes": 3068,
+    "context_count": 18,
+    "destroy_size": 54,
+    "gap_check_interval": 16,
+    "gap_target": 0.02,
+    "iterations": 200,
+    "lazy_features": true,
+    "n_items": 168,
+    "slice_cap": 384
+  },
+  "secondary_endpoints": [
+    "direct_utility / restart wall-time ratio",
+    "CPU-time ratios",
+    "executed-node ratios",
+    "final/best cost equality and differences"
+  ],
+  "seed_generation": {
+    "master_seed": 202610110930,
+    "prior_seed_count_excluded": 105,
+    "rng": "numpy.default_rng"
+  },
+  "shards": {
+    "vm1_2vcpu_8gb": [
+      115564662,
+      1644818794,
+      706585881,
+      8263318,
+      58913013,
+      326349468,
+      171150043,
+      550975526,
+      124496238,
+      1755361288,
+      671253388,
+      362844225,
+      104234011,
+      2063083746,
+      2140494965,
+      1242334973,
+      666001296,
+      169234699,
+      676112971,
+      1632378251,
+      1797872167,
+      1553891042,
+      1141188479,
+      1564320951,
+      646727449,
+      411604078,
+      1756571380,
+      467284923,
+      1885308497,
+      942595100
+    ],
+    "vm2_4vcpu_16gb": [
+      202994042,
+      1273528833,
+      834829004,
+      2122060784,
+      1373522254,
+      60541203,
+      82278383,
+      418567848,
+      514342845,
+      1572062490,
+      1998277309,
+      2130336906,
+      1654450162,
+      1980559493,
+      350541833,
+      487111517,
+      502187779,
+      181696445,
+      784512692,
+      357052756,
+      1068539901,
+      1802477771,
+      1579511173,
+      615009595,
+      953083533,
+      1472761710,
+      124783933,
+      146340665,
+      1009900376,
+      457371866
+    ],
+    "vm3_4vcpu_16gb": [
+      1613824277,
+      1009187711,
+      2092333089,
+      1222843081,
+      1558001742,
+      1863531549,
+      1270485387,
+      1174749523,
+      1547967829,
+      1780324568,
+      2128376270,
+      156873178,
+      2010063434,
+      856126704,
+      821774081,
+      1531197324,
+      386294277,
+      234996132,
+      844914890,
+      604668444,
+      867866803,
+      806076551,
+      716378681,
+      79986555,
+      2032795183,
+      372764222,
+      1617375,
+      1336246861,
+      1750426321,
+      965656731
+    ]
+  },
+  "source_model_sha256": "a62fd5660df02f499077d25213388c83bdfd8498c74923443b1ed6d1dca8acd6",
+  "status": "FROZEN_BEFORE_VM_EXECUTION",
+  "stop_rule": "run and retain all 90 cases; no exclusions, additions, model changes, retuning, or sample-size changes based on interim results",
+  "study_id": "PCR2_V6B_VM_TIMING_R1_90CASE_FIXED_METHOD",
+  "warmup_seeds": {
+    "vm1_2vcpu_8gb": [
+      546875441,
+      1773429531
+    ],
+    "vm2_4vcpu_16gb": [
+      1006964123,
+      1698454315
+    ],
+    "vm3_4vcpu_16gb": [
+      232182847,
+      2127698266
+    ]
+  }
+}

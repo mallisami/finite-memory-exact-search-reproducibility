@@ -1,0 +1,135 @@
+[1/90] hotelReservation_burst_r01
+[2/90] hotelReservation_burst_r04
+[3/90] hotelReservation_burst_r03
+[4/90] hotelReservation_burst_r02
+[5/90] hotelReservation_burst_r05
+[6/90] hotelReservation_burst_r06
+[7/90] hotelReservation_burst_r08
+[8/90] hotelReservation_burst_r07
+[9/90] hotelReservation_burst_r09
+[10/90] hotelReservation_burst_r10
+[11/90] hotelReservation_ramp_r02
+[12/90] hotelReservation_ramp_r01
+[13/90] hotelReservation_ramp_r03
+[14/90] hotelReservation_ramp_r04
+[15/90] hotelReservation_ramp_r06
+[16/90] hotelReservation_ramp_r05
+[17/90] hotelReservation_ramp_r08
+[18/90] hotelReservation_ramp_r07
+[19/90] hotelReservation_ramp_r09
+[20/90] hotelReservation_ramp_r10
+[21/90] hotelReservation_step_r01
+[22/90] hotelReservation_step_r02
+[23/90] hotelReservation_step_r03
+[24/90] hotelReservation_step_r04
+[25/90] hotelReservation_step_r06
+[26/90] hotelReservation_step_r05
+[27/90] hotelReservation_step_r07
+[28/90] hotelReservation_step_r08
+[29/90] mediaMicroservices_burst_r01
+[30/90] hotelReservation_step_r09
+[31/90] hotelReservation_step_r10
+[32/90] mediaMicroservices_burst_r02
+[33/90] mediaMicroservices_burst_r03
+[34/90] mediaMicroservices_burst_r04
+[35/90] mediaMicroservices_burst_r05
+[36/90] mediaMicroservices_burst_r06
+[37/90] mediaMicroservices_burst_r07
+[38/90] mediaMicroservices_burst_r08
+[39/90] mediaMicroservices_burst_r09
+[40/90] mediaMicroservices_burst_r10
+[41/90] mediaMicroservices_ramp_r01
+[42/90] mediaMicroservices_ramp_r02
+[43/90] mediaMicroservices_ramp_r03
+[44/90] mediaMicroservices_ramp_r04
+[45/90] mediaMicroservices_ramp_r05
+[46/90] mediaMicroservices_ramp_r06
+[47/90] mediaMicroservices_ramp_r07
+[48/90] mediaMicroservices_ramp_r08
+[49/90] mediaMicroservices_ramp_r09
+[50/90] mediaMicroservices_step_r01
+[51/90] mediaMicroservices_step_r02
+[52/90] mediaMicroservices_ramp_r10
+[53/90] mediaMicroservices_step_r03
+[54/90] mediaMicroservices_step_r05
+[55/90] mediaMicroservices_step_r04
+[56/90] mediaMicroservices_step_r06
+[57/90] mediaMicroservices_step_r07
+[58/90] mediaMicroservices_step_r08
+[59/90] mediaMicroservices_step_r09
+[60/90] mediaMicroservices_step_r10
+[61/90] socialNetwork_burst_r04
+[62/90] socialNetwork_burst_r02
+[63/90] socialNetwork_burst_r03
+[64/90] socialNetwork_burst_r01
+[65/90] socialNetwork_burst_r07
+[66/90] socialNetwork_burst_r08
+[67/90] socialNetwork_burst_r06
+[68/90] socialNetwork_burst_r05
+[69/90] socialNetwork_ramp_r02
+[70/90] socialNetwork_burst_r09
+[71/90] socialNetwork_ramp_r01
+[72/90] socialNetwork_burst_r10
+[73/90] socialNetwork_ramp_r03
+[74/90] socialNetwork_ramp_r05
+[75/90] socialNetwork_ramp_r04
+[76/90] socialNetwork_ramp_r06
+[77/90] socialNetwork_ramp_r07
+[78/90] socialNetwork_ramp_r10
+[79/90] socialNetwork_ramp_r09
+[80/90] socialNetwork_ramp_r08
+[81/90] socialNetwork_step_r01
+[82/90] socialNetwork_step_r04
+[83/90] socialNetwork_step_r03
+[84/90] socialNetwork_step_r02
+[85/90] socialNetwork_step_r05
+[86/90] socialNetwork_step_r07
+[87/90] socialNetwork_step_r06
+[88/90] socialNetwork_step_r08
+[89/90] socialNetwork_step_r09
+[90/90] socialNetwork_step_r10
+{
+  "applications": 3,
+  "interpretation": "Measured-workload shadow replay; frozen P6-v1; no retraining/recalibration; keep-all is an upper-resource reference, not oracle.",
+  "keep_all_objective_vs_restart": {
+    "bootstrap_95_high": 0.002470691785204109,
+    "bootstrap_95_low": -0.0019369899138756666,
+    "mean": 0.0003898528447488145,
+    "negative": 25,
+    "positive": 40,
+    "ties": 25
+  },
+  "learned_minus_empirical_reuse": {
+    "bootstrap_95_high": 0.04206186073280123,
+    "bootstrap_95_low": -0.014663773411199777,
+    "mean": 0.01773522388901971,
+    "negative": 11,
+    "positive": 69,
+    "ties": 10,
+    "wilcoxon_one_sided_p": 1.5751450671224646e-08
+  },
+  "learned_objective_vs_restart": {
+    "bootstrap_95_high": 0.0025079993050581874,
+    "bootstrap_95_low": -0.0009665341129957183,
+    "mean": 0.0007451831461010757,
+    "negative": 25,
+    "positive": 38,
+    "ties": 27,
+    "wilcoxon_one_sided_p": 0.06269444919258138
+  },
+  "regimes": [
+    "step",
+    "burst",
+    "ramp"
+  ],
+  "repetitions_per_cell": 10,
+  "sequences": 90,
+  "settings": {
+    "budget_fraction": 0.25,
+    "destroy_size": 12,
+    "iterations_per_state": 20,
+    "slice_branch_pops": 8,
+    "total_iterations_per_sequence": 200
+  },
+  "status": "P8_measured_workload_external_validation"
+}

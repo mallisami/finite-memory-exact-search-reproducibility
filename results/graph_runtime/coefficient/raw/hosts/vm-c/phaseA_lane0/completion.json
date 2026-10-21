@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "concurrency_width": 1,
+  "cpu_id": 0,
+  "errors_recorded": 0,
+  "expected_rows": 500,
+  "lane_id": "0",
+  "phase": "phaseA_7core",
+  "physical_vm": "C",
+  "schedule_rows": 500,
+  "unique_success": 500
+}

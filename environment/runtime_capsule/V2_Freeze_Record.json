@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_BEFORE_COMPUTE",
+  "frozen_utc": "2026-10-08T18:39:46Z",
+  "runtime_image_sha256": "970ce5a2da967210a0cad30aaa5254b4c4fb713873f8ab23207ecd354cbdcad4",
+  "files_sha256": {
+    "V2_FROZEN_EXECUTION_PLAN.md": "ac39ef40886898737151208a976e7231502e659c25345e02978526c0dffec315",
+    "VM3_RUNTIME_CAPSULE_LOCK.json": "2f54c7647ec32f7c5e51022fcf0b41906656c27345da75ff26e343a2cc7c6a08",
+    "SOURCE_IDENTITY.json": "9167c4c4b5a9b10ad28ea6747fc4fdb5621d8ab1e4d9ed462a31e115c5edc20e",
+    "runtime_capsule_guard.py": "790d51f10ac4d82491bc1262b145743c9e71a62fad2d10ec7d0b763f6de0c9c0",
+    "v2_computation_driver.py": "8f0450ac014ae813196848a2c85421f07788fab7842bef1337fd067120401385",
+    "supervise_pcr_v2.py": "02960b08d09ac96f98c664d2780f861b7c34198dd5dd1287eb66530e1c453b96"
+  },
+  "historical_negative_results_preserved": true,
+  "same_exposed_cases_not_independent_confirmatory_evidence": true,
+  "scientific_source_and_protocol_changed": false,
+  "stage_e_gate": "MAPE supervisor blocks PCR_P2 process/container activity"
+}

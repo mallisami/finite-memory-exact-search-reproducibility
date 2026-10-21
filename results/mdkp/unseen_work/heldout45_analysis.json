@@ -1,0 +1,109 @@
+{
+  "branches": {
+    "direct_vs_empirical": {
+      "ci": [
+        0.9609831580617637,
+        0.9946119326725033
+      ],
+      "mean_diff": -731.5555555555555,
+      "median_diff": -168.0,
+      "ratio": 0.981546156903006,
+      "sign_counts": {
+        "a_higher": 8,
+        "a_lower": 25,
+        "equal": 12
+      }
+    },
+    "direct_vs_restart": {
+      "ci": [
+        0.8646849294333208,
+        0.9946159110753017
+      ],
+      "mean_diff": -1049.8,
+      "median_diff": -446.0,
+      "ratio": 0.9352985118405505,
+      "sign_counts": {
+        "a_higher": 6,
+        "a_lower": 35,
+        "equal": 4
+      }
+    },
+    "empirical_vs_restart": {
+      "ci": [
+        0.8773204517024731,
+        1.014557935480941
+      ],
+      "mean_diff": -318.24444444444447,
+      "median_diff": -224.0,
+      "ratio": 0.9528828626782291,
+      "sign_counts": {
+        "a_higher": 8,
+        "a_lower": 29,
+        "equal": 8
+      }
+    }
+  },
+  "completeness": {
+    "cases": 45,
+    "duplicates": 0,
+    "rows": 135
+  },
+  "policy_summary": {
+    "direct_utility": {
+      "mean_branches": 39366.666666666664,
+      "mean_final_cost": -4280.266666666666,
+      "mean_reused_prior_nodes": 28202.666666666668,
+      "mean_useful_resumes": 26.22222222222222,
+      "mean_wall_ms": 2347.5736463777775,
+      "median_branches": 40597.0,
+      "median_wall_ms": 2308.370034
+    },
+    "empirical_pW": {
+      "mean_branches": 40098.22222222222,
+      "mean_final_cost": -4280.511111111111,
+      "mean_reused_prior_nodes": 47906.13333333333,
+      "mean_useful_resumes": 25.866666666666667,
+      "mean_wall_ms": 2336.9667207555553,
+      "median_branches": 43041.0,
+      "median_wall_ms": 2237.19575
+    },
+    "restart": {
+      "mean_branches": 40416.46666666667,
+      "mean_final_cost": -4279.6,
+      "mean_reused_prior_nodes": 0.0,
+      "mean_useful_resumes": 0.0,
+      "mean_wall_ms": 2246.956043244444,
+      "median_branches": 43265.0,
+      "median_wall_ms": 2222.032977
+    }
+  },
+  "study": "V6B_R2_45CASE_FIXED_METHOD_REPLICATION_CHAT",
+  "wall_descriptive": {
+    "direct_vs_empirical": {
+      "ci": [
+        0.9589185998728967,
+        1.0506548189598666
+      ],
+      "mean_diff_ms": 10.606925622222247,
+      "ratio": 1.0052731141891011,
+      "sign_counts": {
+        "a_higher": 27,
+        "a_lower": 18,
+        "equal": 0
+      }
+    },
+    "direct_vs_restart": {
+      "ci": [
+        0.9508558523976111,
+        1.0869339653572017
+      ],
+      "mean_diff_ms": 100.61760313333335,
+      "ratio": 1.0197204242202147,
+      "sign_counts": {
+        "a_higher": 30,
+        "a_lower": 15,
+        "equal": 0
+      }
+    }
+  }
+}

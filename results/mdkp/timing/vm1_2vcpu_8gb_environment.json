@@ -1,0 +1,30 @@
+{
+  "cpu_count": 2,
+  "env_threads": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "hostname": "mcb-node-3",
+  "loadavg": [
+    0.126953125,
+    0.06689453125,
+    0.02099609375
+  ],
+  "lscpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  2\nOn-line CPU(s) list:                     0,1\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 7763 64-Core Processor\nCPU family:                              25\nModel:                                   1\nThread(s) per core:                      2\nCore(s) per socket:                      1\nSocket(s):                               1\nStepping:                                1\nBogoMIPS:                                4890.84\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 erms rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves xsaveerptr arat umip vaes vpclmulqdq rdpid fsrm\nHypervisor vendor:                       Microsoft\nVirtualization type:                     full\nL1d cache:                               32 KiB (1 instance)\nL1i cache:                               32 KiB (1 instance)\nL2 cache:                                512 KiB (1 instance)\nL3 cache:                                32 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0,1\nVulnerability Gather data sampling:      Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Vulnerable\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Vulnerable: Clear CPU buffers attempted, no microcode\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected",
+  "memtotal": "MemTotal:        8127912 kB",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.8.0-1070-azure-x86_64-with-glibc2.35",
+  "python": "3.12.15 (main, Oct  1 2026, 15:41:07) [GCC 11.4.0]",
+  "sha256": {
+    "FROZEN_TIMING_PROTOCOL.json": "84933751e2a227fb5a7c84c4e55965636e49822fea557ab4156701e903877382",
+    "V6B_FAST_COEFFICIENTS.json": "e11c507711d77b4b8d83fd44a10f392730bc1bf77fd7f938a7b50720bf089a11",
+    "src/independent_mdkp/pcr_mdkp_engine.py": "679c57468d758b1fc483e5afd29f2b7b10cc56793644972c17990842f5fbeff3",
+    "src/v6b_fast_engine.py": "83b60c5dd3622d7bc9144a9cf9710269368e04b0249f3b41ac3b09e6d31de6ac"
+  },
+  "taskset": "pid 2063's current affinity list: 0,1",
+  "uname": "Linux mcb-node-3 6.8.0-1070-azure #78~22.04.1-Ubuntu SMP Thu Sep 24 18:46:45 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux",
+  "utc": "2026-10-10T22:05:58Z",
+  "vm_id": "vm1_2vcpu_8gb"
+}

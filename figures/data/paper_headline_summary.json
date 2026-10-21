@@ -1,0 +1,31 @@
+{
+  "prediction": {
+    "heldout_auroc": 0.8459632459219493,
+    "heldout_ap": 0.6105164444866519
+  },
+  "retention": {
+    "budget_25_effect": 0.0879803957947273,
+    "ci": [
+      0.0631259852373257,
+      0.1130825128404439
+    ]
+  },
+  "work_saving": {
+    "confirmatory_pops_per_case": 0.2222222222222222,
+    "external_pops_per_sequence": 24.72222222222222
+  },
+  "objective": {
+    "external_mean_effect": 0.0007451831461010776,
+    "stratified_ci": [
+      -0.0007423951201748834,
+      0.0022198128266413424
+    ]
+  },
+  "measurement_audit": {
+    "measurement_rows": 900,
+    "unique_sequences": 90,
+    "unique_measurement_seeds": 900,
+    "unique_pcap_sha256": 900,
+    "prepared_sequences": 90
+  }
+}

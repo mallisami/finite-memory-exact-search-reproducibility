@@ -1,0 +1,11 @@
+{
+  "app": "mediaMicroservices",
+  "capacity_rps": 80,
+  "low_rps": 20,
+  "high_rps": 60,
+  "criteria": {
+    "p99_limit_ms": 1000.0,
+    "achieved_fraction_min": 0.9,
+    "non2xx_fraction_max": 0.01
+  }
+}

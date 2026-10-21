@@ -1,0 +1,70 @@
+{
+  "target": "future_compatible_recurrence",
+  "secondary_targets": [
+    "future_recurred",
+    "future_incompatible_only"
+  ],
+  "allowed_model_features": [
+    "invested_branch_pops",
+    "checkpoint_bytes",
+    "additive_gap_at_checkpoint",
+    "queue_size",
+    "partial_branches_pruned",
+    "child_branches_generated",
+    "root_upper_bound",
+    "history_count_same_context",
+    "iterations_since_last_context",
+    "current_destroy_op_index",
+    "current_repair_arm_index",
+    "current_objective_before",
+    "current_best_objective",
+    "current_temperature",
+    "recent_accept_rate_10",
+    "recent_accept_rate_20",
+    "recent_same_context_count_20",
+    "recent_moved_node_overlap_10",
+    "recent_adjacent_move_count_10",
+    "recent_moved_node_overlap_20",
+    "recent_adjacent_move_count_20",
+    "objective_improvement_last_10",
+    "objective_improvement_last_20"
+  ],
+  "dropped_from_p55": [
+    "current_recurrent",
+    "leaves_evaluated",
+    "best_gain_at_checkpoint",
+    "partial_branches_expanded",
+    "residual_opportunity"
+  ],
+  "forbidden_future_or_oracle_fields": [
+    "future_count",
+    "future_compatible_count",
+    "future_incompatible_count",
+    "first_future_position",
+    "first_future_compatible_position",
+    "future_recurred",
+    "future_compatible_recurrence",
+    "future_incompatible_only",
+    "realized_future_saved_branch_pops",
+    "future_placement",
+    "future_state",
+    "future_edge",
+    "oracle_selected",
+    "oracle_value"
+  ],
+  "identifier_only_fields": [
+    "case_id",
+    "domain",
+    "instance_seed",
+    "decision_iteration",
+    "candidate_id",
+    "destroy_set",
+    "future_horizon",
+    "requested_invested_branch_pops"
+  ],
+  "split_group": [
+    "domain",
+    "instance_seed"
+  ],
+  "rule": "P6 uses only explicitly listed cleaned decision-time features. The five P5.5 dead/duplicate fields are excluded. Future/outcome/oracle fields remain prohibited. The final blind holdout is not used for model selection."
+}

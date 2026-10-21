@@ -1,0 +1,7 @@
+budget_fraction,policy,cases,mean_reuse_fraction_of_keep_all,median_reuse_fraction_of_keep_all,mean_relative_best_improvement_vs_restart,median_relative_best_improvement_vs_restart,mean_anytime_improvement_vs_restart,median_anytime_improvement_vs_restart,cases_better_best_than_restart,cases_worse_best_than_restart,cases_no_worse_best_than_restart,median_useful_resumes,median_reused_prior_branch_pops,median_persistence_overhead_ms
+0.25,empirical_compatible,45,0.8241521486262287,0.8553191489361702,0.0,0.0,0.0,0.0,0,0,45,49.0,1336.0,189.20800300111296
+0.25,learned,45,0.9121325444209556,0.9447236180904522,0.0,0.0,0.0,0.0,0,0,45,50.0,1248.0,733.1477949774126
+0.5,empirical_compatible,45,0.9369469984946597,0.9562043795620438,0.0,0.0,0.0,0.0,0,0,45,53.0,1376.0,199.9757249650429
+0.5,learned,45,0.9955066960551576,1.0,0.0,0.0,0.0,0.0,0,0,45,58.0,1432.0,742.0216349892144
+0.75,empirical_compatible,45,0.9857270292913511,0.9955947136563876,0.0,0.0,0.0,0.0,0,0,45,57.0,1400.0,205.27247800055193
+0.75,learned,45,0.9996633548058376,1.0,0.0,0.0,0.0,0.0,0,0,45,58.0,1448.0,756.4138150228246

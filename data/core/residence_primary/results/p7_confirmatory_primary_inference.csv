@@ -1,0 +1,5 @@
+comparison,n,mean_paired_effect,bootstrap_95_low,bootstrap_95_high,median_paired_effect,positive_cases,negative_cases,ties,wilcoxon_one_sided_p,holm_adjusted_p
+learned_minus_empirical_reuse,45,0.08798039579472736,0.06312598523732572,0.11308251284044393,0.08759124087591241,41,4,0,2.884746663767146e-09,1.1538986655068584e-08
+learned_relative_best_vs_restart,45,0.0,0.0,0.0,0.0,0,0,45,1.0,1.0
+learned_minus_empirical_relative_best,45,0.0,0.0,0.0,0.0,0,0,45,1.0,1.0
+learned_minus_empirical_anytime,45,0.0,0.0,0.0,0.0,0,0,45,1.0,1.0
