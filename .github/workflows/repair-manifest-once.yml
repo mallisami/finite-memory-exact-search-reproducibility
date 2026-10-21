@@ -1,0 +1,67 @@
+name: One-time byte-exact manifest repair
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/repair-manifest-once.yml"
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Rebuild manifest and run verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          # This is a one-time repair workflow; remove it from the final tree.
+          rm .github/workflows/repair-manifest-once.yml
+          python - <<'PY'
+          from pathlib import Path
+          import csv
+          import hashlib
+
+          root = Path(".")
+          manifest = root / "MANIFEST_SHA256.csv"
+          ignored_dirs = {"__pycache__", ".pytest_cache", ".git"}
+          rows = []
+          for path in root.rglob("*"):
+              if not path.is_file() or path == manifest:
+                  continue
+              rel = path.relative_to(root).as_posix()
+              parts = set(path.relative_to(root).parts)
+              if parts & ignored_dirs:
+                  continue
+              if rel.startswith("results/reproduced/") and rel != "results/reproduced/.gitkeep":
+                  continue
+              digest = hashlib.sha256(path.read_bytes()).hexdigest()
+              rows.append((rel, path.stat().st_size, digest))
+          rows.sort(key=lambda row: row[0])
+          with manifest.open("w", newline="", encoding="utf-8") as stream:
+              writer = csv.writer(stream, lineterminator="\\r\\n")
+              writer.writerow(["path", "bytes", "sha256"])
+              writer.writerows(rows)
+          print(f"Rebuilt SHA-256 manifest for {len(rows)} files.")
+          PY
+          python verify.py
+          bash run_tests.sh
+      - name: Commit the corrected manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- .github/workflows/repair-manifest-once.yml MANIFEST_SHA256.csv
+          git diff --cached --quiet && { echo "No manifest correction was produced"; exit 1; }
+          git commit -m "Repair checksum manifest for byte-exact repository inventory"
+          git push origin HEAD:main
