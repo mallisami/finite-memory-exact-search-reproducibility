@@ -1,4 +1,6 @@
-# PCR2: reviewer reproducibility entry point
+# Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse
+
+## Reviewer reproducibility guide
 
 **Begin here (Python 3.11, from the repository root):**
 
