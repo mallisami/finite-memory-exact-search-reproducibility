@@ -1,4 +1,4 @@
-name: PCR2 reproducibility verification
+name: Finite-Memory Exact-Search Reproducibility Verification
 on:
   push:
     branches: [main]
