@@ -1,0 +1,5 @@
+contrast,estimate,ci95_low,ci95_high,bootstrap_replicates,bootstrap_unit
+nested_minus_training_prevalence_case_mean_log_loss,-0.1691507964138438,-0.2113813138636432,-0.1261436733505791,2000,"case, stratified within held-out domain"
+nested_minus_history_only_case_mean_log_loss,-0.2389683804881872,-0.3016456755024431,-0.1830375657646464,2000,"case, stratified within held-out domain"
+nested_minus_original_log_loss_diff,0.04093623512085457,0.016467519839183143,0.06807202016704247,2000,case stratified within held-out domain
+nested_minus_original_brier_diff,0.015333882968113896,0.00653598274216373,0.024539937135933863,2000,case stratified within held-out domain

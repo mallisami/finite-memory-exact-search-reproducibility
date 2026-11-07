@@ -12,10 +12,10 @@ The authoritative full author-side research archive is `PCR2_PAPER2_FIGURES_TABL
 
 ## Figure status and full reproduction
 
-The 2026-11-07 author-side archive retains the current manuscript source, the exact final figure PDF files, repaired general figure builder, corrected AWS P8 rows, nested P9 source analysis, and original P10 execution and repeat files. The GitHub `figures/publication/` PDFs originate from the earlier October curated release. Do **not** describe those older GitHub PDFs as byte-identical to the latest manuscript's figure PDFs until separately replaced and checked.
+The 2026-11-07 author-side archive retains the current manuscript source, the exact final figure PDF files, repaired general figure builder, corrected AWS P8 rows, nested P9 source analysis, and original P10 execution and repeat files. The GitHub `figures/publication/` PDFs are now the corrected November manuscript figures. Figures 2–5 and S1 are byte-identical to the author's release; Figure 1 has review-safety metadata and an embedded Content Credentials attachment removed while retaining the same rendered pixels.
 
 No manuscript, reviewer identity, host IP, AWS account identifier, private key, or full original VM log archive is added through this alignment. GitHub remains a public, identity-bearing repository; use an anonymous reviewed deposit when blind review requires it.
 
 ## Verification scope
 
-`python verify.py` verifies the original curated evidence and the November 2026 additional numerical summaries. The new summary files are descriptive copies from the full verified archive; they do not reproduce the original cloud execution. Historical raw-input and cross-environment byte-identity boundaries remain documented separately.
+`python verify.py` verifies the original curated evidence and the November 2026 additional numerical summaries. The corrected summary files are supported by the corresponding deposited P8 AWS rows, P9 nested analysis, and P10 original/repeated result files under `results/`. These verify the retained evidence and do not recreate the original cloud executions. Historical raw-input and cross-environment byte-identity boundaries remain documented separately.

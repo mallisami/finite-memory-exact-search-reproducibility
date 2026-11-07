@@ -1,0 +1,78 @@
+{
+  "all_three_beat_history_logloss": true,
+  "all_three_beat_prevalence_logloss": true,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261105,
+  "calibration": "Platt/no-calibration choice selected from training-domain OOF predictions only using the P6 rule",
+  "candidate_search": "full frozen P6 candidate space: constant/history baselines; logistic, HGB, MLP; H,S,D,H+S,H+D,H+S+D; original hyperparameter grids",
+  "development_data": "P5.5 natural-controller development corpus: 45 independent cases, 675 rows; 30 training cases and 15 held-out cases per outer fold",
+  "domain_specific_selected_feature_families": {
+    "generic": "H+D",
+    "microservice": "H+S+D",
+    "workflow": "D"
+  },
+  "elapsed_seconds": 155.8,
+  "inner_design": "5-fold grouped CV by instance_seed across the two outer-training domains; same seed assigned to same fold in both domains",
+  "macro_auprc": 0.6921190986191754,
+  "macro_auroc": 0.8663045615214249,
+  "macro_brier": 0.14092831178101772,
+  "macro_log_loss": 0.41440194894825805,
+  "nested_vs_original_fixed_P9_case_bootstrap": [
+    {
+      "bootstrap_replicates": 2000,
+      "bootstrap_unit": "case stratified within held-out domain",
+      "ci95_high": 0.06807202016704247,
+      "ci95_low": 0.016467519839183143,
+      "contrast": "nested_minus_original_log_loss_diff",
+      "estimate": 0.04093623512085457
+    },
+    {
+      "bootstrap_replicates": 2000,
+      "bootstrap_unit": "case stratified within held-out domain",
+      "ci95_high": 0.024539937135933863,
+      "ci95_low": 0.00653598274216373,
+      "contrast": "nested_minus_original_brier_diff",
+      "estimate": 0.015333882968113896
+    }
+  ],
+  "original_fixed_P9_macro_log_loss": 0.3734657138274035,
+  "outer_design": "leave-one-domain-out; each target domain excluded from all inner model/feature/hyperparameter selection and calibration fitting",
+  "outer_results": [
+    {
+      "auprc": 0.6500062209503702,
+      "auroc": 0.8840545063351661,
+      "brier": 0.1150621019036355,
+      "held_out_domain": "generic",
+      "log_loss": 0.34245888502087823,
+      "model": "nested_selected",
+      "n_cases": 15,
+      "n_rows": 225,
+      "test_prevalence": 0.2088888888888889
+    },
+    {
+      "auprc": 0.7987528965467409,
+      "auroc": 0.8876180101670297,
+      "brier": 0.13798686433304916,
+      "held_out_domain": "workflow",
+      "log_loss": 0.4055747174980913,
+      "model": "nested_selected",
+      "n_cases": 15,
+      "n_rows": 225,
+      "test_prevalence": 0.32
+    },
+    {
+      "auprc": 0.6275981783604152,
+      "auroc": 0.8272411680620788,
+      "brier": 0.16973596910636848,
+      "held_out_domain": "microservice",
+      "log_loss": 0.4951722443258047,
+      "model": "nested_selected",
+      "n_cases": 15,
+      "n_rows": 225,
+      "test_prevalence": 0.26222222222222225
+    }
+  ],
+  "selection_rule": "mean fold log loss, then Brier, then AUPRC descending, then lower complexity",
+  "status": "nested_P9_reanalysis_complete",
+  "target_domain_used_for_selection": false
+}
