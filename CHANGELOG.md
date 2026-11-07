@@ -1,4 +1,13 @@
-# PCR2 public reproducibility repository changelog
+# Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse
+
+## Reproducibility repository changelog
+
+## 2026-11-08 — public scientific title and versioned-release preparation
+
+- Standardized public README, reviewer, editor and citation headings around the full paper title, not internal working identifiers.
+- Added code/data availability wording for the manuscript and author-approved proposed GitHub release notes for `v1.0.0`.
+- Clarified that a DOI is optional unless demanded by the journal and that a release-note file alone does not publish a tag or GitHub Release.
+- **Science unchanged:** no algorithms, experiments, frozen numerical evidence, or scientific claims altered.
 
 ## 2026-11-08 — journal/reviewer access documentation
 
