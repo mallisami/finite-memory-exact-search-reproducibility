@@ -1,7 +1,28 @@
 {
+  "corrected_p8_aws_source": "04_Results/AWS_P7_P8/05_REANALYSIS_AND_NORMALIZATION/P8_AWS_TRIPLET_BLOCK_REANALYSIS.json",
+  "measurement_audit": {
+    "measurement_rows": 900,
+    "prepared_sequences": 90,
+    "unique_measurement_seeds": 900,
+    "unique_pcap_sha256": 900,
+    "unique_sequences": 90
+  },
+  "objective": {
+    "cell_stratified_sensitivity_ci": [
+      -0.0010049271074159987,
+      0.002445110497225312
+    ],
+    "external_mean_effect": 0.0006986185922562676,
+    "triplet_block_ci": [
+      -0.0007954269250966012,
+      0.002185423748295559
+    ]
+  },
+  "p8_aws_derived_incremental_saved_pops_per_sequence": 1.9111111111111112,
+  "p8_inference_amendment": "post-hoc application-repetition triplet-block bootstrap; original cell-stratified intervals retained as sensitivity",
   "prediction": {
-    "heldout_auroc": 0.8459632459219493,
-    "heldout_ap": 0.6105164444866519
+    "heldout_ap": 0.6105164444866519,
+    "heldout_auroc": 0.8459632459219493
   },
   "retention": {
     "budget_25_effect": 0.0879803957947273,
@@ -12,20 +33,6 @@
   },
   "work_saving": {
     "confirmatory_pops_per_case": 0.2222222222222222,
-    "external_pops_per_sequence": 24.72222222222222
-  },
-  "objective": {
-    "external_mean_effect": 0.0007451831461010776,
-    "stratified_ci": [
-      -0.0007423951201748834,
-      0.0022198128266413424
-    ]
-  },
-  "measurement_audit": {
-    "measurement_rows": 900,
-    "unique_sequences": 90,
-    "unique_measurement_seeds": 900,
-    "unique_pcap_sha256": 900,
-    "prepared_sequences": 90
+    "external_pops_per_sequence": 24.38888888888889
   }
 }
