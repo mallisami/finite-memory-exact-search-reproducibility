@@ -1,6 +1,6 @@
 # Licensing, citation and archival status — author/editor decisions required
 
-This repository currently has **no explicit LICENSE file** and no confirmed DOI or permanent repository archive. Do not infer that a public GitHub repository grants an open-source license or unrestricted reuse rights.
+This repository currently has **no explicit LICENSE file** and no DOI. The authors approved a versioned GitHub release, but the formal tag/release page is not yet published. Do not infer that a public GitHub repository grants an open-source license or unrestricted reuse rights.
 
 ## Required author decisions
 
@@ -8,7 +8,7 @@ This repository currently has **no explicit LICENSE file** and no confirmed DOI 
 2. Review third-party license and redistribution constraints for DeathStarBench-derived material, Topology Zoo-derived inputs and any included third-party assets. Derivation does not erase upstream obligations.
 3. Choose and approve a **code license**, and determine whether data and figure permissions need separate terms. Only then add valid `LICENSE` / `DATA_LICENSE` files; do not assign one without approval.
 4. Verify the intended journal's anonymity and repository-link policy. The manuscript says *Anonymous submission* and this GitHub URL exposes the repository owner. An anonymous review mirror may be necessary.
-5. After authorship, submission policy and release scope are approved, freeze a reviewed Git tag / GitHub release and, if requested, a permanent archive DOI. No archive DOI or accepted journal citation exists in this repository yet.
+5. Publish the approved `v1.0.0` GitHub Release from the final verified commit using the full scientific title. A DOI is optional unless the chosen journal expressly requires an archival identifier. Do not claim publication before GitHub confirms it.
 
 ## How to identify the present materials without inventing a DOI
 
