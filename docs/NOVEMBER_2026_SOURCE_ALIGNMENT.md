@@ -12,7 +12,7 @@ The authoritative full author-side research archive is `PCR2_PAPER2_FIGURES_TABL
 
 ## Figure status and full reproduction
 
-The 2026-11-07 author-side archive retains the current manuscript source, the exact final figure PDF files, repaired general figure builder, corrected AWS P8 rows, nested P9 source analysis, and original P10 execution and repeat files. The GitHub `figures/publication/` PDFs are now the corrected November manuscript figures. Figures 2–5 and S1 are byte-identical to the author's release; Figure 1 has review-safety metadata and an embedded Content Credentials attachment removed while retaining the same rendered pixels.
+The 2026-11-07 author-side archive retains the current manuscript source, the exact final figure PDF files, repaired general figure builder, corrected AWS P8 rows, nested P9 source analysis, and original P10 execution and repeat files. **The repaired author figure builder and corrected AWS Figure 4 helper are now also source-ported into GitHub, with only release-relative paths adapted.** The GitHub `figures/publication/` PDFs are the corrected November figures. Figures 2–5 and S1 are byte-identical to the author's release; Figure 1 has review-safety metadata and an embedded Content Credentials attachment removed while retaining the same rendered pixels.
 
 No manuscript, reviewer identity, host IP, AWS account identifier, private key, or full original VM log archive is added through this alignment. GitHub remains a public, identity-bearing repository; this submission is non-anonymous, so the public URL can be cited directly.
 

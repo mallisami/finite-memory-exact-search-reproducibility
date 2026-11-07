@@ -21,8 +21,8 @@ Run from repository root:
     python src/analysis/rebuild_publication_figures.py
     python src/analysis/audit_release_duplicates.py
 
-The publication reconstruction script regenerates Fig2-Fig5 and FigS1 under
-results/reproduced/publication_figures/ using retained data. It never
+The original author-derived publication analysis regenerates Fig2-Fig5 and FigS1 under
+results/reproduced/publication_figures/ using frozen retained data and source-backed numerical checks. See docs/FIGURE_BUILDER_PROVENANCE.md. It never
 overwrites frozen final publication figures and does not rerun cloud timing.
 Fig1 is a frozen schematic. Identical PDF bytes are not promised across font
 and rendering environments; verify.py checks frozen exact artwork hashes.

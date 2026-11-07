@@ -151,3 +151,7 @@ Use [Reviewer Start Here](docs/REVIEWER_START_HERE.md) for the single canonical 
 ## Canonical reviewer evidence index
 
 For one authoritative location per claim and for the full versus curated provenance boundary, see [Reviewer evidence source of truth](docs/REVIEWER_EVIDENCE_SOURCE_OF_TRUTH_20261107.md) and [Machine-readable evidence index](docs/REVIEWER_EVIDENCE_INDEX.csv).
+
+## Source-derived author figure regeneration
+
+The recovered author-side figure builder is now included as `src/analysis/rebuild_publication_figures.py` and `src/analysis/rebuild_Fig4_AWS_author.py`, adapted only for repository-relative inputs and a safe derived-output directory. Rebuild Figures 2–5 and S1 with `python src/analysis/rebuild_publication_figures.py`. The output matches the final artwork at the tested raster resolution; Figure 1 is a frozen schematic. See [`docs/FIGURE_BUILDER_PROVENANCE.md`](docs/FIGURE_BUILDER_PROVENANCE.md).

@@ -17,4 +17,4 @@ Elapsed-time results depend on the recorded execution environments. The reposito
 
 ## Publication-figure regeneration boundary
 
-The exact six final publication PDFs are retained in `figures/publication/` and were byte-compared with the figure files in the current manuscript package. The included plotting utility regenerates derived summary data and auxiliary diagnostic figures, not the exact final publication PDFs. Use the frozen `figures/publication/` files as the authoritative manuscript artwork; do not substitute diagnostic outputs for them.
+All six final publication PDFs remain frozen in `figures/publication/`; Figure 1 is the source artwork schematic. The **author-derived original plotting builder** now lives at `src/analysis/rebuild_publication_figures.py` with its corrected AWS Fig4 helper at `src/analysis/rebuild_Fig4_AWS_author.py`. Its output in `results/reproduced/publication_figures/` regenerated Figures 2–5 and S1 pixel-identically to the author's PDFs in local verification. PDF metadata/binary identity is not promised on other platforms. No plotting run recreates physical AWS experiments or the missing packet captures.

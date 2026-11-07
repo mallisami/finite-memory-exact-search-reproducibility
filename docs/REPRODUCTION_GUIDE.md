@@ -65,13 +65,14 @@ PYTHONPATH=src python src/run_experiments.py p9
 PYTHONPATH=src python src/run_experiments.py p10_all
 ```
 
-## 5. Rebuild derived summaries and diagnostic figures
+## 5. Rebuild publication figures from the original author-derived analysis
 
 ```bash
+python src/analysis/rebuild_publication_figures.py
 PYTHONPATH=src python src/analysis/rebuild_derived_diagnostics.py
 ```
 
-The utility reconstructs derived summary CSVs in `results/reproduced/derived_data/` and auxiliary diagnostic plots in `results/reproduced/diagnostic_figures/`. It never overwrites the frozen `figures/data/` source summaries or the final publication figures. It does **not** rerun the experiments and does **not** regenerate the exact final publication PDFs. The six frozen publication PDFs are stored separately in `figures/publication/` and match the figure files bundled with the current manuscript package. Keep diagnostic plots separate from those final publication files.
+The **first** command runs the source-derived original author figure and tabular analysis adapted for this repository. It writes Figures 2–5 and S1 in `results/reproduced/publication_figures/` and derived tables in `results/reproduced/publication_data/`. Figure 1 is frozen schematic artwork; the six authoritative final PDF files in `figures/publication/` are never overwritten. Independent local comparison found pixel-identical reproduction for all five generated figures at the tested rendering resolution. Their PDF bytes can differ in timestamps/metadata on other hosts. The **second** command regenerates auxiliary diagnostics only, in distinct `results/reproduced/` paths. Neither operation re-executes a scientific campaign. See `docs/FIGURE_BUILDER_PROVENANCE.md`.
 
 ## 6. Multi-machine timing studies
 
