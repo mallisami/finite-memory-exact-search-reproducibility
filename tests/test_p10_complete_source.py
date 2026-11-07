@@ -53,8 +53,8 @@ def test_p10_original_and_repeat_seals_and_source():
                 location=P10/folder/filename
             assert location.is_file(),filename
             assert digest(location)==sha,filename
-        cases=pd.read_csv(dirname/"p10_confirmatory_runs.csv")
-        times=pd.read_csv(dirname/"p10_timing_repeats.csv")
+        cases=pd.read_csv(P10/folder/"p10_confirmatory_runs.csv")
+        times=pd.read_csv(P10/folder/"p10_timing_repeats.csv")
         assert len(cases)==180 and len(times)==540 and cases.seed.nunique()==45
         seeds.append(set(cases.seed))
     assert seeds[0]==seeds[1],"Timing repetition must not double independent sample size"
