@@ -46,7 +46,13 @@ def test_p10_original_and_repeat_seals_and_source():
         for original_name,sha in seal["source_sha256"].items():
             assert digest(expected_src[original_name])==sha,original_name
         for filename,sha in seal["result_sha256"].items():
-            assert digest(dirname/filename)==sha,filename
+            # The original curated six CSVs are canonically in each run root.
+            # Author-side summary, environment and seals live in confirmatory/.
+            location=dirname/filename
+            if not location.is_file():
+                location=P10/folder/filename
+            assert location.is_file(),filename
+            assert digest(location)==sha,filename
         cases=pd.read_csv(dirname/"p10_confirmatory_runs.csv")
         times=pd.read_csv(dirname/"p10_timing_repeats.csv")
         assert len(cases)==180 and len(times)==540 and cases.seed.nunique()==45
