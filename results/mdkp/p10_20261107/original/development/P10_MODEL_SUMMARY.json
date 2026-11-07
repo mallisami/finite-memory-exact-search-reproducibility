@@ -1,0 +1,47 @@
+{
+  "development_cases": 30,
+  "development_events": 5155,
+  "fixed_features": [
+    "history_count_same_context",
+    "iterations_since_last_context",
+    "recent_same_context_count_20",
+    "current_cost_ratio",
+    "current_best_cost_ratio",
+    "temperature_ratio",
+    "recent_accept_rate_10",
+    "recent_accept_rate_20",
+    "recent_moved_item_overlap_10",
+    "recent_moved_item_overlap_20",
+    "accepted_moves_since_context",
+    "cost_delta_since_context",
+    "objective_improvement_last_10",
+    "objective_improvement_last_20"
+  ],
+  "history_baseline_features": [
+    "history_count_same_context",
+    "iterations_since_last_context",
+    "recent_same_context_count_20"
+  ],
+  "oof_calibrated": {
+    "ap": 0.837210438211079,
+    "auroc": 0.6384990515497839,
+    "brier": 0.16310231344636678,
+    "log_loss": 0.5051567142227678
+  },
+  "oof_history_only": {
+    "ap": 0.8163922183303387,
+    "auroc": 0.5960740927805004,
+    "brier": 0.16762844769709304,
+    "log_loss": 0.5172088407218923
+  },
+  "oof_raw": {
+    "ap": 0.837210438211079,
+    "auroc": 0.6384990515497839,
+    "brier": 0.16308098533373167,
+    "log_loss": 0.5060892150779109
+  },
+  "prevalence": 0.782541222114452,
+  "privileged_generator_features_excluded": [
+    "current_context_class"
+  ]
+}

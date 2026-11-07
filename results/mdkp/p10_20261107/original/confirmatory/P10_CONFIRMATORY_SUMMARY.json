@@ -1,0 +1,177 @@
+{
+  "cases": 45,
+  "endpoint_roles": {
+    "downstream_optimization_endpoint": "relative best-objective improvement of learned versus restart; positive means lower minimization cost",
+    "primary_mechanistic_endpoint": "paired learned-minus-empirical cumulative prior exact-search nodes represented by checkpoints at legal compatible resumes per case; this is a resume-weighted mechanistic quantity, while actual new work avoided is the separate operational endpoint",
+    "primary_operational_endpoint": "paired empirical-minus-learned newly executed exact-search nodes per case (positive means learned executes fewer new nodes)",
+    "primary_wall_clock_endpoint": "paired restart-minus-learned median end-to-end milliseconds per case over three deterministic repeats (positive means learned is faster than restart and therefore has net wall-clock benefit)"
+  },
+  "inference": [
+    {
+      "bootstrap_95_high": 2739.2,
+      "bootstrap_95_low": -9745.28,
+      "endpoint": "primary_mechanistic_learned_minus_empirical_reused_prior_nodes",
+      "holm_adjusted_p_primary_family": 1.0,
+      "mean_paired_effect": -3293.866666666667,
+      "median_paired_effect": 0.0,
+      "n_cases": 45,
+      "negative_cases": 22,
+      "positive_cases": 22,
+      "ties": 1,
+      "wilcoxon_one_sided_p": 0.6606865918247455
+    },
+    {
+      "bootstrap_95_high": 324.00166666666667,
+      "bootstrap_95_low": -43.49222222222222,
+      "endpoint": "primary_operational_empirical_minus_learned_new_nodes",
+      "holm_adjusted_p_primary_family": 0.05959884910937639,
+      "mean_paired_effect": 148.04444444444445,
+      "median_paired_effect": 132.0,
+      "n_cases": 45,
+      "negative_cases": 12,
+      "positive_cases": 28,
+      "ties": 5,
+      "wilcoxon_one_sided_p": 0.019866283036458796
+    },
+    {
+      "bootstrap_95_high": 1.437835893917104,
+      "bootstrap_95_low": -53.52521204991919,
+      "endpoint": "primary_wallclock_restart_minus_learned_ms",
+      "holm_adjusted_p_primary_family": 1.0,
+      "mean_paired_effect": -26.831543223427918,
+      "median_paired_effect": -22.106757998699322,
+      "n_cases": 45,
+      "negative_cases": 32,
+      "positive_cases": 13,
+      "ties": 0,
+      "wilcoxon_one_sided_p": 0.9888725886600582
+    },
+    {
+      "bootstrap_95_high": 6.785338164352449,
+      "bootstrap_95_low": -9.224209142986284,
+      "endpoint": "secondary_incremental_wallclock_empirical_minus_learned_ms",
+      "mean_paired_effect": -0.9988663992973872,
+      "median_paired_effect": -0.626337990979664,
+      "n_cases": 45,
+      "negative_cases": 23,
+      "positive_cases": 22,
+      "ties": 0
+    },
+    {
+      "bootstrap_95_high": 2414.9511111111105,
+      "bootstrap_95_low": 955.375,
+      "endpoint": "secondary_restart_minus_learned_new_nodes",
+      "mean_paired_effect": 1644.5555555555557,
+      "median_paired_effect": 1092.0,
+      "n_cases": 45,
+      "negative_cases": 5,
+      "positive_cases": 39,
+      "ties": 1
+    },
+    {
+      "bootstrap_95_high": 2.977777777777778,
+      "bootstrap_95_low": -1.2444444444444445,
+      "endpoint": "secondary_mechanistic_learned_minus_empirical_useful_resumes",
+      "mean_paired_effect": 0.8444444444444444,
+      "median_paired_effect": 0.0,
+      "n_cases": 45,
+      "negative_cases": 19,
+      "positive_cases": 21,
+      "ties": 5
+    },
+    {
+      "bootstrap_95_high": -330.28611111111474,
+      "bootstrap_95_low": -14866.652777777777,
+      "endpoint": "secondary_memory_learned_minus_empirical_byte_time",
+      "mean_paired_effect": -7582.4,
+      "median_paired_effect": -5076.0,
+      "n_cases": 45,
+      "negative_cases": 30,
+      "positive_cases": 15,
+      "ties": 0
+    },
+    {
+      "bootstrap_95_high": 24.867222222222214,
+      "bootstrap_95_low": -20.778333333333332,
+      "endpoint": "secondary_memory_learned_minus_empirical_peak_checkpoint_bytes",
+      "mean_paired_effect": 0.5777777777777777,
+      "median_paired_effect": 0.0,
+      "n_cases": 45,
+      "negative_cases": 17,
+      "positive_cases": 12,
+      "ties": 16
+    },
+    {
+      "bootstrap_95_high": 2.6,
+      "bootstrap_95_low": 0.022222222222222223,
+      "endpoint": "secondary_capacity_evictions_learned_minus_empirical",
+      "mean_paired_effect": 1.288888888888889,
+      "median_paired_effect": 0.0,
+      "n_cases": 45,
+      "negative_cases": 16,
+      "positive_cases": 22,
+      "ties": 7
+    },
+    {
+      "bootstrap_95_high": 0.7111111111111111,
+      "bootstrap_95_low": -0.15555555555555556,
+      "endpoint": "secondary_invalidation_evictions_learned_minus_empirical",
+      "mean_paired_effect": 0.24444444444444444,
+      "median_paired_effect": 0.0,
+      "n_cases": 45,
+      "negative_cases": 9,
+      "positive_cases": 9,
+      "ties": 27
+    },
+    {
+      "bootstrap_95_high": 0.00040672930133171895,
+      "bootstrap_95_low": -4.4048695166646824e-05,
+      "endpoint": "downstream_relative_best_objective_learned_vs_restart",
+      "mean_paired_effect": 0.00018051761134463075,
+      "median_paired_effect": 0.0,
+      "n_cases": 45,
+      "negative_cases": 7,
+      "positive_cases": 14,
+      "ties": 24
+    },
+    {
+      "bootstrap_95_high": 0.00020952642661156194,
+      "bootstrap_95_low": 1.0125306062286254e-05,
+      "endpoint": "secondary_relative_best_objective_learned_vs_empirical",
+      "mean_paired_effect": 9.5879934509297e-05,
+      "median_paired_effect": 0.0,
+      "n_cases": 45,
+      "negative_cases": 1,
+      "positive_cases": 4,
+      "ties": 40
+    }
+  ],
+  "keep_all_role": "upper-resource descriptive reference; no common-trajectory oracle interpretation",
+  "policy_descriptives_file": "p10_policy_descriptives.csv",
+  "primary_family_adjustment": "If formal rank tests are reported for the three P10 primary contrasts (learned-minus-empirical reused prior nodes, empirical-minus-learned new nodes, and restart-minus-learned wall-clock time), use one-sided Wilcoxon tests in the prespecified positive direction and Holm-adjust across the three-primary-endpoint family. Bootstrap confidence intervals remain estimation intervals.",
+  "selected_regime": {
+    "budget_rule": "max(median largest checkpoint bytes, round(0.25 * median keep-all peak bytes)) from the selected outcome-blind screen cell; this fixed byte capacity is then used for every confirmatory case.",
+    "context_count": 18,
+    "destroy_size": 54,
+    "n_items": 168,
+    "primary_budget_bytes": 4206,
+    "screen_cases_per_cell": 9,
+    "screen_cell": {
+      "cases": 9,
+      "destroy_size": 54,
+      "eligible": true,
+      "median_fraction_iterations_live_ge4": 0.7666666666666667,
+      "median_max_checkpoint_size_bytes": 1561.0,
+      "median_max_checkpoint_to_peak_ratio": 0.09279514920936868,
+      "median_peak_checkpoint_bytes": 16822.0,
+      "median_peak_live_checkpoints": 14.0,
+      "median_repair_ms_per_decision": 12.697448492326657,
+      "median_useful_resumes": 69.0,
+      "n_items": 168
+    },
+    "selection_rule": "Among eligible cells choose lexicographically largest (median repair-search milliseconds per decision, median fraction of iterations with >=4 live checkpoints, median peak live checkpoints). No learned-policy, work-saving, wall-clock-policy, or objective outcome enters selection.",
+    "slice_nodes": 384
+  },
+  "timing_design": "One non-authoritative warm-up precedes authoritative timing. Policy execution is counterbalanced with a frozen 4x4 Latin-square order across seed and repeat; three repeats are interleaved rather than run policy-by-policy. Controller runtime excludes one-time model loading, instance generation, and trace construction.",
+  "timing_repeats": 3
+}

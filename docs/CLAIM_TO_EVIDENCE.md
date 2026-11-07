@@ -27,3 +27,7 @@ This map links the paper's principal displays and claims to the curated reposito
 - keep-all is an upper-resource opportunity reference, not a same-budget optimum;
 - the future-aware MDKP diagnostic is in-sample and non-deployable;
 - cross-environment timing differences are descriptive, while within-campaign matched policy contrasts are inferential.
+
+## Full P10 provenance and sample independence
+
+Original P10 development/OOF records (30 development cases), blinded evaluation (15 held-out cases), frozen model artifacts, and executed source are in `results/mdkp/p10_20261107/original/{development,blind_holdout}/` and `experiments/mdkp/p10_20261107/executed_source_snapshot/`. Both 45-case original/replication execution seals, result rows and repeat timings are under `results/mdkp/p10_20261107/{original,same_case_repeat}/confirmatory/`. The same 45 case identities recur in the timing repeat; never treat them as 90 independent cases. `tests/test_p10_complete_source.py` verifies both seals and source hashes.

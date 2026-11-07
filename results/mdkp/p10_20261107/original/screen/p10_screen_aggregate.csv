@@ -1,0 +1,4 @@
+n_items,destroy_size,cases,median_peak_live_checkpoints,median_fraction_iterations_live_ge4,median_useful_resumes,median_repair_ms_per_decision,median_peak_checkpoint_bytes,median_max_checkpoint_size_bytes,median_max_checkpoint_to_peak_ratio,eligible
+120,42,9,9.0,0.575,46.0,8.736813624758119,9066.0,1246.0,0.13743657621883962,True
+144,48,9,10.0,0.65,56.0,10.432101816574383,12092.0,1420.0,0.11743301356268607,True
+168,54,9,14.0,0.7666666666666667,69.0,12.697448492326657,16822.0,1561.0,0.09279514920936868,True

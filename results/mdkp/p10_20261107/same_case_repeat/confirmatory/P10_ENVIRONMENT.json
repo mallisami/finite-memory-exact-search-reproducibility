@@ -1,0 +1,36 @@
+{
+  "cpu_model": "AMD EPYC 7763 64-Core Processor",
+  "cpu_scaling_governor": null,
+  "load_average_before_confirmatory": [
+    1.0205078125,
+    1.4716796875,
+    1.7822265625
+  ],
+  "logical_cpu_count": 2,
+  "machine": "x86_64",
+  "memory_total_kib": 8127924,
+  "packages": {
+    "joblib": "1.5.3",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pytest": "9.0.2",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0"
+  },
+  "platform": "Linux-6.8.0-1068-azure-x86_64-with-glibc2.41",
+  "process_cpu_affinity": [
+    0,
+    1
+  ],
+  "processor": "",
+  "python": "3.13.5",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "timing_design": "One non-authoritative warm-up precedes authoritative timing. Policy execution is counterbalanced with a frozen 4x4 Latin-square order across seed and repeat; three repeats are interleaved rather than run policy-by-policy. Controller runtime excludes one-time model loading, instance generation, and trace construction.",
+  "timing_scope": "controller execution only; excludes one-time model loading, instance generation, and context-trace construction"
+}

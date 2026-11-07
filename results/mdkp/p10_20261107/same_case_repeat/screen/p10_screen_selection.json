@@ -1,0 +1,23 @@
+{
+  "budget_rule": "max(median largest checkpoint bytes, round(0.25 * median keep-all peak bytes)) from the selected outcome-blind screen cell; this fixed byte capacity is then used for every confirmatory case.",
+  "context_count": 18,
+  "destroy_size": 54,
+  "n_items": 168,
+  "primary_budget_bytes": 4206,
+  "screen_cases_per_cell": 9,
+  "screen_cell": {
+    "cases": 9,
+    "destroy_size": 54,
+    "eligible": true,
+    "median_fraction_iterations_live_ge4": 0.7666666666666667,
+    "median_max_checkpoint_size_bytes": 1561.0,
+    "median_max_checkpoint_to_peak_ratio": 0.09279514920936868,
+    "median_peak_checkpoint_bytes": 16822.0,
+    "median_peak_live_checkpoints": 14.0,
+    "median_repair_ms_per_decision": 14.423435317318459,
+    "median_useful_resumes": 69.0,
+    "n_items": 168
+  },
+  "selection_rule": "Among eligible cells choose lexicographically largest (median repair-search milliseconds per decision, median fraction of iterations with >=4 live checkpoints, median peak live checkpoints). No learned-policy, work-saving, wall-clock-policy, or objective outcome enters selection.",
+  "slice_nodes": 384
+}

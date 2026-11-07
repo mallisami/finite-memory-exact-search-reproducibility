@@ -1,0 +1,24 @@
+{
+  "config_sha256": "1281ee70db27e4e19157ab509d74d4ee4659fdc4f26f130dc6f9984e3a14fe05",
+  "environment_sha256": "3904b28c7526679ab63061c048dfbe47acb38c9da039af2cf3d703df69809290",
+  "package_manifest": {
+    "path": "06_MANIFESTS/SHA256SUMS.csv",
+    "sha256": "a3fff62180c7afd787dd01f3bf414a4424c39914618a98ed71d6fce44035d947"
+  },
+  "result_sha256": {
+    "P10_CONFIRMATORY_SUMMARY.json": "fd4b28e646c2f3848d0fc98eab164b651556bc3020c0bb2948a3096acd2bc5ec",
+    "P10_ENVIRONMENT.json": "3904b28c7526679ab63061c048dfbe47acb38c9da039af2cf3d703df69809290",
+    "p10_confirmatory_inference.csv": "7e688588e116f6eb9f69854dd0fcbf325aeda418cab03dc429ce24c8ee11bf83",
+    "p10_confirmatory_runs.csv": "a5c6953f97695bbf09657d60c1fe68cb438c4fc5783502c4b987c5965b0d68b0",
+    "p10_policy_descriptives.csv": "69dc9742dfda53c816786152ab89ed11ecde5488eb85a8d6bfe29504f4d1ed71",
+    "p10_timing_repeats.csv": "f6f5c3e11582f7c031f222aaee3e1d28c3a07f9e4599dd44962893299b378691"
+  },
+  "source_sha256": {
+    "04_CODE/independent_mdkp/allocation.py": "e8aee6fc3def6071e48f91cc2231fa7d5b4ebd0b72bfad432f39e33e7e74f4ac",
+    "04_CODE/independent_mdkp/controller.py": "e20ba9f0af383a873e43e692a511266f4b7c2d4cca58b15ee0143f2d93e5522d",
+    "04_CODE/independent_mdkp/core.py": "27176b1b56310e54160af78672d3dbb3480d699442e14ff376a17cb3542ca2e0",
+    "04_CODE/independent_mdkp/model.py": "58ad0c573640ec344680c6cc89ed6515d4ba124216c062e716b0d89ed523d02a",
+    "04_CODE/scripts/paper2_p10_independent_validation.py": "05f9d9ff72f370af697bd98fe2bc33d5c7d549a2ef22662400f97abb6d6b3b68"
+  },
+  "status": "AUTHORITATIVE_P10_CONFIRMATORY_COMPLETED"
+}
