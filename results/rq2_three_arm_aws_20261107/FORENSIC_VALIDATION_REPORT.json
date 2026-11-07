@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "reconciliation_rate": 1.0,
+  "anomalous_rows": 0,
+  "P7": {
+    "panel": "P7",
+    "total_rows": 3240,
+    "emp_scoring_zero_count": 3240,
+    "emp_scoring_nonzero_count": 0,
+    "learned_resumes_equal_count": 3240,
+    "learned_resumes_mismatch_count": 0,
+    "learned_evictions_equal_count": 3240,
+    "learned_evictions_mismatch_count": 0,
+    "learned_accepted_equal_count": 3240,
+    "learned_accepted_mismatch_count": 0,
+    "direct_faster_than_sklearn_count": 3240,
+    "permutation_counts": {
+      "sklearn|direct|empirical_compatible": 540,
+      "sklearn|empirical_compatible|direct": 540,
+      "direct|sklearn|empirical_compatible": 540,
+      "direct|empirical_compatible|sklearn": 540,
+      "empirical_compatible|sklearn|direct": 540,
+      "empirical_compatible|direct|sklearn": 540
+    }
+  },
+  "P8": {
+    "panel": "P8",
+    "total_rows": 2160,
+    "emp_scoring_zero_count": 2160,
+    "emp_scoring_nonzero_count": 0,
+    "learned_resumes_equal_count": 2160,
+    "learned_resumes_mismatch_count": 0,
+    "learned_evictions_equal_count": 2160,
+    "learned_evictions_mismatch_count": 0,
+    "learned_accepted_equal_count": 2160,
+    "learned_accepted_mismatch_count": 0,
+    "direct_faster_than_sklearn_count": 2160,
+    "permutation_counts": {
+      "sklearn|direct|empirical_compatible": 360,
+      "sklearn|empirical_compatible|direct": 360,
+      "direct|sklearn|empirical_compatible": 360,
+      "direct|empirical_compatible|sklearn": 360,
+      "empirical_compatible|sklearn|direct": 360,
+      "empirical_compatible|direct|sklearn": 360
+    }
+  }
+}

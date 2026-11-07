@@ -142,3 +142,8 @@ python src/analysis/rebuild_publication_figures.py
 
 The repository's original SHA-256 verification, scientific tests and
 historical timing-evidence boundaries remain in force.
+
+
+## Reviewer entry point and full-release audit
+
+Use [Reviewer Start Here](docs/REVIEWER_START_HERE.md) for the single canonical experiment navigation and [Reviewer Completeness Audit](docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md) for the author-archive-to-GitHub coverage boundary. The corrected AWS four-host RQ2 three-arm raw evidence is in [results/rq2_three_arm_aws_20261107/](results/rq2_three_arm_aws_20261107/) with source-recomputing tests. The manuscript, Online Resource 1 and author-side full historical host archives are deliberately not silently merged into this public repository. The reviewer-completeness gate remains open.
