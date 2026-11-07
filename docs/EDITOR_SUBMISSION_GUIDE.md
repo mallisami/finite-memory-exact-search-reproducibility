@@ -1,4 +1,6 @@
-# PCR2 Paper 2 — editor and journal submission handoff
+# Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse
+
+## Editor and journal submission handoff
 
 This document describes the **available** public reproducibility deposit, not a venue-specific acceptance certificate. Confirm the journal's code, data, citation, license, archival, and peer-review requirements separately.
 
@@ -24,7 +26,7 @@ This document describes the **available** public reproducibility deposit, not a 
 
 - **Anonymous review:** The current paper PDF says *Anonymous submission*; this public repository and its owner are identity-bearing, and existing documentation had previously called the submission non-anonymous. Obtain a venue-specific decision before supplying this public URL to reviewers. If the journal requires anonymous code review, use an editor-approved anonymized deposit rather than claiming this URL is anonymous.
 - **Licensing:** No explicit code/data license is present. The authors must approve a license after reviewing ownership and third-party input rights; see `docs/LICENSE_AND_RELEASE_STATUS.md`.
-- **Permanent citation:** No DOI or archival snapshot is asserted. The editor/authors should determine the required Zenodo or institutional archive, tag, version, and bibliographic metadata.
+- **Permanent citation:** The authors approved a versioned GitHub Release. A formal tag/release has not yet been published. No DOI is necessary unless the selected journal requires one. Use the immutable published tag/commit once available; see `RELEASE_NOTES_v1.0.0.md`.
 - **Historical provenance:** Original packet-capture binaries and graph coefficient-fitting raw rows are unavailable; some original host archives stay author-side. A fresh cloud rerun is replication, not byte-identical reconstruction.
 - **Editorial artifacts:** Cover letter, author contribution/ethics statements, declarations, title page and reviewer responses belong in the journal system when required; this repository does not fabricate them.
 
