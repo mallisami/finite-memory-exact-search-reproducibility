@@ -2,7 +2,7 @@
 
 ## Canonical release decision
 
-The **only public reviewer-facing code-and-evidence repository** is this GitHub repository. The author-side archive `PCR2_PAPER2_FIGURES_TABLES_CORRECTED_FINAL_20261107.zip` is a preserved provenance/master archive, **not** a second reviewer code repository. The study is **not anonymous**; the public GitHub URL may identify authors. The main manuscript and Online Resource 1 must remain outside this GitHub repository.
+The **only public reviewer-facing code-and-evidence repository** is this GitHub repository. The author-side archive `PCR2_PAPER2_FIGURES_TABLES_CORRECTED_FINAL_20261107.zip` is a preserved provenance/master archive, **not** a second reviewer code repository. The current author manuscript PDF says *Anonymous submission*, while the public GitHub URL may identify authors; the editor must confirm whether this URL may be used in the intended review process. The main manuscript and Online Resource 1 must remain outside this GitHub repository.
 
 Use `docs/REVIEWER_EVIDENCE_INDEX.csv` as the machine-readable claim-to-source matrix. Every current claim has one authoritative input location. Raw values under historical or development subfolders have their own distinct estimands; do not silently combine them with the current analysis.
 
