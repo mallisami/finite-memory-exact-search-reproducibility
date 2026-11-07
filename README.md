@@ -122,3 +122,23 @@ This Git repository contains code, retained data, frozen experimental records, n
 ## November 2026 corrected manuscript alignment
 
 The final author-side research ZIP has newer corrected AWS P8 and nested family-held-out P9 analyses, plus a same-case P10 repeat. The original curated data in this public repository are deliberately preserved. See [November source alignment](docs/NOVEMBER_2026_SOURCE_ALIGNMENT.md) and the additional `figures/data/*20261107.csv` files for corrected numerical summaries. The six current `figures/publication/` PDFs have now been synchronized with the corrected November paper (with Figure 1 sanitized for public distribution). The complete author-side archive still contains additional experimental and figure-generation records not duplicated here. This GitHub subset is not a replacement for that full package.
+
+
+## November 7 reproducibility release verification
+
+The current public repository is the curated code/evidence subset, not the
+author manuscript package. Neither the main paper nor Online Resource 1 is
+included. The frozen figures remain at `figures/publication/`.
+
+The current P8/P9/P10 numerical evidence, release-boundary regression test,
+duplicate-path inventory, and publication-data plot reconstruction are
+documented at `docs/PCR2_RELEASE_REPRODUCIBILITY_20261107.md`.
+To rebuild Fig2-Fig5 and FigS1 into an ignored directory without overwriting
+their frozen final PDFs, run:
+
+```bash
+python src/analysis/rebuild_publication_figures.py
+```
+
+The repository's original SHA-256 verification, scientific tests and
+historical timing-evidence boundaries remain in force.
