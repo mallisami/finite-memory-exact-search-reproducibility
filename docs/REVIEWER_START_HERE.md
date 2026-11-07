@@ -1,5 +1,18 @@
 # PCR2: reviewer reproducibility entry point
 
+**Begin here (Python 3.11, from the repository root):**
+
+```bash
+python -m pip install -r requirements.txt
+bash verify.sh
+bash run_tests.sh
+python src/analysis/rebuild_publication_figures.py
+```
+
+The first two scripts check the frozen manifest, scientific quantities, and regression contracts; the plot builder regenerates five data-driven figures in `results/reproduced/` without overwriting the six frozen publication PDFs. See [the step-by-step matrix](REPRODUCIBILITY_VERIFICATION_MATRIX.md) for expected evidence and boundaries. The original multi-host timing campaigns are **not** rerun by these commands.
+
+**Review scope:** This is a public curated code/evidence release, *not* the author-side complete archive or a copy of the manuscript. For submission packaging and anonymity checks, see [the editor guide](EDITOR_SUBMISSION_GUIDE.md).
+
 This is the intended single public **code and evidence** repository. It deliberately contains **neither the paper nor Online Resource 1**. The six PDFs under `figures/publication/` are final research figures.
 
 Run `python -m pip install -r requirements.txt`, `bash verify.sh`, and `bash run_tests.sh`.
@@ -23,7 +36,7 @@ The four-host three-arm timing data have pseudonymized host identifiers. Four-ho
 
 ## Current boundary
 
-The original P10 development and blind datasets, four fitted model artifacts, execution source snapshot, original/repeated P10 result seals, and case-level measurements are now included under `results/mdkp/p10_20261107/`. The author archive still retains original AWS host records and historical machine provenance outside this public GitHub. This is an intentional upstream-execution boundary rather than missing current paper numerical results. For the *available reported numerical evidence, runnable core code and author-derived figures*, this repository is the **single canonical reviewer source**, and the non-anonymous manuscript may cite this URL. It is not a byte-complete copy of 7,973 author-archive files and does not promise original raw packet capture reconstruction. See `docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md` and `docs/REPRODUCIBILITY_LIMITATIONS.md`.
+The original P10 development and blind datasets, four fitted model artifacts, execution source snapshot, original/repeated P10 result seals, and case-level measurements are now included under `results/mdkp/p10_20261107/`. The author archive still retains original AWS host records and historical machine provenance outside this public GitHub. This is an intentional upstream-execution boundary rather than missing current paper numerical results. For the *available reported numerical evidence, runnable core code and author-derived figures*, this repository is the **single canonical reviewer source**, but the author-side manuscript is labeled *Anonymous submission*, so citation or exposure of this identity-bearing URL needs journal approval. It is not a byte-complete copy of 7,973 author-archive files and does not promise original raw packet capture reconstruction. See `docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md` and `docs/REPRODUCIBILITY_LIMITATIONS.md`.
 
 Repository file paths sometimes intentionally repeat source data in preserved historic protocol snapshots. Git stores identical blobs once. The duplicate auditor `python src/analysis/audit_release_duplicates.py` reports those aliases without deleting scientific evidence.
 

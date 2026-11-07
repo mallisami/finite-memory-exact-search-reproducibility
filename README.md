@@ -4,7 +4,26 @@ Reproducibility materials for the paper **“Finite-Memory Retention of Interrup
 
 This repository is the **curated computational reproducibility release**. It contains the implementation, retained inputs, frozen experiment definitions, raw/derived results, figure data, execution-environment records, and verification utilities needed to inspect or rerun the reported studies without exposing the internal authoring/audit directory structure used during development.
 
-> **Review access.** This submission is non-anonymous. This public GitHub repository may be cited directly as the curated code-and-evidence resource; the manuscript and Online Resource are intentionally not deposited here.
+> **Editorial identity warning.** This public GitHub URL is identity-bearing, while the current author-side manuscript PDF is labeled *Anonymous submission*. Check the destination journal's blind-review policy with the editor **before** submitting this URL for review. This repository remains a curated code-and-evidence resource; the manuscript and Online Resource 1 are intentionally supplied separately through the journal system.
+
+## Reviewer and editor entry points
+
+- **Reviewer first steps:** [Reviewer Start Here](docs/REVIEWER_START_HERE.md), followed by the [verification matrix](docs/REPRODUCIBILITY_VERIFICATION_MATRIX.md).
+- **Editor handoff:** [Editor Submission Guide](docs/EDITOR_SUBMISSION_GUIDE.md) lists the exact package scope, checks and unresolved editorial decisions.
+- **Data and claims:** [Evidence index](docs/REVIEWER_EVIDENCE_INDEX.csv), [claim map](docs/CLAIM_TO_EVIDENCE.md), and [reproducibility limitations](docs/REPRODUCIBILITY_LIMITATIONS.md).
+- **Citation, licensing, archival:** [Citation instructions](CITATION.md) and [license/release status](docs/LICENSE_AND_RELEASE_STATUS.md).
+- **Change history:** [Changelog](CHANGELOG.md). The author-side full November 7 archive is separately preserved; this repository is a curated subset, not its byte-for-byte mirror.
+
+### Reproduction levels
+
+| Level | Action | What it establishes |
+| --- | --- | --- |
+| 1. Integrity and scientific checks | `bash verify.sh && bash run_tests.sh` | Manifest and retained-data checks; regression contracts |
+| 2. Rebuild figures | `python src/analysis/rebuild_publication_figures.py` | Source-derived Fig2–Fig5 and FigS1 in ignored output, without altering frozen PDFs |
+| 3. Rerun deterministic core | `bash reproduce.sh` | Fresh core outputs; separate from original multi-host timing |
+| 4. Historical timing | Consult recorded schedules, environment and raw rows | Reanalysis only; a fresh machine run is a new replication |
+
+The GitHub CI runs on Python 3.11. Installing `requirements.txt` and passing CI do **not** recreate missing packet captures, original coefficient-fitting rows or the historical cloud hardware.
 
 ## Quick start
 
@@ -113,7 +132,7 @@ The fixed pC coefficients, downstream measurements, packet-capture SHA-256 ident
 - Measured replay is evidence about retained/reused search work, **not** production QoS.
 - Cross-environment differences between original and coefficient-scored timing campaigns are descriptive; inferential claims use matched within-evaluation contrasts.
 - Revision-stage analyses under `posthoc/` are explicitly post hoc and are not part of the prespecified primary multiplicity families.
-- The editable PowerPoint used during authoring is deliberately excluded; only the final publication PDF is included, avoiding identity-bearing Office metadata in a double-blind review package.
+- The editable PowerPoint used during authoring is deliberately excluded; only the final publication PDF is included, avoiding redundant editable authoring artifacts and their metadata in the public evidence repository.
 
 ## Release scope
 
@@ -146,7 +165,7 @@ historical timing-evidence boundaries remain in force.
 
 ## Reviewer entry point and full-release audit
 
-Use [Reviewer Start Here](docs/REVIEWER_START_HERE.md) for the single canonical experiment navigation and [Reviewer Completeness Audit](docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md) for the author-archive-to-GitHub coverage boundary. The corrected AWS four-host RQ2 three-arm raw evidence is in [results/rq2_three_arm_aws_20261107/](results/rq2_three_arm_aws_20261107/) with source-recomputing tests. The manuscript, Online Resource 1 and author-side full historical host archives are deliberately not silently merged into this public repository. The reviewer-completeness gate remains open.
+Use [Reviewer Start Here](docs/REVIEWER_START_HERE.md) for the single canonical experiment navigation and [Reviewer Completeness Audit](docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md) for the author-archive-to-GitHub coverage boundary. The corrected AWS four-host RQ2 three-arm raw evidence is in [results/rq2_three_arm_aws_20261107/](results/rq2_three_arm_aws_20261107/) with source-recomputing tests. The manuscript, Online Resource 1 and author-side full historical host archives are deliberately not silently merged into this public repository. The current reviewer-facing numerical-evidence gate is a **qualified GO**, with disclosed upstream provenance boundaries. Separate editorial matters—public-link anonymity, license permissions and permanent archiving—remain unresolved until the authors and venue approve them.
 
 ## Canonical reviewer evidence index
 
