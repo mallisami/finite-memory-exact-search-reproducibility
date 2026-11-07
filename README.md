@@ -4,7 +4,7 @@ Reproducibility materials for the paper **“Finite-Memory Retention of Interrup
 
 This repository is the **curated computational reproducibility release**. It contains the implementation, retained inputs, frozen experiment definitions, raw/derived results, figure data, execution-environment records, and verification utilities needed to inspect or rerun the reported studies without exposing the internal authoring/audit directory structure used during development.
 
-> **Review access.** During double-blind review, share this source and evidence only through a review-safe, anonymized location. A repository directly linked to an identifiable account does not itself preserve anonymity.
+> **Review access.** This submission is non-anonymous. This public GitHub repository may be cited directly as the curated code-and-evidence resource; the manuscript and Online Resource are intentionally not deposited here.
 
 ## Quick start
 
@@ -147,3 +147,7 @@ historical timing-evidence boundaries remain in force.
 ## Reviewer entry point and full-release audit
 
 Use [Reviewer Start Here](docs/REVIEWER_START_HERE.md) for the single canonical experiment navigation and [Reviewer Completeness Audit](docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md) for the author-archive-to-GitHub coverage boundary. The corrected AWS four-host RQ2 three-arm raw evidence is in [results/rq2_three_arm_aws_20261107/](results/rq2_three_arm_aws_20261107/) with source-recomputing tests. The manuscript, Online Resource 1 and author-side full historical host archives are deliberately not silently merged into this public repository. The reviewer-completeness gate remains open.
+
+## Canonical reviewer evidence index
+
+For one authoritative location per claim and for the full versus curated provenance boundary, see [Reviewer evidence source of truth](docs/REVIEWER_EVIDENCE_SOURCE_OF_TRUTH_20261107.md) and [Machine-readable evidence index](docs/REVIEWER_EVIDENCE_INDEX.csv).

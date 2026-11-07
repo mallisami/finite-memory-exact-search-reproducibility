@@ -18,3 +18,5 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - run: bash verify.sh
       - run: bash run_tests.sh
+      - name: Independently rebuild five retained-data publication figures
+        run: python src/analysis/rebuild_publication_figures.py

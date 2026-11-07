@@ -28,3 +28,5 @@ The original P10 development and blind datasets, four fitted model artifacts, ex
 Repository file paths sometimes intentionally repeat source data in preserved historic protocol snapshots. Git stores identical blobs once. The duplicate auditor `python src/analysis/audit_release_duplicates.py` reports those aliases without deleting scientific evidence.
 
 **RQ3 diagnostic correction (NOT ADOPTED):** the full reconstructed labels, paired CPU repeatability results, and the development-only negative held-out policy experiment are retained in [`results/mdkp/rejected_rq3_diagnostics_20261106/`](../results/mdkp/rejected_rq3_diagnostics_20261106/) and explained in [`RQ3_REJECTED_DIAGNOSTIC_REPRODUCTION.md`](RQ3_REJECTED_DIAGNOSTIC_REPRODUCTION.md). Do not confuse them with the official VM90 result.
+
+The canonical claim-to-source crosswalk is [`REVIEWER_EVIDENCE_INDEX.csv`](REVIEWER_EVIDENCE_INDEX.csv); the exact inclusion boundary is [`REVIEWER_EVIDENCE_SOURCE_OF_TRUTH_20261107.md`](REVIEWER_EVIDENCE_SOURCE_OF_TRUTH_20261107.md).

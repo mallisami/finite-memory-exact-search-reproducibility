@@ -1,0 +1,17 @@
+claim_id,status,canonical_source,required_secondary,reproduction_boundary
+P6_HOLDOUT,current,data/core/predictor_holdout/p6_blind_predictions.csv,data/core/predictor_holdout/p6_blind_reliability_bins.csv,Retained sealed heldout records
+P6_DEVELOPMENT,current,data/core/predictor_development/p6_development_cv_metrics.csv,figures/data/p6_ablation_fold_ranges.csv,Development rows not sealed holdout
+P7_RETENTION,current,data/core/residence_primary/results/p7_confirmatory_matched.csv,data/core/residence_primary/results/p7_confirmatory_primary_inference.csv,Keep all is upper resource reference
+P8_AWS_CURRENT,current,results/measured_replay/aws_20261107/p8_external_runs.csv,results/measured_replay/aws_20261107/P8_AWS_TRIPLET_BLOCK_REANALYSIS.json,90 sequences and 30 triplet blocks
+P9_NESTED_CURRENT,current,results/transfer/nested_20261107/nested_p9_domain_metrics.csv,results/transfer/nested_20261107/NESTED_P9_SUMMARY.json,Nested family heldout not historical fixed selection
+P10_ORIGINAL,current,results/mdkp/p10_20261107/original/p10_confirmatory_runs.csv,results/mdkp/p10_20261107/original/confirmatory/P10_EXECUTION_SEAL.json,45 cases and sealed executed source
+P10_SAME_CASE_REPEAT,repeat,results/mdkp/p10_20261107/same_case_repeat/p10_confirmatory_runs.csv,results/mdkp/p10_20261107/same_case_repeat/confirmatory/P10_EXECUTION_SEAL.json,Same 45 identities are not independent
+RQ2_THREE_ARM_P7,current,results/rq2_three_arm_aws_20261107/P7_CORRECTED_RAW.csv,results/rq2_three_arm_aws_20261107/THREE_ARM_CORRECTED_ANALYSIS.json,4 hosts and 45 independent cases
+RQ2_THREE_ARM_P8,current,results/rq2_three_arm_aws_20261107/P8_CORRECTED_RAW.csv,results/rq2_three_arm_aws_20261107/THREE_ARM_CORRECTED_ANALYSIS.json,4 hosts and 30 triplet blocks
+RQ2_GRAPH_PRIMARY,current,results/graph_runtime/primary/raw/combined_graph_results.csv,figures/data/rq2_graph_runtime_figure_summary_20261107.csv,60 graph cases and L1-L4
+P0_COEFFICIENT,current,results/graph_runtime/coefficient/analysis/P0_COEFFICIENT_GRAPH_7CORE_FULLISO_ANALYSIS.json,results/graph_runtime/coefficient/raw/reference/original_pipeline_combined_graph_results.csv,Original coefficient fit input missing as documented
+RQ3_MDKP_VM90,current,results/mdkp/timing/MERGED_RAW.csv,results/mdkp/timing/FINAL_ANALYSIS.json,Negative uncertain primary comparison
+RQ3_CORRECTION_NO_GO,development,results/mdkp/rejected_rq3_diagnostics_20261106/RESULT_SUMMARY.json,results/mdkp/rejected_rq3_diagnostics_20261106/RECONSTRUCTION_AND_CORRECTION_GATE.json,Rejected development correction not confirmed
+DSB_MEASURED_STATES,current,data/deathstarbench/measurement/MEASUREMENT_INDEX.csv,data/deathstarbench/prepared/sequence_manifest.csv,Original packet captures unavailable
+FIGURES_DATA,current,figures/data/paper_headline_summary.json,src/analysis/rebuild_publication_figures.py,Plot rebuild does not rerun physical experiments
+FIGURES_FROZEN,current,figures/publication/Fig2.pdf,figures/publication/FigS1.pdf,Fig1 schematic excluded from data plot rebuild
