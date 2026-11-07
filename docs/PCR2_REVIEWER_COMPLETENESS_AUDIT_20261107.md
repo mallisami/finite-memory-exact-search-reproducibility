@@ -12,3 +12,5 @@
 - Current public figure reconstruction is a separate data-to-plot implementation, not byte-identical to the original author five-folder source builder.
 
 **Publication gate: HOLD.** This is a curated reproducibility repository with an explicit incomplete author-archive coverage boundary, not yet a complete public substitute. Before using the GitHub link in the paper, reconcile each original paper claim to public data and source, anonymize original host records without changing scientific metrics, and execute final independent repository tests. The author's manuscript, Online Resource 1 and bibliography are intentionally **not published** here.
+
+**RQ3 diagnostic update:** The reconstructed original-label and matched CPU-repeatability evidence plus the rejected censor/quality LOSO experiment from the November 6 author-side diagnostics are now included under `results/mdkp/rejected_rq3_diagnostics_20261106/`. The official VM90 records remain frozen and the proposed correction remains NO-GO. Other historical raw host archives still require public-release clearance.

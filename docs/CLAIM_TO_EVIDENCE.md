@@ -31,3 +31,6 @@ This map links the paper's principal displays and claims to the curated reposito
 ## Full P10 provenance and sample independence
 
 Original P10 development/OOF records (30 development cases), blinded evaluation (15 held-out cases), frozen model artifacts, and executed source are in `results/mdkp/p10_20261107/original/{development,blind_holdout}/` and `experiments/mdkp/p10_20261107/executed_source_snapshot/`. Both P10 execution seals and associated metadata are under each run's `confirmatory/` subfolder; the six original curated inference, case-run and timing CSVs remain at the run roots `results/mdkp/p10_20261107/{original,same_case_repeat}/`, without duplication. The same 45 case identities recur in the timing repeat; never treat them as 90 independent cases. `tests/test_p10_complete_source.py` verifies both seals and source hashes.
+
+| RQ3 original label-provenance / net-CPU inadmissibility diagnostic | `results/mdkp/rejected_rq3_diagnostics_20261106/RECONSTRUCTION_AND_CORRECTION_GATE.json`, `matched_cpu_repeatability_raw.csv`, `matched_cpu_repeatability_by_checkpoint.csv` (development-only, negative) |
+| RQ3 corrected-label seed-held-out failure | `results/mdkp/rejected_rq3_diagnostics_20261106/RESULT_SUMMARY.json`, `OOF_PREDICTIONS.csv`, `POLICY_RUNS_BY_SEED.csv` (NO-GO; not a new method) |

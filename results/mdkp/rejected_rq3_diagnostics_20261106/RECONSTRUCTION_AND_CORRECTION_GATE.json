@@ -1,0 +1,55 @@
+{
+  "study": "PCR2 RQ3 one-time reconstructed-label and net-CPU admissibility gate",
+  "source_file_sha256": "310795883e92467f411fc8387b9c740bb8bc6e46efcbad6ac14a780547147cb5",
+  "historical_dataset": {
+    "rows": 1948,
+    "independent_seeds": 25,
+    "positive_saving_candidates": 73
+  },
+  "new_reconstruction": {
+    "rows": 1875,
+    "independent_seeds": 25,
+    "compatible_recurrences": 1436,
+    "new_positive_node_savings": 78,
+    "new_positive_seed_groups": 19,
+    "invalidated": 146,
+    "full_horizon_no_recurrence": 176,
+    "administratively_censored": 117,
+    "objective_or_gap_stop_mismatch": 31,
+    "positive_node_savings_among_objective_mismatch": 3,
+    "candidate_rows_with_observed_same_objective_recurrence": 1405
+  },
+  "original_to_reconstruction_parity": {
+    "same_seed_and_creation_iteration": 1750,
+    "identical_serialized_sizes_at_matching_iterations": 1155,
+    "identical_node_saving_labels_at_identical_sizes": 1155,
+    "positive_node_saving_labels_in_same_size_pairs": 27,
+    "zero_node_saving_labels_in_same_size_pairs": 1128,
+    "original_checkpoint_blob_hashes_available": false,
+    "same_time_label_matches_all_size_regimes": 1712,
+    "original_candidates_absent_from_reconstruction": 198,
+    "new_candidates_absent_from_original": 125,
+    "seeds_with_identical_scoring_timestamps": 6,
+    "seeds_with_all_serialized_sizes_matching": 1
+  },
+  "cost_measurement_reliability_probe": {
+    "seed_groups": 3,
+    "paired_checkpoints": 40,
+    "paired_repetitions_per_checkpoint": 7,
+    "zero_saving_matched_objective_checkpoints": 36,
+    "stable_6_of_7_sign_checkpoints": 13,
+    "stable_sign_fraction": 0.3611111111111111,
+    "predeclared_minimum_stable_sign_fraction": 0.9
+  },
+  "scientific_gates": {
+    "historical_producer_exact_recovery": false,
+    "same_time_same_size_labels_corroborate_node_savings_mechanism": true,
+    "full_candidate_population_reconstructed": false,
+    "all_paired_comparisons_same_terminal_quality": false,
+    "single_cpu_measurement_is_reliable_net_benefit_label": false,
+    "eligible_to_fit_and_adopt_new_net_cpu_value_model": false,
+    "official_rq3_wall_time_result_changed": false
+  },
+  "decision": "NO-GO: candidate net-CPU valuation training blocked before fitting; retain original RQ3 result and original model.",
+  "scope_limit": "25 original development seeds reused. Reconstructed frozen VM90 policy differs from historical data producer. Paired local CPU timing not portable or stable; no closed-loop independent runtime result."
+}

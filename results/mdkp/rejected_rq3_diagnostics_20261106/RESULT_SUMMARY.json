@@ -1,0 +1,63 @@
+{
+  "corrected_best_better_seeds": 2,
+  "corrected_best_ties": 22,
+  "corrected_best_worse_seeds": 1,
+  "corrected_vs_empirical_gm": 1.0468616327781508,
+  "counts": {
+    "censored_excluded": 117,
+    "eligible": 1727,
+    "input_rows": 1875,
+    "positive_eligible": 75,
+    "quality_mismatch_excluded": 31,
+    "seeds": 25
+  },
+  "decision": "NO_GO",
+  "gate": {
+    "archive_parity": true,
+    "heldout_training": true,
+    "loo_aggregate_beneficial": false,
+    "no_objective_regression": false,
+    "upper_ci_below_1": false
+  },
+  "input_hashes": {
+    "FROZEN_V6B_COEFFICIENTS.json": "e11c507711d77b4b8d83fd44a10f392730bc1bf77fd7f938a7b50720bf089a11",
+    "FROZEN_VM90_PROTOCOL_REFERENCE.json": "84933751e2a227fb5a7c84c4e55965636e49822fea557ab4156701e903877382",
+    "INPUT_RECONSTRUCTED_DIAGNOSTIC.csv": "479ef59e53c4f52696da2b17f8f52fc2bbbeab59a2dab5a05b1dd92012ceda98",
+    "ORIGINAL_TRAINING_REFERENCE.csv": "310795883e92467f411fc8387b9c740bb8bc6e46efcbad6ac14a780547147cb5",
+    "PREREGISTERED_TEST.md": "6c9a2912f769ed0d30f1f0bcd4cd2d3baf9bfc039c0d40ea196cc7e80ad63c28"
+  },
+  "loo_gm_max": 1.019144578347957,
+  "loo_gm_min": 0.9996370401463917,
+  "official_VM90_results": "unchanged; no VM90 training/selection or new AWS run",
+  "oof_prediction": {
+    "corrected_quality_censor_LOSO": {
+      "average_precision": 0.4148573571044676,
+      "brier": 0.10070135800130538,
+      "mean_probability": 0.1932070795818847,
+      "n": 1727,
+      "positive": 75
+    },
+    "historical_label_LOSO": {
+      "average_precision": 0.40545937815151417,
+      "brier": 0.14270319884393784,
+      "mean_probability": 0.2659295485191882,
+      "n": 1727,
+      "positive": 75
+    }
+  },
+  "preregistered_test_sha256": "6c9a2912f769ed0d30f1f0bcd4cd2d3baf9bfc039c0d40ea196cc7e80ad63c28",
+  "seed_ratio_corrected_vs_historical": {
+    "bootstrap95": [
+      0.9961861555988482,
+      1.055508384089714
+    ],
+    "geometric_mean": 1.0170924414508635,
+    "n_equal": 12,
+    "n_higher": 6,
+    "n_lower": 7,
+    "ratio_max": 1.5409711684370258,
+    "ratio_min": 0.969061876247505
+  },
+  "setting": "development-only group-heldout original vs censor/quality label correction, not independent RQ3 confirmation",
+  "training_groups": 25
+}

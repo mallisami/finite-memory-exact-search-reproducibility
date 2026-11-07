@@ -1,0 +1,11 @@
+{
+  "design": "3 original development seeds; chronological first 15 matched objective-compatible recurrences each; 7 alternating-order paired CPU repeats; local environment only; not training label producer",
+  "seed_groups": 3,
+  "checkpoints": 40,
+  "timing_rows": 280,
+  "mixed_sign_checkpoints": 34,
+  "reliable_6_of_7_count": 16,
+  "zero_node_checkpoints": 36,
+  "zero_node_sign_unstable": 33,
+  "decision_gate": "CPU label reliability gate would need at least 90% stable sign among zero-node same-quality checkpoints (>=6/7 same sign); if unmet, not eligible for runtime-label training."
+}
