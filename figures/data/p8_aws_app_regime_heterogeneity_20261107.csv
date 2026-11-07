@@ -1,0 +1,10 @@
+app,application_label,regime,n,learned_mean_saved,learned_median_saved,empirical_mean_saved,learned_minus_empirical_mean_saved,learned_positive,learned_negative,learned_tied
+hotelReservation,Hotel Reservation,burst,10,6.9,0.0,2.9,4.0,2,1,7
+hotelReservation,Hotel Reservation,ramp,10,0.5,0.0,0.5,0.0,0,0,10
+hotelReservation,Hotel Reservation,step,10,2.8,0.0,3.4,-0.6,1,1,8
+mediaMicroservices,Media Service,burst,10,40.3,33.0,28.8,11.5,2,0,8
+mediaMicroservices,Media Service,ramp,10,8.3,11.5,8.7,-0.4,0,1,9
+mediaMicroservices,Media Service,step,10,6.7,19.5,7.0,-0.3,0,1,9
+socialNetwork,Social Network,burst,10,54.8,46.5,52.1,2.7,4,0,6
+socialNetwork,Social Network,ramp,10,45.0,31.5,45.7,-0.7,2,3,5
+socialNetwork,Social Network,step,10,54.2,36.5,53.2,1.0,2,1,7

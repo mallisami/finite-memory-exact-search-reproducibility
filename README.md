@@ -90,7 +90,7 @@ See [`docs/CLAIM_TO_EVIDENCE.md`](docs/CLAIM_TO_EVIDENCE.md) for the display/cla
 
 Measured-replay diagnostic uncertainty uses application-stratified resampling of the **30 application–repetition blocks**, keeping each block's burst/step/ramp sequences together. For the objective-effect headline displayed in the auxiliary figure, the utility checks the retained rows and the frozen final 10,000-resample block-bootstrap interval (`results/mdkp/diagnostics/P8_BLOCK_BOOTSTRAP_FINAL.json`); its independent resampling may differ slightly at the reported last decimal place. This is distinct from the earlier P8 stage summary, which used 90 sequence-level resampling units and was superseded for manuscript inference.
 
-The six PDFs in `figures/publication/` are the exact final artwork files used by the manuscript package. The utility `src/analysis/rebuild_derived_diagnostics.py` rebuilds derived summary tables under `results/reproduced/derived_data/` and auxiliary diagnostic plots; it does **not** regenerate these exact final publication PDFs. Diagnostic outputs are written under the ignored `results/reproduced/diagnostic_figures/` directory so they cannot be confused with publication artwork.
+The six PDFs in `figures/publication/` are the frozen artwork from the original October curated release; newer November manuscript artwork is stored in the separate author-side research archive. The utility `src/analysis/rebuild_derived_diagnostics.py` rebuilds derived summary tables under `results/reproduced/derived_data/` and auxiliary diagnostic plots; it does **not** regenerate these exact final publication PDFs. Diagnostic outputs are written under the ignored `results/reproduced/diagnostic_figures/` directory so they cannot be confused with publication artwork.
 
 A SHA-256 manifest for this curated repository is stored in `MANIFEST_SHA256.csv`. The manifest covers the frozen repository files and excludes itself and generated run outputs under `results/reproduced/`.
 
@@ -118,3 +118,7 @@ The fixed pC coefficients, downstream measurements, packet-capture SHA-256 ident
 ## Release scope
 
 This Git repository contains code, retained data, frozen experimental records, numerical results, six publication **figure PDFs** (research outputs), and verification guides. It does **not** contain the manuscript PDF, supplementary manuscript, LaTeX source, editor-only title page, response letters, or the author-side full archival package. The figure PDFs are retained because they are checksum-verified evidence outputs, not the paper text.
+
+## November 2026 corrected manuscript alignment
+
+The final author-side research ZIP has newer corrected AWS P8 and nested family-held-out P9 analyses, plus a same-case P10 repeat. The original curated data in this public repository are deliberately preserved. See [November source alignment](docs/NOVEMBER_2026_SOURCE_ALIGNMENT.md) and the additional `figures/data/*20261107.csv` files for corrected numerical summaries. **Do not use the older `figures/publication/` PDFs as the exact figures for the November manuscript:** the full author-side package includes the corrected artwork and executable figure builder. This GitHub subset is not a replacement for that full package.

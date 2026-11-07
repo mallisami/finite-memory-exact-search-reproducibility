@@ -1,0 +1,3 @@
+run,endpoint,n_cases,mean_paired_effect_ms,bootstrap_95_low_ms,bootstrap_95_high_ms,holm_adjusted_p_primary_family
+original,primary_wallclock_restart_minus_learned_ms,45,-26.831543223427918,-53.52521204991919,1.437835893917104,1.0
+same_case_replication,primary_wallclock_restart_minus_learned_ms,45,-33.949101757025346,-65.57237761945645,-1.1248839104438162,1.0

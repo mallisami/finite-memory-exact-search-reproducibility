@@ -82,3 +82,7 @@ The graph and MDKP timing campaigns are not silently replayed by `reproduce.sh`.
 - MDKP 90-case timing: `experiments/mdkp/` and `results/mdkp/timing/`.
 
 This separation prevents a fresh run on an unrelated machine from being mistaken for reproduction of the recorded timing inference.
+
+## November 2026 corrected-result source distinctions
+
+Run `python verify.py` to check the preserved original curated studies and the additional corrected numerical summaries. See `docs/NOVEMBER_2026_SOURCE_ALIGNMENT.md` for explicit P8, P9, P10 estimand and sample-reuse distinctions. The complete November author archive is separate and includes the exact current figure-generation code and AWS source rows; this curated repository does not itself provide the exact November figure PDFs or a full from-scratch recreation of the historical cloud executions.

@@ -112,6 +112,19 @@ check(close(learned_vs_emp_reused, 27.56, 0.02), f"P8 learned vs empirical adds 
 check(close(learned_vs_emp_resumes, 1.98, 0.02), f"P8 learned vs empirical adds 1.98 useful resumes ({learned_vs_emp_resumes:.4f})")
 check(close(learned_vs_emp_new, 2.24, 0.02), f"P8 learned vs empirical avoids 2.24 new pops ({learned_vs_emp_new:.4f})")
 
+
+# November 2026 current-manuscript addendum: validate corrected numerical summaries
+p8_aws = pd.read_csv(ROOT / "figures/data/p8_aws_triplet_block_work_saving_20261107.csv")
+for policy,target in [("learned",24.38888888888889),("empirical_compatible",22.477777777777778),("learned_minus_empirical",1.9111111111111112)]:
+    sub = p8_aws[p8_aws["policy"].eq(policy)]
+    check(len(sub) == 1 and close(float(sub.iloc[0]["mean_saved_pops"]), target, 1e-7), f"November AWS P8 {policy} work-displacement summary matches corrected source")
+p9_nested = pd.read_csv(ROOT / "figures/data/p9_nested_family_heldout_20261107.csv")
+check(len(p9_nested) == 3 and set(p9_nested["held_out_domain"]) == {"generic","workflow","microservice"}, "nested P9 contains three held-out families")
+check(close(float(p9_nested.loc[p9_nested["held_out_domain"].eq("generic"),"auroc"].iloc[0]),0.8840545063351661,1e-8), "nested P9 generic held-out AUROC matches corrected source")
+p10_rep = pd.read_csv(ROOT / "results/mdkp/p10_original_vs_replication_20261107.csv")
+check(len(p10_rep) == 2 and (p10_rep["n_cases"] == 45).all(), "P10 original and repeat both use the same 45 cases")
+check(close(float(p10_rep.loc[p10_rep["run"].eq("same_case_replication"),"mean_paired_effect_ms"].iloc[0]),-33.949101757025346,1e-8), "P10 repeat restart-minus-learned wall-clock effect matches recovered summary")
+
 # DeathStarBench retained derived inputs
 seq = pd.read_csv(ROOT / "data/deathstarbench/prepared/sequence_manifest.csv")
 mi = pd.read_csv(ROOT / "data/deathstarbench/measurement/MEASUREMENT_INDEX.csv")
