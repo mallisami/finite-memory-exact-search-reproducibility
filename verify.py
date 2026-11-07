@@ -112,6 +112,19 @@ check(close(learned_vs_emp_reused, 27.56, 0.02), f"P8 learned vs empirical adds 
 check(close(learned_vs_emp_resumes, 1.98, 0.02), f"P8 learned vs empirical adds 1.98 useful resumes ({learned_vs_emp_resumes:.4f})")
 check(close(learned_vs_emp_new, 2.24, 0.02), f"P8 learned vs empirical avoids 2.24 new pops ({learned_vs_emp_new:.4f})")
 
+
+# November 2026 current-manuscript addendum: validate corrected numerical summaries
+p8_aws = pd.read_csv(ROOT / "figures/data/p8_aws_triplet_block_work_saving_20261107.csv")
+for policy,target in [("learned",24.38888888888889),("empirical_compatible",22.477777777777778),("learned_minus_empirical",1.9111111111111112)]:
+    sub = p8_aws[p8_aws["policy"].eq(policy)]
+    check(len(sub) == 1 and close(float(sub.iloc[0]["mean_saved_pops"]), target, 1e-7), f"November AWS P8 {policy} work-displacement summary matches corrected source")
+p9_nested = pd.read_csv(ROOT / "figures/data/p9_nested_family_heldout_20261107.csv")
+check(len(p9_nested) == 3 and set(p9_nested["held_out_domain"]) == {"generic","workflow","microservice"}, "nested P9 contains three held-out families")
+check(close(float(p9_nested.loc[p9_nested["held_out_domain"].eq("generic"),"auroc"].iloc[0]),0.8840545063351661,1e-8), "nested P9 generic held-out AUROC matches corrected source")
+p10_rep = pd.read_csv(ROOT / "results/mdkp/p10_original_vs_replication_20261107.csv")
+check(len(p10_rep) == 2 and (p10_rep["n_cases"] == 45).all(), "P10 original and repeat both use the same 45 cases")
+check(close(float(p10_rep.loc[p10_rep["run"].eq("same_case_replication"),"mean_paired_effect_ms"].iloc[0]),-33.949101757025346,1e-8), "P10 repeat restart-minus-learned wall-clock effect matches recovered summary")
+
 # DeathStarBench retained derived inputs
 seq = pd.read_csv(ROOT / "data/deathstarbench/prepared/sequence_manifest.csv")
 mi = pd.read_csv(ROOT / "data/deathstarbench/measurement/MEASUREMENT_INDEX.csv")
@@ -141,6 +154,54 @@ check(len(mdkp_raw) == 1350, "MDKP timing retains 1,350 raw rows (90 cases x 3 p
 check(mdkp_raw["global_case_index"].nunique() == 90, "MDKP timing retains 90 independent cases")
 check(close(mdkp["primary_wall_direct_vs_empirical"]["ratio"], 1.01286, 2e-5), "MDKP direct/empirical wall-time ratio reproduces 1.01286")
 check(close(mdkp["nodes_direct_vs_empirical"]["ratio"], 1.00083, 2e-5), "MDKP direct/empirical node ratio reproduces 1.00083")
+
+
+# November 2026: verify current figure artwork and source-to-summary consistency.
+current_fig_sha256 = {
+    "Fig1.pdf": "82dd8481ca8884ce266067bbba2c3ed3df1e36c505778a575bc574200aa05433",
+    "Fig2.pdf": "82b1a85a637bf9d87cefe8d81b39a01729d09cebdceeb40044ebb08bd2e458fe",
+    "Fig3.pdf": "aabb3ce10cf6b3b965307ceb85af9bd6565365c4cef57970f1313173c0a3ba69",
+    "Fig4.pdf": "8b22749acbefac532513c70b376a6e065b6eb458c6af1b179b674965220723a7",
+    "Fig5.pdf": "2ac817632c34d77a602582779bec9a28b0eb2ffbd8292a8cb6c915e8a13d8bf9",
+    "FigS1.pdf": "662d0a48bf309f1447cb601ace21d8c9edf0085e217ce5a9776ee3fcdc8ac35c",
+}
+for filename, expected_digest in current_fig_sha256.items():
+    check(sha256(ROOT / "figures/publication" / filename) == expected_digest, f"November current artwork SHA-256 matches {filename}")
+
+aws_p8 = pd.read_csv(ROOT / "results/measured_replay/aws_20261107/p8_external_runs.csv")
+aws_p8_wide = aws_p8.pivot(index="sequence", columns="policy", values="branch_pops_executed")
+aws_p8_summary = pd.read_csv(ROOT / "figures/data/p8_aws_triplet_block_work_saving_20261107.csv")
+aws_restart_saved = float((aws_p8_wide["restart"] - aws_p8_wide["learned"]).mean())
+aws_incremental = float((aws_p8_wide["empirical_compatible"] - aws_p8_wide["learned"]).mean())
+check(len(aws_p8) == 360 and aws_p8["sequence"].nunique() == 90, "November AWS P8 has 360 policy rows and 90 sequences")
+check(close(aws_restart_saved, 24.38888888888889, 1e-8), f"corrected P8 restart-minus-learned pops match raw AWS rows ({aws_restart_saved:.6f})")
+check(close(aws_incremental, 1.9111111111111112, 1e-8), f"corrected P8 empirical-minus-learned pops match raw AWS rows ({aws_incremental:.6f})")
+for policy, expected in (("learned", aws_restart_saved), ("learned_minus_empirical", aws_incremental)):
+    recorded = aws_p8_summary.loc[aws_p8_summary["policy"].eq(policy), "mean_saved_pops"]
+    check(len(recorded) == 1 and close(float(recorded.iloc[0]), expected, 1e-8), f"November AWS P8 derived {policy} summary agrees with raw rows")
+
+nested_source = pd.read_csv(ROOT / "results/transfer/nested_20261107/nested_p9_domain_metrics.csv")
+nested_chart = pd.read_csv(ROOT / "figures/data/p9_nested_family_heldout_20261107.csv")
+nested_source = nested_source.loc[nested_source["model"].eq("nested_selected")]
+check(len(nested_source) == len(nested_chart) == 3, "November nested P9 selection rows agree with figure summary")
+for domain in ("generic", "microservice", "workflow"):
+    source_row = nested_source.loc[nested_source["held_out_domain"].eq(domain)]
+    chart_row = nested_chart.loc[nested_chart["held_out_domain"].eq(domain)]
+    check(len(source_row) == len(chart_row) == 1 and close(float(source_row.iloc[0]["auroc"]), float(chart_row.iloc[0]["auroc"]), 1e-8) and close(float(source_row.iloc[0]["log_loss"]), float(chart_row.iloc[0]["log_loss"]), 1e-8), f"nested P9 {domain} source agrees with publication table")
+
+p10_summary = pd.read_csv(ROOT / "results/mdkp/p10_original_vs_replication_20261107.csv")
+p10_ids = []
+for run_label, folder in (("original", "original"), ("same_case_replication", "same_case_repeat")):
+    prefix = ROOT / "results/mdkp/p10_20261107" / folder
+    inference = pd.read_csv(prefix / "p10_confirmatory_inference.csv")
+    case_rows = pd.read_csv(prefix / "p10_confirmatory_runs.csv")
+    timing = pd.read_csv(prefix / "p10_timing_repeats.csv")
+    p10_ids.append(set(case_rows["seed"]))
+    endpoint = inference.loc[inference["endpoint"].eq("primary_wallclock_restart_minus_learned_ms")]
+    comparison = p10_summary.loc[p10_summary["run"].eq(run_label)]
+    check(len(case_rows) == 180 and len(timing) == 540 and case_rows["seed"].nunique() == 45, f"P10 {folder} retains 45 cases and complete policy/timing rows")
+    check(len(endpoint) == len(comparison) == 1 and close(float(endpoint.iloc[0]["mean_paired_effect"]), float(comparison.iloc[0]["mean_paired_effect_ms"]), 1e-8), f"P10 {folder} inference agrees with published repeat summary")
+check(p10_ids[0] == p10_ids[1], "P10 independent repeat uses the SAME 45 case identities")
 
 # Manifest integrity (if present). The manifest excludes itself and generated run outputs.
 manifest = ROOT / "MANIFEST_SHA256.csv"

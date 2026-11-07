@@ -1,0 +1,246 @@
+{
+  "analysis_type": "retained-output reanalysis only; no experiment or controller execution",
+  "aws_summary_reconciliation": {
+    "normalized_reuse_ci_matches_aws_summary": true,
+    "normalized_reuse_mean_matches_aws_summary": true,
+    "objective_ci_matches_aws_summary": true,
+    "objective_mean_matches_aws_summary": true
+  },
+  "bootstrap": {
+    "cell_sensitivity_seed": 20261005,
+    "primary": "10,000 application-repetition triplet-block resamples; sample 10 repetition blocks within each application and carry burst/step/ramp together",
+    "seeds": {
+      "empirical_saved_vs_restart": 88010,
+      "keep_all_objective_improvement_vs_restart": 88010,
+      "keep_all_saved_vs_restart": 88011,
+      "learned_minus_empirical_normalized_reuse": 88008,
+      "learned_minus_empirical_reused_prior_branch_pops": 88012,
+      "learned_minus_empirical_saved": 88009,
+      "learned_minus_empirical_useful_resumes": 88013,
+      "learned_objective_improvement_vs_restart": 88009,
+      "learned_saved_vs_restart": 88008
+    },
+    "sensitivity": "10,000 original application-by-regime cell-stratified resamples"
+  },
+  "design": {
+    "accepted_moves_per_row": 200,
+    "all_360_rows_accept_200_of_200": true,
+    "all_360_selection_optimality_verified": true,
+    "application_count": 3,
+    "application_repetition_triplet_blocks": 30,
+    "maximum_recorded_mip_gap": 0.0,
+    "measured_sequences": 90,
+    "policies": [
+      "empirical_compatible",
+      "keep_all",
+      "learned",
+      "restart"
+    ],
+    "policy_sequence_rows": 360,
+    "regime_count": 3,
+    "repetitions_per_app_regime": 10
+  },
+  "endpoints": {
+    "empirical_saved_vs_restart": {
+      "cell_stratified_sensitivity_95_ci": [
+        15.466666666666665,
+        29.989166666666662
+      ],
+      "mean": 22.477777777777778,
+      "median": 8.0,
+      "n_sequences": 90,
+      "sign_counts": {
+        "negative": 7,
+        "positive": 56,
+        "ties": 27
+      },
+      "triplet_block_bootstrap_95_ci": [
+        15.033333333333333,
+        30.555833333333332
+      ],
+      "triplet_block_bootstrap_seed": 88010
+    },
+    "keep_all_objective_improvement_vs_restart": {
+      "cell_stratified_sensitivity_95_ci": [
+        -0.0019313498149014917,
+        0.0025092771073421142
+      ],
+      "mean": 0.0003898528447488182,
+      "median": 0.0,
+      "n_sequences": 90,
+      "sign_counts": {
+        "negative": 25,
+        "positive": 40,
+        "ties": 25
+      },
+      "triplet_block_bootstrap_95_ci": [
+        -0.001747950128766268,
+        0.002502553125875898
+      ],
+      "triplet_block_bootstrap_seed": 88010
+    },
+    "keep_all_saved_vs_restart": {
+      "cell_stratified_sensitivity_95_ci": [
+        17.488888888888894,
+        32.23444444444443
+      ],
+      "mean": 24.644444444444446,
+      "median": 11.5,
+      "n_sequences": 90,
+      "sign_counts": {
+        "negative": 7,
+        "positive": 61,
+        "ties": 22
+      },
+      "triplet_block_bootstrap_95_ci": [
+        16.81083333333333,
+        32.93388888888888
+      ],
+      "triplet_block_bootstrap_seed": 88011
+    },
+    "learned_minus_empirical_normalized_reuse": {
+      "cell_stratified_sensitivity_95_ci": [
+        -0.028185345891698906,
+        0.031162463129775667
+      ],
+      "mean": 0.004900949825275024,
+      "median": 0.017466916797647558,
+      "n_sequences": 90,
+      "sign_counts": {
+        "negative": 31,
+        "positive": 56,
+        "ties": 3
+      },
+      "triplet_block_bootstrap_95_ci": [
+        -0.028909779933870016,
+        0.032814741434104934
+      ],
+      "triplet_block_bootstrap_seed": 88008
+    },
+    "learned_minus_empirical_reused_prior_branch_pops": {
+      "cell_stratified_sensitivity_95_ci": [
+        -1.1555555555555552,
+        36.17777777777778
+      ],
+      "mean": 17.155555555555555,
+      "median": 16.0,
+      "n_sequences": 90,
+      "sign_counts": {
+        "negative": 31,
+        "positive": 56,
+        "ties": 3
+      },
+      "triplet_block_bootstrap_95_ci": [
+        -1.511111111111111,
+        37.333333333333336
+      ],
+      "triplet_block_bootstrap_seed": 88012
+    },
+    "learned_minus_empirical_saved": {
+      "cell_stratified_sensitivity_95_ci": [
+        0.01111111111111112,
+        4.7444444444444445
+      ],
+      "mean": 1.9111111111111112,
+      "median": 0.0,
+      "n_sequences": 90,
+      "sign_counts": {
+        "negative": 8,
+        "positive": 13,
+        "ties": 69
+      },
+      "triplet_block_bootstrap_95_ci": [
+        0.044444444444444446,
+        4.6891666666666625
+      ],
+      "triplet_block_bootstrap_seed": 88009
+    },
+    "learned_minus_empirical_useful_resumes": {
+      "cell_stratified_sensitivity_95_ci": [
+        0.8333333333333334,
+        1.9333333333333331
+      ],
+      "mean": 1.4,
+      "median": 2.0,
+      "n_sequences": 90,
+      "sign_counts": {
+        "negative": 19,
+        "positive": 63,
+        "ties": 8
+      },
+      "triplet_block_bootstrap_95_ci": [
+        0.8222222222222222,
+        1.9333333333333333
+      ],
+      "triplet_block_bootstrap_seed": 88013
+    },
+    "learned_objective_improvement_vs_restart": {
+      "cell_stratified_sensitivity_95_ci": [
+        -0.0010049271074159987,
+        0.002445110497225312
+      ],
+      "mean": 0.0006986185922562676,
+      "median": 0.0,
+      "n_sequences": 90,
+      "sign_counts": {
+        "negative": 26,
+        "positive": 37,
+        "ties": 27
+      },
+      "triplet_block_bootstrap_95_ci": [
+        -0.0007954269250966012,
+        0.002185423748295559
+      ],
+      "triplet_block_bootstrap_seed": 88009
+    },
+    "learned_saved_vs_restart": {
+      "cell_stratified_sensitivity_95_ci": [
+        17.199722222222224,
+        32.13333333333333
+      ],
+      "mean": 24.38888888888889,
+      "median": 10.0,
+      "n_sequences": 90,
+      "sign_counts": {
+        "negative": 7,
+        "positive": 56,
+        "ties": 27
+      },
+      "triplet_block_bootstrap_95_ci": [
+        16.766666666666666,
+        32.422222222222224
+      ],
+      "triplet_block_bootstrap_seed": 88008
+    }
+  },
+  "inputs": {
+    "p8_external_matched_csv_sha256": "7ede0203bdfb1f6caea5efa2d7a3e599f2564ae2bd77ee26504caf7214cd99c8",
+    "p8_external_runs_csv_sha256": "97e4df0a3d563afea2d42a85b933e46d1912781ff7e2b97cea4948f1b0a55f20",
+    "p8_external_summary_json_sha256": "241da20cb13be4f237921447aa51b329f59a6b1999e90166ed4da7f9614c75d8"
+  },
+  "interpretation": [
+    "The corrected state-aware objective-signature feature implementation is present in all 16,787 learned prediction-call records, each carrying same-objective-history provenance.",
+    "Learned policy saves a mean 24.389 new branch pops per sequence versus restart (95% triplet-block CI [16.767, 32.422]).",
+    "The incremental learned-minus-empirical branch-pop displacement is small: 1.911 pops per sequence (95% triplet-block CI [0.044, 4.689]); no multiplicity-adjusted p-value is supplied for this derived endpoint.",
+    "The primary keep-all-normalized learned-minus-empirical reuse contrast is unresolved: 0.004901 (95% triplet-block CI [-0.028910, 0.032815], one-sided block-level Wilcoxon p=0.07014).",
+    "The learned mean-objective contrast versus restart is unresolved: 0.000699 (95% triplet-block CI [-0.000795, 0.002185], one-sided block-level Wilcoxon p=0.19377).",
+    "Learned-minus-empirical reused prior branch pops also has a CI crossing zero; useful resumes are higher on average.",
+    "All 360 policy-by-sequence rows accept 200/200 moves; this remains a fixed-trace monotone-repair shadow replay, not a general ALNS acceptance experiment or production SLO study.",
+    "Learned measured controller overhead is substantially higher than empirical-compatible in this run; no wall-clock superiority claim is supported."
+  ],
+  "overhead_ms": {
+    "empirical_compatible": {
+      "mean": 88.4127980776106,
+      "median": 74.31311850041311
+    },
+    "keep_all": {
+      "mean": 75.39441031086022,
+      "median": 70.92015099647142
+    },
+    "learned": {
+      "mean": 804.8985820328503,
+      "median": 732.434375994444
+    }
+  },
+  "schema": "PCR2_P8_AWS_BLOCK_REANALYSIS_V1"
+}
