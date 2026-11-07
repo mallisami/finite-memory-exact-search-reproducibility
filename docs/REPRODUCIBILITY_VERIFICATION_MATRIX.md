@@ -1,4 +1,6 @@
-# Reviewer verification matrix — PCR2 Paper 2
+# Reviewer verification matrix
+
+**Study:** Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse
 
 Run all commands at repository root. GitHub CI uses **Ubuntu and Python 3.11**; `requirements.txt` pins the listed direct Python dependencies. Platform-dependent and unpinned transitive dependencies can differ on other machines. See `environment/` for retained execution records.
 
