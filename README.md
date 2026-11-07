@@ -1,4 +1,6 @@
-# Finite-Memory Retention of Interrupted Exact-Search Checkpoints
+# Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse
+
+**Computational reproducibility materials accompanying the research manuscript.**
 
 Reproducibility materials for the paper **“Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse.”**
 
@@ -11,7 +13,8 @@ This repository is the **curated computational reproducibility release**. It con
 - **Reviewer first steps:** [Reviewer Start Here](docs/REVIEWER_START_HERE.md), followed by the [verification matrix](docs/REPRODUCIBILITY_VERIFICATION_MATRIX.md).
 - **Editor handoff:** [Editor Submission Guide](docs/EDITOR_SUBMISSION_GUIDE.md) lists the exact package scope, checks and unresolved editorial decisions.
 - **Data and claims:** [Evidence index](docs/REVIEWER_EVIDENCE_INDEX.csv), [claim map](docs/CLAIM_TO_EVIDENCE.md), and [reproducibility limitations](docs/REPRODUCIBILITY_LIMITATIONS.md).
-- **Citation, licensing, archival:** [Citation instructions](CITATION.md) and [license/release status](docs/LICENSE_AND_RELEASE_STATUS.md).
+- **Citation and availability:** [Citation instructions](CITATION.md), [manuscript code/data availability text](docs/CODE_AND_DATA_AVAILABILITY.md), and [license/release status](docs/LICENSE_AND_RELEASE_STATUS.md).
+- **Versioned release preparation:** [v1.0.0 release notes](RELEASE_NOTES_v1.0.0.md). A release-note file is not itself a published GitHub Release/tag.
 - **Change history:** [Changelog](CHANGELOG.md). The author-side full November 7 archive is separately preserved; this repository is a curated subset, not its byte-for-byte mirror.
 
 ### Reproduction levels
@@ -165,7 +168,7 @@ historical timing-evidence boundaries remain in force.
 
 ## Reviewer entry point and full-release audit
 
-Use [Reviewer Start Here](docs/REVIEWER_START_HERE.md) for the single canonical experiment navigation and [Reviewer Completeness Audit](docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md) for the author-archive-to-GitHub coverage boundary. The corrected AWS four-host RQ2 three-arm raw evidence is in [results/rq2_three_arm_aws_20261107/](results/rq2_three_arm_aws_20261107/) with source-recomputing tests. The manuscript, Online Resource 1 and author-side full historical host archives are deliberately not silently merged into this public repository. The current reviewer-facing numerical-evidence gate is a **qualified GO**, with disclosed upstream provenance boundaries. Separate editorial matters—public-link anonymity, license permissions and permanent archiving—remain unresolved until the authors and venue approve them.
+Use [Reviewer Start Here](docs/REVIEWER_START_HERE.md) for the single canonical experiment navigation and [Reviewer Completeness Audit](docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md) for the author-archive-to-GitHub coverage boundary. The corrected AWS four-host RQ2 three-arm raw evidence is in [results/rq2_three_arm_aws_20261107/](results/rq2_three_arm_aws_20261107/) with source-recomputing tests. The manuscript, Online Resource 1 and author-side full historical host archives are deliberately not silently merged into this public repository. The current reviewer-facing numerical-evidence gate is a **qualified GO**, with disclosed upstream provenance boundaries. The authors have approved a versioned GitHub release; formal GitHub Release publication remains pending. A DOI is optional unless required by the journal. Public-link anonymity and specific code/data reuse licenses still require explicit venue/author decisions.
 
 ## Canonical reviewer evidence index
 
