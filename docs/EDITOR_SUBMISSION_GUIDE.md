@@ -1,3 +1,5 @@
+> **Current public-state clarification (12 November 2026):** Only curated computational materials and the [non-manuscript offline diagnostic update](PCR2_OFFLINE_EVIDENCE_SYNC_20261112.md) are public. The author-side paper, supplement and full R6 ZIP are private, and the 2026-11-07 manuscript page-count/archive references below describe historical author holdings, not a GitHub-hosted paper. The new update preserves the existing repo's original experimental rows. No official GitHub Release is published.
+
 # Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse
 
 ## Editor and journal submission handoff

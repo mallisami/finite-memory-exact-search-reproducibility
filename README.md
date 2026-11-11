@@ -2,11 +2,14 @@
 
 **Computational reproducibility materials accompanying the research manuscript.**
 
+**12 November 2026 — research-only synchronization:** [Offline reproducibility update](docs/PCR2_OFFLINE_EVIDENCE_SYNC_20261112.md) and [verified 77,396-byte analysis ZIP](results/posthoc/PCR2_PUBLIC_OFFLINE_REPRODUCIBILITY_ONLY_20261112.zip) add November 10 post-hoc diagnostics and source-audit receipts. This archive contains **no manuscript/supplement, LaTeX, figure artwork, author metadata, or original host records**. It is not a complete historical author archive or a published GitHub Release.
+
+
 Reproducibility materials for the paper **“Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse.”**
 
 This repository is the **curated computational reproducibility release**. It contains the implementation, retained inputs, frozen experiment definitions, raw/derived results, figure data, execution-environment records, and verification utilities needed to inspect or rerun the reported studies without exposing the internal authoring/audit directory structure used during development.
 
-> **Editorial identity warning.** This public GitHub URL is identity-bearing, while the current author-side manuscript PDF is labeled *Anonymous submission*. Check the destination journal's blind-review policy with the editor **before** submitting this URL for review. This repository remains a curated code-and-evidence resource; the manuscript and Online Resource 1 are intentionally supplied separately through the journal system.
+> **Public release boundary.** This identity-bearing GitHub repository contains computational materials only; the unpublished manuscript, Online Resource 1, LaTeX, author metadata and full author archive are deliberately held outside GitHub. Follow the journal's review policy when sharing the repository URL.
 
 ## Reviewer and editor entry points
 

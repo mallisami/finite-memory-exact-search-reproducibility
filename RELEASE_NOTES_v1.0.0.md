@@ -30,3 +30,8 @@ The optional core rerun uses `bash reproduce.sh` to generate new outputs. Origin
 ### Publish this version
 
 After final `main` CI succeeds, create a release tag `v1.0.0` **on that tested commit**, set the public title to **Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse — Reproducibility Release v1.0.0**, and publish as a normal GitHub Release (not prerelease). This step must be confirmed on the GitHub Release page; do not merely assume this release exists because these notes or a version label have been committed.
+
+
+### November 12 research-only synchronization (pre-release)
+
+The repository now also contains a separate checked 77,396-byte [offline analysis update ZIP](results/posthoc/PCR2_PUBLIC_OFFLINE_REPRODUCIBILITY_ONLY_20261112.zip) and [verification/claim-boundary guide](docs/PCR2_OFFLINE_EVIDENCE_SYNC_20261112.md). This is **not** the manuscript, Online Resource 1, editable paper source, full historical author archive, or a GitHub Release asset. Preserve the original negative experiments and previous frozen results; no new performance claim follows from the post-hoc outputs. A release tag must refer to a tested commit and must not be treated as published before it actually exists.

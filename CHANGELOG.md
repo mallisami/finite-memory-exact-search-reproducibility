@@ -1,5 +1,13 @@
 # Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse
 
+## 2026-11-12 — Public reproducibility-only synchronization
+
+- Added a SHA-256-checked 31-entry non-manuscript ZIP of November 10 post-hoc analyses, frozen comparator audit receipts, and reproducibility scripts, without duplicating baseline CSVs or historical source snapshots.
+- Added a new source/claim-boundary guide and updated reviewer, citation and repository navigation for the current research-only public scope.
+- **Explicit exclusions:** unpublished paper/supplement, LaTeX, manuscript/figure PDFs, author metadata, private host receipts, full author-side archive. No experimental rows or active algorithms changed; no old history removed.
+- A GitHub Release has not been published.
+
+
 ## Reproducibility repository changelog
 
 ## 2026-11-08 — public scientific title and versioned-release preparation

@@ -1,3 +1,5 @@
+> **Research-only update, 12 November 2026:** [Offline evidence audit](PCR2_OFFLINE_EVIDENCE_SYNC_20261112.md) describes new post-hoc and provenance records. The manuscript and Online Resource 1 remain private and are **not in this repository**.
+
 # Finite-Memory Retention of Interrupted Exact-Search Checkpoints: Predictive Selection with Compatibility-Gated Reuse
 
 ## Reviewer reproducibility guide
@@ -38,7 +40,7 @@ The four-host three-arm timing data have pseudonymized host identifiers. Four-ho
 
 ## Current boundary
 
-The original P10 development and blind datasets, four fitted model artifacts, execution source snapshot, original/repeated P10 result seals, and case-level measurements are now included under `results/mdkp/p10_20261107/`. The author archive still retains original AWS host records and historical machine provenance outside this public GitHub. This is an intentional upstream-execution boundary rather than missing current paper numerical results. For the *available reported numerical evidence, runnable core code and author-derived figures*, this repository is the **single canonical reviewer source**, but the author-side manuscript is labeled *Anonymous submission*, so citation or exposure of this identity-bearing URL needs journal approval. It is not a byte-complete copy of 7,973 author-archive files and does not promise original raw packet capture reconstruction. See `docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md` and `docs/REPRODUCIBILITY_LIMITATIONS.md`.
+The original P10 development and blind datasets, four fitted model artifacts, execution source snapshot, original/repeated P10 result seals, and case-level measurements are now included under `results/mdkp/p10_20261107/`. The author archive still retains original AWS host records and historical machine provenance outside this public GitHub. This is an intentional upstream-execution boundary rather than missing current paper numerical results. For the *available reported numerical evidence, runnable core code and author-derived figures*, this repository is the **single canonical reviewer source**, and the manuscript and supplement are withheld from this public repository; the identity-bearing URL should only be shared under the destination journal's review policy. It is not a byte-complete copy of 7,973 author-archive files and does not promise original raw packet capture reconstruction. See `docs/PCR2_REVIEWER_COMPLETENESS_AUDIT_20261107.md` and `docs/REPRODUCIBILITY_LIMITATIONS.md`.
 
 Repository file paths sometimes intentionally repeat source data in preserved historic protocol snapshots. Git stores identical blobs once. The duplicate auditor `python src/analysis/audit_release_duplicates.py` reports those aliases without deleting scientific evidence.
 
